@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://buzzlightyeah88.github.io/hangry3001/sitemap.xml

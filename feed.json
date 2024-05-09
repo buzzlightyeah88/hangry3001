@@ -1,0 +1,31 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "hangry3001",
+    "description": "",
+    "home_page_url": "https://buzzlightyeah88.github.io/hangry3001",
+    "feed_url": "https://buzzlightyeah88.github.io/hangry3001/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "buzzlightyeah!"
+    },
+    "items": [
+        {
+            "id": "https://buzzlightyeah88.github.io/hangry3001/are-you-kidding-me.html",
+            "url": "https://buzzlightyeah88.github.io/hangry3001/are-you-kidding-me.html",
+            "title": "Are You Kidding Me ?",
+            "summary": "20240506 被鳥屎濺到。慘！",
+            "content_html": "<p>20240506 被鳥屎濺到。慘！</p>",
+            "image": "https://buzzlightyeah88.github.io/hangry3001/media/posts/1/IMG_2141.jpeg",
+            "author": {
+                "name": "buzzlightyeah!"
+            },
+            "tags": [
+                   "Works",
+                   "Memes",
+                   "Diary"
+            ],
+            "date_published": "2024-05-09T20:50:06+08:00",
+            "date_modified": "2024-05-09T21:01:06+08:00"
+        }
+    ]
+}
