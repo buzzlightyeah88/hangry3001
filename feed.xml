@@ -3,12 +3,32 @@
     <title>hangry3001</title>
     <link href="https://buzzlightyeah88.github.io/hangry3001/feed.xml" rel="self" />
     <link href="https://buzzlightyeah88.github.io/hangry3001" />
-    <updated>2024-05-09T21:14:09+08:00</updated>
+    <updated>2024-05-09T21:16:37+08:00</updated>
     <author>
         <name>buzzlightyeah!</name>
     </author>
     <id>https://buzzlightyeah88.github.io/hangry3001</id>
 
+    <entry>
+        <title>Happy Birthday!</title>
+        <author>
+            <name>buzzlightyeah!</name>
+        </author>
+        <link href="https://buzzlightyeah88.github.io/hangry3001/happy-birthday.html"/>
+        <id>https://buzzlightyeah88.github.io/hangry3001/happy-birthday.html</id>
+
+        <updated>2024-05-09T21:16:37+08:00</updated>
+            <summary>
+                <![CDATA[
+                    祝大家生日快樂！
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>祝大家生日快樂！</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Are You Kidding Me ?</title>
         <author>
