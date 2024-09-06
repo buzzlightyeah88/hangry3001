@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "hangry3001",
+    "title": "@hangry3001",
     "description": "",
     "home_page_url": "https://buzzlightyeah88.github.io/hangry3001",
     "feed_url": "https://buzzlightyeah88.github.io/hangry3001/feed.json",
@@ -14,16 +14,17 @@
             "url": "https://buzzlightyeah88.github.io/hangry3001/pie-zui-guo-lu-bao-bao.html",
             "title": "癟嘴鍋爐寶寶",
             "summary": "Ｏ Ｏ ＾",
-            "content_html": "<p><br><br>Ｏ                       Ｏ</p>\n<p>             ＾  </p>",
+            "content_html": "<p class=\"align-center\"><br><br>Ｏ                       Ｏ</p>\n<p class=\"align-center\">   ＾  </p>",
             "image": "https://buzzlightyeah88.github.io/hangry3001/media/posts/5/Guo-Lu-OO-2.jpg",
             "author": {
                 "name": "buzzlightyeah!"
             },
             "tags": [
-                   "Huh?"
+                   "Huh?",
+                   "All Posts"
             ],
             "date_published": "2024-09-06T10:33:51+08:00",
-            "date_modified": "2024-09-06T10:49:55+08:00"
+            "date_modified": "2024-09-06T15:49:02+08:00"
         },
         {
             "id": "https://buzzlightyeah88.github.io/hangry3001/all-living-thing-depend-on-sunlight-air-and-water.html",
