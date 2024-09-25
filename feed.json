@@ -10,6 +10,40 @@
     },
     "items": [
         {
+            "id": "https://buzzlightyeah88.github.io/hangry3001/nan-gu.html",
+            "url": "https://buzzlightyeah88.github.io/hangry3001/nan-gu.html",
+            "title": "南呱",
+            "summary": "去年無意間看到的，沒想到室友在今年生日送給我⋯⋯。感動啦！",
+            "content_html": "<p>去年無意間看到的，沒想到室友在今年生日送給我⋯⋯。感動啦！</p>",
+            "image": "https://buzzlightyeah88.github.io/hangry3001/media/posts/9/IMG_8621.PNG",
+            "author": {
+                "name": "buzzlightyeah!"
+            },
+            "tags": [
+                   "Diary",
+                   "All Posts"
+            ],
+            "date_published": "2024-09-25T23:21:35+08:00",
+            "date_modified": "2024-09-25T23:21:35+08:00"
+        },
+        {
+            "id": "https://buzzlightyeah88.github.io/hangry3001/chao-da-zhang-guo-zhou.html",
+            "url": "https://buzzlightyeah88.github.io/hangry3001/chao-da-zhang-guo-zhou.html",
+            "title": "超大張國周",
+            "summary": "去桃園看到個打嗝會有喝汽水感覺的東西。",
+            "content_html": "<p>去桃園看到個打嗝會有喝汽水感覺的東西。</p>",
+            "image": "https://buzzlightyeah88.github.io/hangry3001/media/posts/8/IMG_8793.jpeg",
+            "author": {
+                "name": "buzzlightyeah!"
+            },
+            "tags": [
+                   "Diary",
+                   "All Posts"
+            ],
+            "date_published": "2024-09-25T23:18:07+08:00",
+            "date_modified": "2024-09-25T23:18:15+08:00"
+        },
+        {
             "id": "https://buzzlightyeah88.github.io/hangry3001/de-zhao-fang-fa-shi-zhu-qu-zuo.html",
             "url": "https://buzzlightyeah88.github.io/hangry3001/de-zhao-fang-fa-shi-zhu-qu-zuo.html",
             "title": "得找方法試著去做",
