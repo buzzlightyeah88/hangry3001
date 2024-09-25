@@ -3,12 +3,43 @@
     <title>@hangry3001</title>
     <link href="https://buzzlightyeah88.github.io/hangry3001/feed.xml" rel="self" />
     <link href="https://buzzlightyeah88.github.io/hangry3001" />
-    <updated>2024-09-18T23:34:22+08:00</updated>
+    <updated>2024-09-25T23:12:18+08:00</updated>
     <author>
         <name>buzzlightyeah!</name>
     </author>
     <id>https://buzzlightyeah88.github.io/hangry3001</id>
 
+    <entry>
+        <title>得找方法試著去做</title>
+        <author>
+            <name>buzzlightyeah!</name>
+        </author>
+        <link href="https://buzzlightyeah88.github.io/hangry3001/de-zhao-fang-fa-shi-zhu-qu-zuo.html"/>
+        <id>https://buzzlightyeah88.github.io/hangry3001/de-zhao-fang-fa-shi-zhu-qu-zuo.html</id>
+        <media:content url="https://buzzlightyeah88.github.io/hangry3001/media/posts/7/Jie-Tu-2024-09-25-Wan-Shang-10.37.49.png" medium="image" />
+            <category term="Fri345"/>
+            <category term="All Posts"/>
+
+        <updated>2024-09-25T23:11:59+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/7/Jie-Tu-2024-09-25-Wan-Shang-10.37.49.png" alt="" />
+                    因為在DOME這個計畫中有個畫面想用3D人偶呈現，所以上網找了資源來實現，這是一個叫作MB-Lab的「免費」開源外掛，下載壓縮檔放到blender裡面enable它，就能夠顯示到右手邊的工具列了，可以挑整人偶許多外觀上的細節（是以0.000作為基準而且能調整正負），表情、動作也可以喔。 MB-Lab介紹：https://mb-lab-docs.readthedocs.io/en/latest/about.html 下載處：https://github.com/animate1978/MB-Lab（我載到1.8.1） 教學影片： 1.https://www.youtube.com/watch?v=AtbM8YAjJJk（新、簡短） 2.https://youtu.be/jd2WGb8Bvgc?si=pOthzCFGPDhmSZvt（舊、詳細）
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/7/Jie-Tu-2024-09-25-Wan-Shang-10.37.49.png" class="type:primaryImage" alt="" /></p>
+                <p>因為在DOME這個計畫中有個畫面想用3D人偶呈現，所以上網找了資源來實現，這是一個叫作MB-Lab的「免費」開源外掛，下載壓縮檔放到blender裡面enable它，就能夠顯示到右手邊的工具列了，可以挑整人偶許多外觀上的細節（是以0.000作為基準而且能調整正負），表情、動作也可以喔。</p>
+<p>MB-Lab介紹：<a target="_blank" rel="noopener noreferrer">https://mb-lab-docs.readthedocs.io/en/latest/about.html</a></p>
+<p>下載處：<a target="_blank" rel="noopener noreferrer">https://github.com/animate1978/MB-Lab</a>（我載到1.8.1）</p>
+<p>教學影片：</p>
+<p>1.<a>https://www.youtube.com/watch?v=AtbM8YAjJJk</a>（新、簡短）</p>
+<p>2.<a target="_blank" rel="noopener noreferrer">https://youtu.be/jd2WGb8Bvgc?si=pOthzCFGPDhmSZvt</a>（舊、詳細）<a target="_blank" rel="noopener noreferrer"></a></p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>最想實現的畫面</title>
         <author>
