@@ -3,12 +3,27 @@
     <title>@hangry3001</title>
     <link href="https://buzzlightyeah88.github.io/hangry3001/feed.xml" rel="self" />
     <link href="https://buzzlightyeah88.github.io/hangry3001" />
-    <updated>2024-09-26T21:17:53+08:00</updated>
+    <updated>2024-09-27T09:31:49+08:00</updated>
     <author>
         <name>buzzlightyeah!</name>
     </author>
     <id>https://buzzlightyeah88.github.io/hangry3001</id>
 
+    <entry>
+        <title>我超強的</title>
+        <author>
+            <name>buzzlightyeah!</name>
+        </author>
+        <link href="https://buzzlightyeah88.github.io/hangry3001/wo-chao-qiang-de.html"/>
+        <id>https://buzzlightyeah88.github.io/hangry3001/wo-chao-qiang-de.html</id>
+        <media:content url="https://buzzlightyeah88.github.io/hangry3001/media/posts/11/Jie-Tu-2024-09-26-Wan-Shang-8.49.58.png" medium="image" />
+            <category term="Diary"/>
+            <category term="All Posts"/>
+
+        <updated>2024-09-27T09:31:49+08:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
     <entry>
         <title>吃了四個麵包</title>
         <author>
@@ -238,33 +253,6 @@
             <![CDATA[
                     <p><img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/2/Sheng-Ri.jpg" class="type:primaryImage" alt="" /></p>
                 <p>祝大家生日快樂！</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Are You Kidding Me ?</title>
-        <author>
-            <name>buzzlightyeah!</name>
-        </author>
-        <link href="https://buzzlightyeah88.github.io/hangry3001/are-you-kidding-me.html"/>
-        <id>https://buzzlightyeah88.github.io/hangry3001/are-you-kidding-me.html</id>
-        <media:content url="https://buzzlightyeah88.github.io/hangry3001/media/posts/1/IMG_2141.jpeg" medium="image" />
-            <category term="Works"/>
-            <category term="Huh"/>
-            <category term="All Posts"/>
-
-        <updated>2024-05-09T20:50:06+08:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/1/IMG_2141.jpeg" alt="" />
-                    這到底誰？ 前陣子想用webui幫朋友算出理想型，這是第一張，忘了記下自己給的指令，想必是很點點點。
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/1/IMG_2141.jpeg" class="type:primaryImage" alt="" /></p>
-                <h1 class="msg msg--highlight "><strong>這到底誰？</strong></h1>
-<p>前陣子想用webui幫朋友算出理想型，這是第一張，忘了記下自己給的指令，想必是很點點點。</p>
             ]]>
         </content>
     </entry>

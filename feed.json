@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://buzzlightyeah88.github.io/hangry3001/wo-chao-qiang-de.html",
+            "url": "https://buzzlightyeah88.github.io/hangry3001/wo-chao-qiang-de.html",
+            "title": "我超強的",
+            "image": "https://buzzlightyeah88.github.io/hangry3001/media/posts/11/Jie-Tu-2024-09-26-Wan-Shang-8.49.58.png",
+            "author": {
+                "name": "buzzlightyeah!"
+            },
+            "tags": [
+                   "Diary",
+                   "All Posts"
+            ],
+            "date_published": "2024-09-27T09:31:49+08:00",
+            "date_modified": "2024-09-27T09:31:49+08:00"
+        },
+        {
             "id": "https://buzzlightyeah88.github.io/hangry3001/chi-liao-si-ge-mian-bao.html",
             "url": "https://buzzlightyeah88.github.io/hangry3001/chi-liao-si-ge-mian-bao.html",
             "title": "吃了四個麵包",
@@ -160,24 +175,6 @@
             ],
             "date_published": "2024-05-09T21:16:37+08:00",
             "date_modified": "2024-05-10T11:50:36+08:00"
-        },
-        {
-            "id": "https://buzzlightyeah88.github.io/hangry3001/are-you-kidding-me.html",
-            "url": "https://buzzlightyeah88.github.io/hangry3001/are-you-kidding-me.html",
-            "title": "Are You Kidding Me ?",
-            "summary": "這到底誰？ 前陣子想用webui幫朋友算出理想型，這是第一張，忘了記下自己給的指令，想必是很點點點。",
-            "content_html": "<h1 class=\"msg msg--highlight \"><strong>這到底誰？</strong></h1>\n<p>前陣子想用webui幫朋友算出理想型，這是第一張，忘了記下自己給的指令，想必是很點點點。</p>",
-            "image": "https://buzzlightyeah88.github.io/hangry3001/media/posts/1/IMG_2141.jpeg",
-            "author": {
-                "name": "buzzlightyeah!"
-            },
-            "tags": [
-                   "Works",
-                   "Huh",
-                   "All Posts"
-            ],
-            "date_published": "2024-05-09T20:50:06+08:00",
-            "date_modified": "2024-05-10T12:00:19+08:00"
         }
     ]
 }
