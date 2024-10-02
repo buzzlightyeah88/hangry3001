@@ -10,6 +10,40 @@
     },
     "items": [
         {
+            "id": "https://buzzlightyeah88.github.io/hangry3001/ru-he-you-bi-zhen-de-shou-shou.html",
+            "url": "https://buzzlightyeah88.github.io/hangry3001/ru-he-you-bi-zhen-de-shou-shou.html",
+            "title": "如何有逼真的手手",
+            "summary": "這是在一行一行講材質調整的部分，該如何讓手手像真的手手呢？印象中是調整透光⋯⋯（哇咧顧著當手模都忘光光了）",
+            "content_html": "<p>這是在一行一行講材質調整的部分，該如何讓手手像真的手手呢？印象中是調整透光⋯⋯（哇咧顧著當手模都忘光光了）</p>",
+            "image": "https://buzzlightyeah88.github.io/hangry3001/media/posts/13/Locket-from-Sep-28.png",
+            "author": {
+                "name": "buzzlightyeah!"
+            },
+            "tags": [
+                   "Fri345",
+                   "All Posts"
+            ],
+            "date_published": "2024-10-02T19:00:07+08:00",
+            "date_modified": "2024-10-02T19:00:07+08:00"
+        },
+        {
+            "id": "https://buzzlightyeah88.github.io/hangry3001/shui-ba-ren-yi-men-jie-gei-wo.html",
+            "url": "https://buzzlightyeah88.github.io/hangry3001/shui-ba-ren-yi-men-jie-gei-wo.html",
+            "title": "誰把任意門借給我",
+            "summary": "這週教了上色跟材質調整，填了一個繽紛的房間，還教了用畫筆畫畫的功能，btw這個模型是小樽提供的，不是我自己blend的呦。 有趣的冷知識： 遊戲裡的樹木是平面但跟著相機走的（不知道專業用語是不是這樣講啦） 惡靈古堡的煙霧是一大片平面撲向玩家 樹木和草叢的葉子是一叢一叢做好重複使用的",
+            "content_html": "<p>這週教了上色跟材質調整，填了一個繽紛的房間，還教了用畫筆畫畫的功能，btw這個模型是小樽提供的，不是我自己blend的呦。</p>\n<p><strong>有趣的冷知識：</strong></p>\n<p>遊戲裡的樹木是平面但跟著相機走的（不知道專業用語是不是這樣講啦）</p>\n<p>惡靈古堡的煙霧是一大片平面撲向玩家</p>\n<p>樹木和草叢的葉子是一叢一叢做好重複使用的</p>\n<p> </p>",
+            "image": "https://buzzlightyeah88.github.io/hangry3001/media/posts/12/Locket-from-Sep-27.png",
+            "author": {
+                "name": "buzzlightyeah!"
+            },
+            "tags": [
+                   "Fri345",
+                   "All Posts"
+            ],
+            "date_published": "2024-10-02T18:55:23+08:00",
+            "date_modified": "2024-10-02T18:55:26+08:00"
+        },
+        {
             "id": "https://buzzlightyeah88.github.io/hangry3001/wo-chao-qiang-de.html",
             "url": "https://buzzlightyeah88.github.io/hangry3001/wo-chao-qiang-de.html",
             "title": "我超強的",
@@ -142,39 +176,6 @@
             ],
             "date_published": "2024-05-10T10:47:02+08:00",
             "date_modified": "2024-05-10T10:47:02+08:00"
-        },
-        {
-            "id": "https://buzzlightyeah88.github.io/hangry3001/test.html",
-            "url": "https://buzzlightyeah88.github.io/hangry3001/test.html",
-            "title": "Test",
-            "summary": "測試＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿",
-            "content_html": "<p>測試＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿</p>",
-            "image": "https://buzzlightyeah88.github.io/hangry3001/media/posts/3/1DBEBDFF-F637-4887-B682-1B592F084688_1_105_c.jpeg",
-            "author": {
-                "name": "buzzlightyeah!"
-            },
-            "tags": [
-                   "All Posts"
-            ],
-            "date_published": "2024-05-09T21:44:47+08:00",
-            "date_modified": "2024-09-06T16:04:00+08:00"
-        },
-        {
-            "id": "https://buzzlightyeah88.github.io/hangry3001/happy-birthday.html",
-            "url": "https://buzzlightyeah88.github.io/hangry3001/happy-birthday.html",
-            "title": "Happy Birthday!",
-            "summary": "祝大家生日快樂！",
-            "content_html": "<p>祝大家生日快樂！</p>",
-            "image": "https://buzzlightyeah88.github.io/hangry3001/media/posts/2/Sheng-Ri.jpg",
-            "author": {
-                "name": "buzzlightyeah!"
-            },
-            "tags": [
-                   "Diary",
-                   "All Posts"
-            ],
-            "date_published": "2024-05-09T21:16:37+08:00",
-            "date_modified": "2024-05-10T11:50:36+08:00"
         }
     ]
 }
