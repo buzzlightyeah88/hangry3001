@@ -3,12 +3,34 @@
     <title>@hangry3001</title>
     <link href="https://buzzlightyeah88.github.io/hangry3001/feed.xml" rel="self" />
     <link href="https://buzzlightyeah88.github.io/hangry3001" />
-    <updated>2024-10-02T19:00:07+08:00</updated>
+    <updated>2024-10-09T22:01:41+08:00</updated>
     <author>
         <name>buzzlightyeah!</name>
     </author>
     <id>https://buzzlightyeah88.github.io/hangry3001</id>
 
+    <entry>
+        <title>上禮拜請假</title>
+        <author>
+            <name>buzzlightyeah!</name>
+        </author>
+        <link href="https://buzzlightyeah88.github.io/hangry3001/shang-li-bai-qing-jia.html"/>
+        <id>https://buzzlightyeah88.github.io/hangry3001/shang-li-bai-qing-jia.html</id>
+            <category term="Fri345"/>
+            <category term="All Posts"/>
+
+        <updated>2024-10-09T22:01:37+08:00</updated>
+            <summary>
+                <![CDATA[
+                    還沒問同學教了些什麼，感覺該開始做想完成的畫面了。
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>還沒問同學教了些什麼，感覺該開始做想完成的畫面了。<br><br></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>如何有逼真的手手</title>
         <author>
@@ -234,31 +256,6 @@
                     <p><img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/5/A4AE96E1-114A-4AAF-A644-5A7B85371357_1_201_a.jpeg" class="type:primaryImage" alt="" /></p>
                 <p class="align-center"><br><br><strong>Ｏ                       Ｏ</strong></p>
 <p class="align-center"><strong>   ＾  </strong></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>All living thing depend on sunlight, air and water. </title>
-        <author>
-            <name>buzzlightyeah!</name>
-        </author>
-        <link href="https://buzzlightyeah88.github.io/hangry3001/all-living-thing-depend-on-sunlight-air-and-water.html"/>
-        <id>https://buzzlightyeah88.github.io/hangry3001/all-living-thing-depend-on-sunlight-air-and-water.html</id>
-        <media:content url="https://buzzlightyeah88.github.io/hangry3001/media/posts/4/Jie-Tu-2024-05-09-Wan-Shang-9.54.18.png" medium="image" />
-            <category term="Diary"/>
-            <category term="All Posts"/>
-
-        <updated>2024-05-10T10:47:02+08:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/4/Jie-Tu-2024-05-09-Wan-Shang-9.54.18.png" alt="" />
-                    覺得昨天discord的驗證方式很新穎。
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/4/Jie-Tu-2024-05-09-Wan-Shang-9.54.18.png" class="type:primaryImage" alt="" /></p>
-                <p>覺得昨天discord的驗證方式很新穎。</p>
             ]]>
         </content>
     </entry>
