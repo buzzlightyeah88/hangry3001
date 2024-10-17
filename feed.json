@@ -10,6 +10,24 @@
     },
     "items": [
         {
+            "id": "https://buzzlightyeah88.github.io/hangry3001/di-yi-ge-blendchu-lai-de-dong-hua.html",
+            "url": "https://buzzlightyeah88.github.io/hangry3001/di-yi-ge-blendchu-lai-de-dong-hua.html",
+            "title": "第一個blend出來的動畫",
+            "summary": "因為dome的表演打算有一個舞動的人當作影像開頭，所以做了這個「噪點騷撒仔」，終於知道為什麼要預留算圖的時間，因為超久的，24偵5秒跑了好幾分鐘呢⋯⋯。晚點要跟組員討論鏡頭的位置還有關鍵幀，看看怎麼樣呈現，如果要好幾個人同時舞動是不是要用AE啊！？",
+            "content_html": "<p>因為dome的表演打算有一個舞動的人當作影像開頭，所以做了這個「噪點騷撒仔」，終於知道為什麼要預留算圖的時間，因為超久的，24偵5秒跑了好幾分鐘呢⋯⋯。晚點要跟組員討論鏡頭的位置還有關鍵幀，看看怎麼樣呈現，如果要好幾個人同時舞動是不是要用AE啊！？</p>",
+            "image": "https://buzzlightyeah88.github.io/hangry3001/media/posts/15/untitled.jpg",
+            "author": {
+                "name": "buzzlightyeah!"
+            },
+            "tags": [
+                   "Works",
+                   "Fri345",
+                   "All Posts"
+            ],
+            "date_published": "2024-10-17T19:31:03+08:00",
+            "date_modified": "2024-10-17T19:31:03+08:00"
+        },
+        {
             "id": "https://buzzlightyeah88.github.io/hangry3001/shang-li-bai-qing-jia.html",
             "url": "https://buzzlightyeah88.github.io/hangry3001/shang-li-bai-qing-jia.html",
             "title": "上禮拜請假",
@@ -158,23 +176,6 @@
             ],
             "date_published": "2024-09-18T23:27:53+08:00",
             "date_modified": "2024-09-25T23:12:18+08:00"
-        },
-        {
-            "id": "https://buzzlightyeah88.github.io/hangry3001/pie-zui-guo-lu-bao-bao.html",
-            "url": "https://buzzlightyeah88.github.io/hangry3001/pie-zui-guo-lu-bao-bao.html",
-            "title": "癟嘴鍋爐寶寶",
-            "summary": "Ｏ Ｏ ＾",
-            "content_html": "<p class=\"align-center\"><br><br><strong>Ｏ                       Ｏ</strong></p>\n<p class=\"align-center\"><strong>   ＾  </strong></p>",
-            "image": "https://buzzlightyeah88.github.io/hangry3001/media/posts/5/A4AE96E1-114A-4AAF-A644-5A7B85371357_1_201_a.jpeg",
-            "author": {
-                "name": "buzzlightyeah!"
-            },
-            "tags": [
-                   "Huh",
-                   "All Posts"
-            ],
-            "date_published": "2024-09-06T10:33:51+08:00",
-            "date_modified": "2024-09-06T17:00:05+08:00"
         }
     ]
 }
