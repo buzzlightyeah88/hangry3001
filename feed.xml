@@ -3,14 +3,56 @@
     <title>@hangry3001</title>
     <link href="https://buzzlightyeah88.github.io/hangry3001/feed.xml" rel="self" />
     <link href="https://buzzlightyeah88.github.io/hangry3001" />
-    <updated>2024-12-28T02:37:44+08:00</updated>
+    <updated>2024-12-28T02:48:39+08:00</updated>
     <author>
         <name>buzzlightyeah!</name>
     </author>
     <id>https://buzzlightyeah88.github.io/hangry3001</id>
 
     <entry>
-        <title>BlenderCH18</title>
+        <title>BlenderCH21推薦資源</title>
+        <author>
+            <name>buzzlightyeah!</name>
+        </author>
+        <link href="https://buzzlightyeah88.github.io/hangry3001/blenderch21tui-jian-zi-yuan.html"/>
+        <id>https://buzzlightyeah88.github.io/hangry3001/blenderch21tui-jian-zi-yuan.html</id>
+            <category term="Fri345"/>
+            <category term="All Posts"/>
+
+        <updated>2024-12-28T02:48:38+08:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>BlenderCH20角色建模</title>
+        <author>
+            <name>buzzlightyeah!</name>
+        </author>
+        <link href="https://buzzlightyeah88.github.io/hangry3001/blenderch20.html"/>
+        <id>https://buzzlightyeah88.github.io/hangry3001/blenderch20.html</id>
+            <category term="Fri345"/>
+            <category term="All Posts"/>
+
+        <updated>2024-12-28T02:45:40+08:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>BlenderCH19粒子</title>
+        <author>
+            <name>buzzlightyeah!</name>
+        </author>
+        <link href="https://buzzlightyeah88.github.io/hangry3001/blenderch19.html"/>
+        <id>https://buzzlightyeah88.github.io/hangry3001/blenderch19.html</id>
+            <category term="Fri345"/>
+            <category term="All Posts"/>
+
+        <updated>2024-12-28T02:45:23+08:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>BlenderCH18雕刻、物理模擬</title>
         <author>
             <name>buzzlightyeah!</name>
         </author>
@@ -20,8 +62,169 @@
             <category term="All Posts"/>
 
         <updated>2024-12-28T02:06:42+08:00</updated>
-            <summary></summary>
-        <content></content>
+            <summary>
+                <![CDATA[
+                    一、雕刻工具 (Sculpting Tools) Blender 的雕刻工具設計非常強大，提供了一個類似傳統雕刻的數位環境，讓你能夠像雕刻木頭或石膏一樣，對 3D 模型進行細緻的操作。以下是每個雕刻工具及其使用方法，這些工具會在「雕刻模式」中顯示。 Blender 提供多種雕刻工具，每個工具都有不同的效果和設定。這裡列出一些最常用的工具及其細節： Draw (繪製) Clay&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h3><strong>一、雕刻工具 (Sculpting Tools)</strong></h3>
+<p>Blender 的雕刻工具設計非常強大，提供了一個類似傳統雕刻的數位環境，讓你能夠像雕刻木頭或石膏一樣，對 3D 模型進行細緻的操作。以下是每個雕刻工具及其使用方法，這些工具會在「雕刻模式」中顯示。</p>
+<h4>1.1 <strong>進入雕刻模式 (Sculpt Mode)</strong></h4>
+<ul>
+<li><strong>步驟 1</strong>: 在 3D 視圖中，選擇你想進行雕刻的物體（必須是網格物體）。</li>
+<li><strong>步驟 2</strong>: 在頂部工具欄中，找到模式選擇菜單（默認為「Object Mode」），將其切換至「Sculpt Mode」，這樣就進入了雕刻模式。或者，你也可以直接按快捷鍵 <code>Ctrl + Tab</code>。</li>
+<li><strong>步驟 3</strong>: 在雕刻模式下，你會看到與物體表面互動的工具列，這些是你進行雕刻的主要工具。</li>
+</ul>
+<h4>1.2 <strong>雕刻工具介紹</strong></h4>
+<p>Blender 提供多種雕刻工具，每個工具都有不同的效果和設定。這裡列出一些最常用的工具及其細節：</p>
+<ol>
+<li>
+<p><strong>Draw (繪製)</strong></p>
+<ul>
+<li><strong>位置</strong>: 在工具欄中的首位，工具名稱為「Draw」。</li>
+<li><strong>功能</strong>: 這是最基本的雕刻工具，允許你在物體表面繪製，使該區域凸起或凹陷。這個工具對細節雕刻非常有用。</li>
+<li><strong>筆刷設定</strong>：
+<ul>
+<li><strong>筆刷半徑 (Radius)</strong>: 控制筆刷的大小。你可以按住 <code>F</code> 鍵來交互調整筆刷大小。</li>
+<li><strong>筆刷強度 (Strength)</strong>: 控制筆刷的強度，即對表面的影響程度。按住 <code>Shift</code> 鍵可以減少強度，按住 <code>Ctrl</code> 可以增加強度。</li>
+</ul>
+</li>
+<li><strong>注意</strong>: 按住 <code>Ctrl</code> 可以進行反向操作，將表面向下凹陷。</li>
+</ul>
+</li>
+<li>
+<p><strong>Clay (泥土)</strong></p>
+<ul>
+<li><strong>位置</strong>: 在工具欄中，第二個工具。</li>
+<li><strong>功能</strong>: 使用這個工具，你可以將表面上塗抹泥土，創建非常粗糙的體積感，適合雕刻較大、較粗糙的細節。</li>
+<li><strong>筆刷設定</strong>:
+<ul>
+<li><strong>拉伸模式 (Stretch)</strong>: 可以調整筆刷對模型的拉伸程度，使模型表面更加凸出或塌陷。</li>
+<li><strong>大範圍影響 (Large Stroke)</strong>: 副筆刷設定讓你的工具範圍覆蓋更大，讓你的雕刻變得更加自由。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Smooth (平滑)</strong></p>
+<ul>
+<li><strong>位置</strong>: 在工具欄中第三個工具。</li>
+<li><strong>功能</strong>: 這個工具平滑物體表面的不規則性，適合在雕刻後進行微調，讓表面更加平整。</li>
+<li><strong>快捷鍵</strong>: 按住 <code>Shift</code> 鍵切換至平滑工具。</li>
+<li><strong>筆刷設置</strong>:
+<ul>
+<li><strong>平滑強度 (Strength)</strong>: 控制平滑的程度。較高的強度會快速消除不平整，較低的強度會更為精細。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Inflate (膨脹)</strong></p>
+<ul>
+<li><strong>位置</strong>: 在工具欄中的第四個工具。</li>
+<li><strong>功能</strong>: 增加物體表面的體積，使其像氣球一樣膨脹。這是增加細節和體積的理想工具，尤其適合臉部特徵、肌肉等部分的雕刻。</li>
+<li><strong>筆刷設置</strong>:
+<ul>
+<li><strong>強度 (Strength)</strong>: 控制膨脹的程度，通常較低強度用於精細雕刻。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Pinch (捏合)</strong></p>
+<ul>
+<li><strong>位置</strong>: 在工具欄中的第五個工具。</li>
+<li><strong>功能</strong>: 用來收縮物體表面，使邊緣變尖銳。這個工具適用於創造細緻的邊緣或凹陷。</li>
+<li><strong>筆刷設置</strong>:
+<ul>
+<li><strong>強度 (Strength)</strong>: 影響捏合效果的強度，強度越高，捏合效果越明顯。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Grab (抓取)</strong></p>
+<ul>
+<li><strong>位置</strong>: 在工具欄中的第六個工具。</li>
+<li><strong>功能</strong>: 移動物體表面的一部分，實現變形。它讓你抓取物體的特定區域並將其移動、拉伸或變形。</li>
+<li><strong>操作技巧</strong>: 使用此工具時，右鍵拖動會選取並移動物體。</li>
+</ul>
+</li>
+<li>
+<p><strong>Trim (修剪)</strong></p>
+<ul>
+<li><strong>位置</strong>: 在工具欄中的第七個工具。</li>
+<li><strong>功能</strong>: 用來移除物體表面的一部分。這在創建表面細節時非常有用，尤其是在需要快速去除不需要的部分時。</li>
+</ul>
+</li>
+</ol>
+<h4>1.3 <strong>筆刷設置細節</strong></h4>
+<ul>
+<li><strong>筆刷的形狀 (Brush Shape)</strong>：Blender 提供了多種筆刷形狀，你可以使用圓形、方形、圓環等不同形狀來進行雕刻，這些可以在「Brush Settings」面板中進行調整。</li>
+<li><strong>筆刷的間距 (Spacing)</strong>：筆刷間距設定決定了筆觸在雕刻時的連續性。間距越小，雕刻越平滑，間距大則會更具斑駁感。</li>
+</ul>
+<h4>1.4 <strong>細分 (Subdivision) 和多分辨率 (Multiresolution)</strong></h4>
+<ul>
+<li><strong>Subdivision Surface</strong>: 在雕刻中，為了避免顯示區域過於粗糙，我們常常使用細分來增加模型的多邊形數量，這樣可以讓雕刻更精細。</li>
+<li><strong>Multiresolution Modifier</strong>: 這是一個修改器，可以讓你在不同細節層級間進行雕刻。你可以在低分辨率下進行大範圍的雕刻，再在高分辨率下進行細部的雕刻。</li>
+</ul>
+<h3><strong>二、物理模擬功能 (Physics Simulation)</strong></h3>
+<p>Blender 提供了多種物理模擬功能，包括剛體模擬、布料模擬、流體模擬等，這些功能可用來模擬現實世界的各種物理現象。以下是每種模擬功能的詳細介紹。</p>
+<h4>2.1 <strong>剛體模擬 (Rigid Body Simulation)</strong></h4>
+<ul>
+<li><strong>步驟 1</strong>: 進入物理屬性面板（右側屬性欄中，物理屬性標籤是小圓圈圖標）。</li>
+<li><strong>步驟 2</strong>: 在「Rigid Body」部分，啟用物體的剛體物理模擬。這會讓物體在場景中受重力影響並與其他物體進行碰撞。</li>
+<li><strong>設置</strong>:
+<ul>
+<li><strong>Type (類型)</strong>: 選擇物體是「Active」（動態），「Passive」（靜態），還是「Kinematic」（動力學物體）。</li>
+<li><strong>質量 (Mass)</strong>: 設定物體的質量，這會影響物體在重力場中的表現。</li>
+<li><strong>摩擦力 (Friction)</strong>: 設定物體表面與其他物體之間的摩擦力。</li>
+<li><strong>彈性 (Bounciness)</strong>: 設定物體彈跳的程度。</li>
+</ul>
+</li>
+</ul>
+<h4>2.2 <strong>布料模擬 (Cloth Simulation)</strong></h4>
+<ul>
+<li><strong>步驟 1</strong>: 選擇你想要進行布料模擬的物體，並進入物理屬性面板。</li>
+<li><strong>步驟 2</strong>: 在「Cloth」部分啟用布料模擬。</li>
+<li><strong>設置</strong>:
+<ul>
+<li><strong>質量 (Mass)</strong>: 設定布料的質量，影響布料的運動方式。</li>
+<li><strong>摩擦 (Friction)</strong>: 設定布料與其他物體之間的摩擦力，影響布料的滑動。</li>
+<li><strong>剛性 (Stiffness)</strong>: 控制布料的剛性，設定布料的彈性。</li>
+<li><strong>風力 (Wind)</strong>: 可以為布料設置風的影響，讓它受到風的吹動。</li>
+</ul>
+</li>
+</ul>
+<h4>2.3 <strong>流體模擬 (Fluid Simulation)</strong></h4>
+<ul>
+<li><strong>步驟 1</strong>: 在物理屬性面板中選擇「Fluid」來啟動流體模擬。</li>
+<li><strong>設置</strong>:
+<ul>
+<li><strong>流體類型 (Fluid Type)</strong>: 可以設置物體為「流體源」或「障礙物」。</li>
+<li><strong>分辨率 (Resolution)</strong>: 設定流體模擬的精度，分辨率越高，模擬越真實，但也需要更多的計算資源。</li>
+</ul>
+</li>
+</ul>
+<h4>2.4 <strong>煙霧與火焰模擬 (Smoke and Fire Simulation)</strong></h4>
+<ul>
+<li><strong>設置</strong>: 在物理屬性面板中啟用「Smoke」來模擬煙霧或火焰效果。</li>
+<li><strong>設置</strong>:
+<ul>
+<li><strong>煙霧密度 (Density)</strong>: 設定煙霧的濃密程度。</li>
+<li><strong>火焰強度 (Flame Strength)</strong>: 控制火焰的亮度和熱量。</li>
+</ul>
+</li>
+</ul>
+<h4>2.5 <strong>粒子系統 (Particles)</strong></h4>
+<ul>
+<li><strong>設置</strong>: 在物理屬性面板中啟用「Particles」來創建粒子系統。</li>
+<li><strong>用途</strong>: 用於模擬如爆炸、火花、雨水等。</li>
+</ul>
+            ]]>
+        </content>
     </entry>
     <entry>
         <title>BlenderCH17我有裝的插件</title>
@@ -898,527 +1101,6 @@
 </li>
 </ul>
 </li>
-</ul>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>BlenderCH11燈光、攝影機</title>
-        <author>
-            <name>buzzlightyeah!</name>
-        </author>
-        <link href="https://buzzlightyeah88.github.io/hangry3001/blenderch11deng-guangshe-ying-ji.html"/>
-        <id>https://buzzlightyeah88.github.io/hangry3001/blenderch11deng-guangshe-ying-ji.html</id>
-        <media:content url="https://buzzlightyeah88.github.io/hangry3001/media/posts/27/Jie-Tu-2024-12-28-Ling-Chen-1.32.48.png" medium="image" />
-            <category term="Fri345"/>
-            <category term="All Posts"/>
-
-        <updated>2024-12-28T01:34:03+08:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/27/Jie-Tu-2024-12-28-Ling-Chen-1.32.48.png" alt="" />
-                    1. 燈光設置：每種燈光的功能與精確調整 (1) 點光源 (Point Light) 功能：點光源會從一個點均勻地向四周發射光線，沒有方向性。這個燈光像是日常生活中使用的燈泡或小型光源，光線不會有明顯的聚焦範圍，照亮整個場景。 如何設置： 功能：聚光燈會有明確的光束，並且可以調整光束的範圍和強度，常用於舞台燈光或是強調某一物體。 如何設置： 功能：環境光不會投射陰影，它提供整個場景的基本光源，防止場景過於昏暗。 如何設置：&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/27/Jie-Tu-2024-12-28-Ling-Chen-1.32.48.png" class="type:primaryImage" alt="" /></p>
-                <h3><strong>1. 燈光設置：每種燈光的功能與精確調整</strong></h3>
-<h4><strong>(1) 點光源 (Point Light)</strong></h4>
-<ul>
-<li>
-<p><strong>功能</strong>：點光源會從一個點均勻地向四周發射光線，沒有方向性。這個燈光像是日常生活中使用的燈泡或小型光源，光線不會有明顯的聚焦範圍，照亮整個場景。</p>
-</li>
-<li>
-<p><strong>如何設置</strong>：</p>
-<ol>
-<li>按 <code>Shift + A</code>，選擇 <code>Light</code> &gt; <code>Point</code>。</li>
-<li>點光源會出現在場景的正中央，並且會自動選擇。</li>
-<li>調整位置：
-<ul>
-<li>用 <strong>G</strong> 鍵來移動光源，並使用 <strong>X</strong>、<strong>Y</strong>、<strong>Z</strong> 來限制移動的軸向。</li>
-</ul>
-</li>
-<li>調整光強度：
-<ul>
-<li>在右邊的屬性面板中，找到 <strong>Light</strong> 分頁，調整 <strong>Strength</strong>。數值越高，光源就越強。一般設置範圍大約是 <strong>1 到 10</strong>，根據場景需要進行調整。</li>
-</ul>
-</li>
-<li>調整顏色：
-<ul>
-<li>在 <strong>Light</strong> 分頁中，點選 <strong>Color</strong>，選擇所需的顏色。如果需要讓光源呈現特定色調，可以在這裡設置。</li>
-</ul>
-</li>
-<li>光線衰減：
-<ul>
-<li>預設情況下，點光源的光線會根據距離逐漸衰減。你可以在 <strong>Falloff</strong> 設定中調整衰減方式，選擇 <strong>Constant</strong>、<strong>Linear</strong> 或 <strong>Inverse Square</strong>。通常選擇 <strong>Inverse Square</strong> 會模擬現實中光源的衰減效果。</li>
-</ul>
-</li>
-</ol>
-</li>
-</ul>
-<h4><strong>(2) 聚光燈 (Spotlight)</strong></h4>
-<ul>
-<li>
-<p><strong>功能</strong>：聚光燈會有明確的光束，並且可以調整光束的範圍和強度，常用於舞台燈光或是強調某一物體。</p>
-</li>
-<li>
-<p><strong>如何設置</strong>：</p>
-<ol>
-<li>按 <code>Shift + A</code>，選擇 <code>Light</code> &gt; <code>Spot</code>，將聚光燈加入場景。</li>
-<li>聚光燈會出現在場景中，你可以透過 <strong>G</strong> 鍵來移動它。</li>
-<li>調整光強度：
-<ul>
-<li>在 <strong>Light</strong> 屬性面板中，調整 <strong>Strength</strong>，控制燈光的強度。</li>
-</ul>
-</li>
-<li>調整光束範圍：
-<ul>
-<li>在 <strong>Spot Size</strong> 中設置光束的範圍。數值越小，光束越集中；數值越大，光束範圍就越廣。</li>
-<li>常見範圍設定在 <strong>15° 到 45°</strong> 之間，根據需要調整。</li>
-</ul>
-</li>
-<li>邊緣柔和度：
-<ul>
-<li>在 <strong>Blend</strong> 中調整邊緣柔和度。數值越高，邊緣越模糊，光束的過渡會更加自然。</li>
-</ul>
-</li>
-<li>控制陰影：
-<ul>
-<li>在 <strong>Shadows</strong> 設定中選擇 <strong>Soft Shadows</strong> 來達到柔和的陰影效果。如果需要更明顯的陰影，可以選擇 <strong>Hard Shadows</strong>。</li>
-</ul>
-</li>
-<li>聚焦：
-<ul>
-<li>聚光燈還可以調整 <strong>Spot Focus</strong>，控制焦點的方向和範圍，這樣可以精確地照亮你想要的區域。</li>
-</ul>
-</li>
-</ol>
-</li>
-</ul>
-<h4><strong>(3) 環境光 (Ambient Light)</strong></h4>
-<ul>
-<li>
-<p><strong>功能</strong>：環境光不會投射陰影，它提供整個場景的基本光源，防止場景過於昏暗。</p>
-</li>
-<li>
-<p><strong>如何設置</strong>：</p>
-<ol>
-<li>打開右側屬性面板中的 <strong>World</strong> 分頁。</li>
-<li>在 <strong>Color</strong> 部分設置環境光的顏色，這個顏色會影響場景的整體氛圍。</li>
-<li>在 <strong>Strength</strong> 欄位設置光強度，這會控制整體的亮度。通常強度設置在 <strong>0.1 到 1</strong> 之間。</li>
-<li>調整強度來達到理想的亮度，這樣不會讓陰影區域顯得過於黑暗。</li>
-</ol>
-</li>
-</ul>
-<hr>
-<h3><strong>2. 燈光調整：細緻設定</strong></h3>
-<h4><strong>(1) 光強度 (Strength)</strong></h4>
-<ul>
-<li>
-<p>光強度控制燈光的亮度。每個光源（不論是點光源、聚光燈還是環境光）都可以通過這個設置來調整亮度。強度過高會讓場景過亮，強度過低會使場景過暗。你可以根據場景的需求來微調數值，來達到理想的亮度。</p>
-</li>
-<li>
-<p>調整位置：</p>
-<ul>
-<li><strong>強度控制</strong>：在 <strong>Light</strong> 分頁下的 <strong>Strength</strong> 項目中，可以微調光源的亮度數值。如果需要更強的光源，數值可以設置為 <strong>5</strong> 以上，否則可以設置為 <strong>0.5</strong> 左右來減弱光線強度。</li>
-</ul>
-</li>
-</ul>
-<h4><strong>(2) 顏色調整 (Color)</strong></h4>
-<ul>
-<li>
-<p>顏色會直接影響場景的色調。比如使用 <strong>橙色或黃色</strong> 的光源，能讓場景有溫暖的感覺；使用 <strong>藍色</strong>，則可以給場景增加冷峻感。</p>
-</li>
-<li>
-<p>在每個光源的 <strong>Color</strong> 中，你可以選擇一個顏色，或者手動調整 RGB 值來精確選擇顏色。這樣可以創造出你想要的氛圍。</p>
-</li>
-</ul>
-<h4><strong>(3) 陰影調整 (Shadows)</strong></h4>
-<ul>
-<li>
-<p>每個光源都有陰影選項，這會影響場景的真實感。陰影的設置包括硬陰影和軟陰影的選擇。</p>
-<ul>
-<li><strong>Soft Shadows</strong>：陰影邊緣會模糊，讓光源看起來更加自然。</li>
-<li><strong>Hard Shadows</strong>：陰影邊緣銳利，模擬更直接的光源。</li>
-</ul>
-</li>
-<li>
-<p>在 <strong>Shadows</strong> 設置中，你可以選擇陰影的樣式與強度，並進一步微調。</p>
-</li>
-</ul>
-<hr>
-<h3><strong>3. 攝影機設置：精確構圖與角度控制</strong></h3>
-<h4><strong>(1) 攝影機位置與旋轉</strong></h4>
-<ul>
-<li><strong>移動攝影機</strong>：選中攝影機後，按 <code>G</code> 鍵可以移動攝影機。使用 <strong>X、Y、Z</strong> 鍵來限制移動方向。
-<ul>
-<li>如果你想更精確地控制，可以在右側屬性面板中的 <strong>Transform</strong> 設置位置。</li>
-</ul>
-</li>
-<li><strong>旋轉攝影機</strong>：按 <code>R</code> 鍵來旋轉攝影機，使用 <strong>X</strong>、<strong>Y</strong>、<strong>Z</strong> 限制旋轉方向。這樣你就可以快速調整攝影機的角度，來獲得合適的視角。</li>
-</ul>
-<h4><strong>(2) 焦距調整 (Focal Length)</strong></h4>
-<ul>
-<li><strong>焦距</strong> 影響攝影機的視野，焦距越長，畫面會越緊湊；焦距越短，畫面會顯得更寬廣。</li>
-<li>在右側的 <strong>Camera</strong> 設定面板中，找到 <strong>Focal Length</strong> 來調整。一般來說，35mm 到 50mm 的焦距是最常見的選擇。</li>
-</ul>
-<h4><strong>(3) 景深 (Depth of Field)</strong></h4>
-<ul>
-<li>景深控制畫面中清晰區域和模糊區域的過渡。開啟景深後，將焦點設置在某一特定物體上，其餘部分將變得模糊。
-<ul>
-<li>在 <strong>Camera</strong> 屬性面板中，勾選 <strong>Depth of Field</strong>，並調整 <strong>Focus Distance</strong>（焦距）和 <strong>F-Stop</strong>（光圈大小）。<strong>F-Stop</strong> 數值越低，背景越模糊。</li>
-</ul>
-</li>
-</ul>
-<h4><strong>(4) 攝影機視角與鏡頭設置</strong></h4>
-<ul>
-<li>使用 <strong>Numpad 0</strong> 切換到攝影機視角。這樣可以精確預覽渲染後的畫面，並確保攝影機角度正確。</li>
-<li>在 <strong>Numpad 0</strong> 視角下，你可以用 <strong>Shift + F</strong> 開啟自由視角模式，這樣就可以像在現場一樣，實時移動、旋轉攝影機。</li>
-</ul>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>BlenderCH10材質、貼圖</title>
-        <author>
-            <name>buzzlightyeah!</name>
-        </author>
-        <link href="https://buzzlightyeah88.github.io/hangry3001/blenderch10.html"/>
-        <id>https://buzzlightyeah88.github.io/hangry3001/blenderch10.html</id>
-        <media:content url="https://buzzlightyeah88.github.io/hangry3001/media/posts/26/Jie-Tu-2024-12-28-Ling-Chen-1.27.25.png" medium="image" />
-            <category term="Fri345"/>
-            <category term="All Posts"/>
-
-        <updated>2024-12-27T23:00:18+08:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/26/Jie-Tu-2024-12-28-Ling-Chen-1.27.25.png" alt="" />
-                    1. 創建與應用材質 (Creating and Applying Materials) 選擇物體 首先，確保您已經選擇了 3D 視窗中的物體，這是您要應用材質的對象。可以直接 右鍵單擊（或 左鍵單擊，取決於您的選擇模式）物體來選中它。&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/26/Jie-Tu-2024-12-28-Ling-Chen-1.27.25.png" class="type:primaryImage" alt="" /></p>
-                <h3><strong>1. 創建與應用材質 (Creating and Applying Materials)</strong></h3>
-<h4><strong>選擇物體</strong></h4>
-<ol>
-<li>首先，確保您已經選擇了 3D 視窗中的物體，這是您要應用材質的對象。可以直接 <strong>右鍵單擊</strong>（或 <strong>左鍵單擊</strong>，取決於您的選擇模式）物體來選中它。</li>
-</ol>
-<h4><strong>材質屬性面板 (Material Properties)</strong></h4>
-<ol start="2">
-<li>
-<p>在右側的 <strong>屬性面板</strong>（Properties Panel）中，點擊材質屬性圖標，這是 <strong>圓形圖標</strong>，通常位於面板上方。</p>
-</li>
-</ol>
-<h4><strong>創建新材質 (Create New Material)</strong></h4>
-<ol start="3">
-<li>在材質屬性面板中，點擊 <strong>New</strong> 按鈕來創建一個新的材質。這將為選中的物體創建一個新的材質，並將其命名為預設名稱（例如“Material”）。</li>
-</ol>
-<h4><strong>更名材質 (Rename Material)</strong></h4>
-<ol start="4">
-<li>為了更好地管理材質，建議將材質重命名。單擊材質名稱框，輸入更具描述性的名稱（如 “Wood_Material” 或 “Metal_Shiny”）。</li>
-</ol>
-<h3><strong>2. 使用 Shader Editor 編輯材質 (Editing Materials Using Shader Editor)</strong></h3>
-<h4><strong>開啟 Shader Editor</strong></h4>
-<ol>
-<li>
-<p><span style="color: #e03e2d;">切換到 Shading 工作區</span>。這會自動顯示 <strong>Shader Editor</strong> 和 3D 視窗。選擇工作區上方的 <strong>Shading</strong> 標籤，即可進入。</p>
-<p><span style="color: #3598db;">（在 Blender 中，Shading 區域 是用來創建、編輯和調整物體材質和貼圖的核心區域。它通常是您與材質、貼圖、光照和渲染設定進行互動的地方。Shading 區域包含了不同的工作區域和工具，讓您可以對物體的外觀進行精細調整。以下是 Shading 區域的簡單介紹：</span></p>
-<h3><span style="color: #3598db;">1. Shading 區域的主要組成部分</span></h3>
-<ol>
-<li>
-<p><span style="color: #3598db;">Shader Editor (材質節點編輯器)</span></p>
-<ul>
-<li><span style="color: #3598db;">功能：用於編輯和創建複雜的材質和貼圖。您可以在這裡使用節點來定義材質的外觀，並通過節點之間的連接來實現各種效果。</span></li>
-<li><span style="color: #3598db;">操作：在 Shading 區域，您可以選擇物體並開始對其材質進行編輯，將不同的節點（如 Principled BSDF、Image Texture、Mix Shader 等）連接在一起，調整屬性來創建所需的材質效果。</span></li>
-</ul>
-</li>
-<li>
-<p><span style="color: #3598db;">3D Viewport (三維視窗)</span></p>
-<ul>
-<li><span style="color: #3598db;">功能：用來預覽物體的材質效果，您可以在這裡看到即時反映在 3D 模型上的材質變化。您可以在不同的視圖模式下查看材質（如 Solid、Material Preview、Rendered 等）。</span></li>
-<li><span style="color: #3598db;">操作：在 Rendered 模式下，您可以查看渲染效果，並即時看到材質的視覺效果。</span></li>
-</ul>
-</li>
-<li>
-<p><span style="color: #3598db;">材質屬性面板 (Material Properties Panel)</span></p>
-<ul>
-<li><span style="color: #3598db;">功能：顯示當前選擇物體的材質屬性，您可以在這裡進行快速的材質設置、創建新材質以及管理已經應用到物體上的所有材質。</span></li>
-<li><span style="color: #3598db;">操作：這個面板位於右側，您可以創建新的材質、調整顏色、光澤度、金屬感等屬性，並應用貼圖。</span></li>
-</ul>
-</li>
-</ol>
-<h3><span style="color: #3598db;">2. Shading 區域中的工作區</span></h3>
-<p><span style="color: #3598db;">在 Blender 的 Shading 工作區 中，您會看到以下幾個主要區域：</span></p>
-<ul>
-<li><span style="color: #3598db;">上方欄位：這是操作工具的地方，包括與節點相關的工具和選項（如 Add 节点、连接节点等）。</span></li>
-<li><span style="color: #3598db;">中間區域 (Shader Editor)：這是編輯材質節點的主要區域，您可以在這裡建立或修改材質。不同的節點（如 Principled BSDF、Diffuse、Image Texture 等）將依照需要進行連接，以構建材質的複雜效果。</span></li>
-<li><span style="color: #3598db;">右側區域 (材質屬性面板)：顯示當前物體的材質設定，並提供簡單的控制選項，比如顏色、光滑度、金屬感等。</span></li>
-<li><span style="color: #3598db;">3D 視窗 (3D Viewport)：即時顯示渲染結果，讓您看到材質和貼圖效果。這裡的渲染模式可以設置為 Material Preview 或 Rendered，用於檢視物體的最終效果。</span></li>
-</ul>
-<h3><span style="color: #3598db;">3. 工作流</span></h3>
-<p><span style="color: #3598db;">在 Shading 區域的工作流中，您通常會：</span></p>
-<ol>
-<li><span style="color: #3598db;">在 Shader Editor 中選擇物體並開始編輯材質節點。</span></li>
-<li><span style="color: #3598db;">使用 材質屬性面板 進行簡單的調整，如顏色、光澤度、粗糙度等。</span></li>
-<li><span style="color: #3598db;">在 3D 視窗 中即時查看您的編輯效果，可以切換到 Material Preview 或 Rendered 模式來檢查材質如何在光照下呈現。）</span></li>
-</ol>
-</li>
-<li>
-<p>在 <strong>Shader Editor</strong> 視窗中，您會看到一個基礎的 <strong>Principled BSDF</strong> 節點，它會自動與材質屬性面板中的材質對應。</p>
-</li>
-</ol>
-<h4><strong>選擇材質 (Select Material)</strong></h4>
-<ol start="3">
-<li>在 <strong>Shader Editor</strong> 中，右上角會顯示當前選中的材質名稱，確保選中的物體與此材質對應。</li>
-</ol>
-<h4><strong>修改節點 (Modify Nodes)</strong></h4>
-<ol start="4">
-<li><strong>Principled BSDF</strong> 節點是大多數材質的基礎，您可以修改它的各種屬性：
-<ul>
-<li><strong>Base Color</strong>：設定顏色。</li>
-<li><strong>Roughness</strong>：控制光滑度（0 表示光滑，1 表示粗糙）。</li>
-<li><strong>Metallic</strong>：控制物體是否呈現金屬效果。</li>
-</ul>
-根據需要調整這些數值，您會在 <strong>3D 視窗</strong> 中看到即時變化。</li>
-</ol>
-<h4><strong>添加其他節點 (Add More Nodes)</strong></h4>
-<ol start="5">
-<li>按 <strong>Shift + A</strong>，選擇 <strong>Texture &gt; Image Texture</strong> 節點，這樣可以加載圖像貼圖。將 <strong>Image Texture</strong> 節點的輸出連接到 <strong>Principled BSDF</strong> 節點的相應輸入，如 <strong>Base Color</strong> 或 <strong>Normal</strong>。</li>
-</ol>
-<h3><strong>3. Blender 中的貼圖類型 (Texture Types in Blender)</strong></h3>
-<p>Blender 支援多種貼圖類型，它們對材質效果有不同影響。這裡介紹一些常見貼圖：</p>
-<h4><strong>3.1 顏色貼圖 (Diffuse/Albedo Map)</strong></h4>
-<ul>
-<li><strong>作用</strong>：顏色貼圖決定物體的基礎顏色。</li>
-<li><strong>操作</strong>：
-<ol>
-<li>使用 <strong>Image Texture</strong> 節點來加載顏色貼圖，將其連接到 <strong>Principled BSDF</strong> 節點的 <strong>Base Color</strong> 輸入。</li>
-<li>調整顏色貼圖的 <strong>UV 展開</strong>，確保貼圖準確對應到物體的表面。</li>
-</ol>
-</li>
-</ul>
-<h4><strong>3.2 法線貼圖 (Normal Map)</strong></h4>
-<ul>
-<li><strong>作用</strong>：法線貼圖模擬細節，改變光照反應，但不改變物體幾何形狀。</li>
-<li><strong>操作</strong>：使用 <strong>Normal Map</strong> 節點來處理法線貼圖，並將其連接到 <strong>Principled BSDF</strong> 節點的 <strong>Normal</strong> 輸入。</li>
-</ul>
-<h4><strong>3.3 粗糙度貼圖 (Roughness Map)</strong></h4>
-<ul>
-<li><strong>作用</strong>：控制材質的光滑程度。</li>
-<li><strong>操作</strong>：將 <strong>Image Texture</strong> 節點連接到 <strong>Principled BSDF</strong> 節點的 <strong>Roughness</strong> 輸入。</li>
-</ul>
-<h4><strong>3.4 位移貼圖 (Displacement Map)</strong></h4>
-<ul>
-<li><strong>作用</strong>：實際改變物體的表面高度。</li>
-<li><strong>操作</strong>：使用 <strong>Displacement</strong> 節點，將 <strong>Image Texture</strong> 節點的輸出連接到 <strong>Displacement</strong> 節點的 <strong>Height</strong> 輸入，並將其輸出連接到 <strong>Material Output</strong> 節點的 <strong>Displacement</strong> 輸入。</li>
-</ul>
-<h4><strong>3.5 透明貼圖 (Alpha/Transparency Map)</strong></h4>
-<ul>
-<li><strong>作用</strong>：控制物體透明度。</li>
-<li><strong>操作</strong>：
-<ol>
-<li>使用 <strong>Image Texture</strong> 節點來加載透明貼圖，將其連接到 <strong>Principled BSDF</strong> 節點的 <strong>Alpha</strong> 輸入。</li>
-<li>在材質屬性面板中，將 <strong>Blend Mode</strong> 設為 <strong>Alpha Blend</strong>，使物體具有透明效果。</li>
-</ol>
-</li>
-</ul>
-<h3><strong>4. 如何將貼圖應用於材質 (Applying Textures to Materials)</strong></h3>
-<h4><strong>加載貼圖</strong></h4>
-<ol>
-<li>按 <strong>Shift + A</strong>，選擇 <strong>Texture &gt; Image Texture</strong> 節點。</li>
-<li>在 <strong>Image Texture</strong> 節點中，點擊 <strong>Open</strong> 按鈕，選擇您要加載的貼圖。</li>
-</ol>
-<h4><strong>設置 UV 展開 (Setting Up UV Unwrapping)</strong></h4>
-<ol>
-<li>進入 <strong>UV Editing</strong> 工作區。</li>
-<li>在 <strong>UV Editing</strong> 視窗中，選擇物體，進行 <strong>UV 展開</strong>，將 3D 物體的表面展開為 2D 平面，這樣貼圖就能正確映射到物體表面。</li>
-</ol>
-<h3><strong>5. 調整與優化貼圖 (Adjusting and Optimizing Textures)</strong></h3>
-<h4><strong>Mapping 節點 (Mapping Node)</strong></h4>
-<p>使用 <strong>Mapping</strong> 節點來控制貼圖的縮放、旋轉和位置。將其連接到 <strong>Texture Coordinate</strong> 節點，再將 <strong>Texture Coordinate</strong> 節點連接到 <strong>Image Texture</strong> 節點。</p>
-<h4><strong>顏色空間 (Color Space)</strong></h4>
-<p>根據貼圖類型選擇適當的顏色空間。如果是法線貼圖或位移貼圖，請選擇 <strong>Non-Color Data</strong>，以保持數據準確。</p>
-<h3><strong>6. 預覽貼圖效果 (Previewing Textures)</strong></h3>
-<h4><strong>渲染模式 (Rendered View)</strong></h4>
-<p>在 <strong>3D 視窗</strong> 中，切換視圖模式為 <strong>Rendered</strong>，以即時查看材質和貼圖效果。這樣您就能看到渲染後的實際效果。</p>
-<h4><strong>選擇渲染引擎 (Render Engine)</strong></h4>
-<p>使用 <strong>Cycles 渲染引擎</strong>，您可以得到更真實的渲染效果，但會耗費更多時間。<strong>Eevee 渲染引擎</strong>則提供即時預覽，更適合快速檢查。</p>
-<h3><strong>7. 保存與重用材質 (Saving and Reusing Materials)</strong></h3>
-<h4><strong>保存為資源 (Save as Asset)</strong></h4>
-<p>您可以將材質保存為 <strong>Asset</strong>，在其他場景或項目中重用。在 <strong>材質屬性面板</strong> 中，點擊 <strong>Shield 圖標</strong>（它位於材質名稱旁邊）。這樣，您創建的材質將被保存為資源，可以在 <strong>資源瀏覽器</strong> 中進行管理和重用。</p>
-<h4><strong>導出與共享材質 (Exporting and Sharing Materials)</strong></h4>
-<ol>
-<li>
-<p>如果您希望將材質從一個項目導出並在另一個項目中使用，您可以使用 <strong>Blender 的 Asset Library</strong> 或者將材質保存為 <strong>.blend 文件</strong>，然後將其加載到其他項目中。這樣可以保證材質不會丟失，並且可以跨場景使用。</p>
-</li>
-<li>
-<p>您也可以將整個物體導出為 <strong>.fbx</strong> 或 <strong>.obj</strong> 等格式，這樣在其他 3D 應用中也能繼承這些材質設定。</p>
-</li>
-</ol>
-<hr>
-<h3><strong>進階技巧與最佳實踐 (Advanced Tips and Best Practices)</strong></h3>
-<h4><strong>1. 使用程序化貼圖 (Procedural Textures)</strong></h4>
-<ul>
-<li>
-<p><strong>程序化貼圖</strong>不依賴於外部圖像檔案，而是使用數學算法來生成貼圖。這樣可以創建不需要手動繪製的紋理，並且具有更多的控制權。</p>
-<p><strong>操作步驟</strong>：</p>
-<ol>
-<li>按 <strong>Shift + A</strong>，選擇 <strong>Texture &gt; Noise</strong>，<strong>Texture &gt; Musgrave</strong> 等節點來生成程序化貼圖。</li>
-<li>您可以使用這些節點與其他節點組合，來創建地面、牆壁等不規則的紋理效果。</li>
-</ol>
-</li>
-</ul>
-<h4><strong>2. 使用節點組合創建復雜的材質 (Creating Complex Materials Using Node Combinations)</strong></h4>
-<ul>
-<li>
-<p>您可以將多個節點組合起來，創建更加複雜的材質。例如，使用 <strong>混合著色器（Mix Shader）</strong> 節點來結合不同的 <strong>Principled BSDF</strong> 節點，來創建多層次的材質效果（如金屬、玻璃、水面等）。</p>
-<p><strong>操作步驟</strong>：</p>
-<ol>
-<li>按 <strong>Shift + A</strong>，選擇 <strong>Shader &gt; Mix Shader</strong>，將兩個不同的 <strong>Principled BSDF</strong> 節點通過 <strong>Mix Shader</strong> 節點進行混合。</li>
-<li>通過使用 <strong>Fac</strong> 輸入控制混合比例，並根據需要進一步調整其他屬性，如 <strong>Base Color</strong> 和 <strong>Roughness</strong>。</li>
-</ol>
-</li>
-</ul>
-<h4><strong>3. 高效的貼圖管理 (Efficient Texture Management)</strong></h4>
-<ul>
-<li>當您在場景中使用多個貼圖時，合理組織和管理貼圖會顯得尤為重要。以下是一些小技巧：
-<ol>
-<li>使用有意義的文件夾來組織貼圖文件，確保貼圖有清晰的命名規則（例如：<code>Wood_Texture_1.jpg</code>，<code>Brick_NormalMap.png</code>）。</li>
-<li>可以使用 <strong>UV 編輯器</strong> 中的 “<strong>選擇所有面</strong>” 和 “<strong>拉伸</strong>” 工具來確保 UV 布局不會產生不必要的拉伸，保持貼圖的質量。</li>
-</ol>
-</li>
-</ul>
-<h4><strong>4. 渲染優化與貼圖效果 (Rendering Optimization and Texture Effects)</strong></h4>
-<p> </p>
-<ul>
-<li style="list-style-type: none;">
-<ul>
-<li>使用高解析度貼圖雖然能帶來更真實的效果，但會增加渲染時間。您可以根據需要平衡貼圖的解析度與渲染速度：
-<ol>
-<li>使用 <strong>Mipmap</strong> 技術來降低遠距離物體的貼圖解析度，這樣可以減少內存佔用並加速渲染。</li>
-<li><strong>烘焙貼圖（Bake Textures）</strong>：當需要高效的渲染結果時，可以考慮將動態材質和光照烘焙成靜態貼圖，這樣可以顯著提高渲染速度。</li>
-</ol>
-</li>
-</ul>
-</li>
-</ul>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>BlenderCH9建立、編輯、移動</title>
-        <author>
-            <name>buzzlightyeah!</name>
-        </author>
-        <link href="https://buzzlightyeah88.github.io/hangry3001/blenderch9.html"/>
-        <id>https://buzzlightyeah88.github.io/hangry3001/blenderch9.html</id>
-        <media:content url="https://buzzlightyeah88.github.io/hangry3001/media/posts/25/Jie-Tu-2024-12-28-Ling-Chen-12.48.40.png" medium="image" />
-            <category term="Fri345"/>
-            <category term="All Posts"/>
-
-        <updated>2024-12-27T23:00:10+08:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/25/Jie-Tu-2024-12-28-Ling-Chen-12.48.40.png" alt="" />
-                    添加基本形狀：如何創建立方體、球體等幾何物件 按 Shift + A 會打開一個廣泛的菜單，其中包含各種可以添加到場景中的物件。這些選項包括： 這些是最常用的幾何物件，包含了很多形狀選擇： 曲線是一種非常靈活的物件，可以用來創建有彎曲、曲線形狀的物件。 這些物件比曲線更為複雜，適用於創建高級曲面建模。 Shift + A&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/25/Jie-Tu-2024-12-28-Ling-Chen-12.48.40.png" class="type:primaryImage" alt="" /></p>
-                <h3><strong>添加基本形狀：如何創建立方體、球體等幾何物件</strong></h3>
-<p>按 <code>Shift + A</code> 會打開一個廣泛的菜單，其中包含各種可以添加到場景中的物件。這些選項包括：</p>
-<h4><strong>1. Mesh（網格）</strong></h4>
-<p>這些是最常用的幾何物件，包含了很多形狀選擇：</p>
-<ul>
-<li><strong>Cube（立方體）</strong>：最基本的立方體形狀。</li>
-<li><strong>Sphere（球體）</strong>：
-<ul>
-<li><strong>UV Sphere</strong>（UV 球）：由許多均勻的六邊形面組成，適合用來建造圓形或有彎曲表面的物體。</li>
-<li><strong>Icosphere</strong>（20面球）：由 20 個等邊三角形面組成，通常用於更簡單的圓形結構。</li>
-</ul>
-</li>
-<li><strong>Cylinder（圓柱）</strong>：圓形的立體形狀，通常用於建造圓柱體、管道等結構。</li>
-<li><strong>Cone（圓錐）</strong>：圓形的基座和尖頂，常見於錐形物體的建模。</li>
-<li><strong>Torus（圓環）</strong>：環形物體，通常用來建造環形結構或手鐲等。</li>
-<li><strong>Plane（平面）</strong>：平坦的 2D 表面，通常用來創建地面或作為背景元素。</li>
-<li><strong>Circle（圓形）</strong>：一個平面圓形的邊界，可以用來開始進行擠出等建模操作。</li>
-<li><strong>Grid（網格）</strong>：一個由正方形組成的平面網格，通常用來做為建模的參考或基準。</li>
-<li><strong>Monkey（猩猩頭）</strong>：這個物件是 Blender 自帶的示範模型，通常稱為「Suzanne」，可以用來測試渲染或進行模型練習。</li>
-</ul>
-<h4><strong>2. Curve（曲線）</strong></h4>
-<p>曲線是一種非常靈活的物件，可以用來創建有彎曲、曲線形狀的物件。</p>
-<ul>
-<li><strong>Bezier Curve（貝茲曲線）</strong>：用來繪製平滑的曲線，可以通過調整控制點來修改曲線形狀。</li>
-<li><strong>Circle（圓形曲線）</strong>：在 3D 空間中創建圓形曲線。</li>
-<li><strong>Path（路徑）</strong>：用來創建一條曲線路徑，經常用於動畫軌跡或物件運動路徑。</li>
-<li><strong>Text（文字）</strong>：創建文字物件，可以轉換為網格進行編輯，或用來創建標題和標誌。</li>
-</ul>
-<h4><strong>3. Surface（曲面）</strong></h4>
-<p>這些物件比曲線更為複雜，適用於創建高級曲面建模。</p>
-<ul>
-<li><strong>NURBS Curve</strong>（NURBS 曲線）：這是一種數學曲線，用來創建平滑的曲面和曲線。</li>
-<li><strong>NURBS Surface</strong>（NURBS 曲面）：適用於創建流暢的曲面，常用於工業設計和複雜的建模。</li>
-</ul>
-<h4><strong>4. Metaball（元球）</strong></h4>
-<ul>
-<li><strong>Metaball</strong> 是一種特殊的物件，當多個 Metaball 物件靠得很近時，它們會融合在一起，形成一個平滑的有機形狀。這個功能多用於動畫和有機物體建模。</li>
-</ul>
-<h4><strong>5. Textures（材質與紋理）</strong></h4>
-<ul>
-<li><strong>Text（文字）</strong>：除了創建 3D 文字物件外，這些文字也可以應用於場景中，作為標誌或描述。</li>
-<li><strong>Images（影像）</strong>：這是用來將圖片或貼圖應用到 3D 模型表面的選項，適用於貼圖建模。</li>
-</ul>
-<hr>
-<h4><strong>6. Light（光源）</strong></h4>
-<p><code>Shift + A</code> 還可以用來添加不同類型的光源，為場景提供照明。</p>
-<ul>
-<li><strong>Point Light（點光源）</strong>：從一個點向所有方向發射光線，類似於燈泡。</li>
-<li><strong>Sun Light（太陽光源）</strong>：一種平行的光源，類似於太陽的光線，適用於戶外場景。</li>
-<li><strong>Spot Light（聚光燈）</strong>：從一個點聚焦到特定區域，通常用於舞台或強烈照明效果。</li>
-<li><strong>Area Light（區域光源）</strong>：從一個區域向四面八方發射光線，通常用於創建均勻的光照。</li>
-</ul>
-<h4><strong>7. Camera（相機）</strong></h4>
-<ul>
-<li><strong>Camera（相機）</strong>：用來在 3D 場景中設置觀察角度，拍攝渲染的最終影像。</li>
-</ul>
-<h4><strong>8. Empty（空物體）</strong></h4>
-<ul>
-<li><strong>Empty（空物體）</strong>：這是一種沒有任何可見幾何形狀的物體，常用於場景中的參考、控制物件或作為父物件來操控其他物件。</li>
-</ul>
-<h4><strong>9. Other（其他）</strong></h4>
-<ul>
-<li><strong>Armature（骨架）</strong>：用於創建動畫角色的骨架結構，這樣可以使物件進行綁定和動畫化。</li>
-<li><strong>Grease Pencil（塗鴉筆）</strong>：用來創建 2D 畫圖和動畫的工具，適用於草圖和動畫製作。</li>
-<li><strong>Speaker（音頻來源）</strong>：用來在場景中放置音頻文件，可以用於背景音樂或聲效。</li>
-</ul>
-<hr>
-<h3><strong>編輯模式詳細操作：學習點、邊、面的編輯方式</strong></h3>
-<p>在 Blender 中，當你進入編輯模式（<code>Tab</code> 鍵），你可以進行細節編輯，這裡有更多進階的操作，幫助你精細地修改物件的幾何結構。</p>
-<h4><strong>編輯模式選擇模式</strong></h4>
-<ul>
-<li><strong>點選擇（Vertex Select）</strong>：選擇物件的頂點，通常用來調整模型的微小細節。</li>
-<li><strong>邊選擇（Edge Select）</strong>：選擇物件的邊，適合處理邊界或進行拓撲優化。</li>
-<li><strong>面選擇（Face Select）</strong>：選擇物件的面，通常用來處理物體的表面，修改形狀或創建細節。</li>
-</ul>
-<h4><strong>高級編輯工具</strong></h4>
-<ul>
-<li><strong>Extrude（擠出）</strong>：按 <code>E</code> 鍵擠出選中的邊或面，創建新的幾何形狀。</li>
-<li><strong>Subdivide（細分）</strong>：按 <code>W</code> 鍵選擇細分選項來將一個面或邊分割為更多的部分，讓物件更細緻。</li>
-<li><strong>Loop Cut（環切）</strong>：按 <code>Ctrl + R</code> 創建一條新的環形邊，通常用於添加更多的邊來增強細節。</li>
-<li><strong>Knife Tool（刀具工具）</strong>：按 <code>K</code> 鍵可以在模型上進行切割，創建新的邊或面。</li>
-</ul>
-<hr>
-<h3><strong>變換工具詳細操作：移動、旋轉、縮放物件的操作</strong></h3>
-<p>變換工具是操作物件的基礎，對於場景佈局和建模至關重要。</p>
-<h4><strong>移動、旋轉、縮放</strong></h4>
-<ul>
-<li><strong>G（Grab）</strong>：按 <code>G</code> 鍵來移動物件，使用 <code>X</code>、<code>Y</code>、<code>Z</code> 限制軸向移動。</li>
-<li><strong>R（Rotate）</strong>：按 <code>R</code> 鍵來旋轉物件，並可以限制旋轉的軸（<code>X</code>、<code>Y</code>、<code>Z</code>）。</li>
-<li><strong>S（Scale）</strong>：按 <code>S</code> 鍵來縮放物件，並可以選擇性地限制縮放方向（<code>X</code>、<code>Y</code>、<code>Z</code>）。</li>
-<li><strong>對齊與對齊控制（Snap）</strong>：按住 <code>Ctrl</code> 鍵來啟用對齊工具，使物件對齊網格、頂點、邊或面等。</li>
 </ul>
             ]]>
         </content>
