@@ -3,7 +3,7 @@
     <title>@hangry3001</title>
     <link href="https://buzzlightyeah88.github.io/hangry3001/feed.xml" rel="self" />
     <link href="https://buzzlightyeah88.github.io/hangry3001" />
-    <updated>2024-12-28T02:34:04+08:00</updated>
+    <updated>2024-12-28T02:37:44+08:00</updated>
     <author>
         <name>buzzlightyeah!</name>
     </author>
@@ -208,6 +208,47 @@
 </ul>
 </li>
 </ul>
+<p><strong><span style="color: #b96ad9;">GPT推薦以下</span></strong></p>
+<p>以下是一些推薦的 Blender 插件，包含簡短功能介紹和網址：</p>
+<ol>
+<li>
+<p><strong>Hard Ops</strong></p>
+<ul>
+<li><strong>功能介紹</strong>: Hard Ops 是一個強大的建模工具，專為硬邊建模設計。它提供了多種快速建模工具和操作，能夠幫助使用者在短時間內創建複雜的硬邊物件。</li>
+<li><strong>網址</strong>: <a rel="noopener" target="_new">https://gumroad.com/l/hardops</a></li>
+</ul>
+</li>
+<li>
+<p><strong>DecalMachine</strong></p>
+<ul>
+<li><strong>功能介紹</strong>: 這是一個專為貼圖設計的插件，特別適合在硬邊建模中使用。它讓用戶可以快速創建和管理 decal（貼花），並將它們輕鬆應用到模型上，增強視覺效果。</li>
+<li><strong>網址</strong>: <a rel="noopener" target="_new">https://gumroad.com/l/decalmachine</a></li>
+</ul>
+</li>
+<li>
+<p><strong>BlenderKit</strong></p>
+<ul>
+<li><strong>功能介紹</strong>: BlenderKit 提供了大量的 3D 模型、材質和貼圖資源，讓用戶能夠快速將高質量的資源導入到自己的項目中。這對於需要快速原型或完整場景的藝術家來說非常有用。</li>
+<li><strong>網址</strong>: <a rel="noopener" target="_new" href="https://www.blenderkit.com/">https://www.blenderkit.com/</a></li>
+</ul>
+</li>
+<li>
+<p><strong>Animation Nodes</strong></p>
+<ul>
+<li><strong>功能介紹</strong>: 這是一個強大的程序化動畫工具，允許使用者使用節點系統創建複雜的動畫效果。對於需要高度自定義動畫的用戶來說，它提供了極大的彈性。</li>
+<li><strong>網址</strong>: <a rel="noopener" target="_new" href="https://github.com/JacquesLucke/animation_nodes">https://github.com/JacquesLucke/animation_nodes</a></li>
+</ul>
+</li>
+<li>
+<p><strong>Auto-Rig Pro</strong></p>
+<ul>
+<li><strong>功能介紹</strong>: Auto-Rig Pro 是一款用於自動化人物角色綁定和骨架設置的插件。它支持從簡單到複雜的角色 rigging，大大減少了手動設置的時間。</li>
+<li><strong>網址</strong>: <a rel="noopener" target="_new">https://blendermarket.com/products/auto-rig-pro</a></li>
+</ul>
+</li>
+</ol>
+<p>這些插件都是在 Blender 社群中非常受歡迎的工具，根據你的需求選擇適合的插件能提高你的工作效率。</p>
+<p> </p>
             ]]>
         </content>
     </entry>
