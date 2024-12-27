@@ -3,7 +3,7 @@
     <title>@hangry3001</title>
     <link href="https://buzzlightyeah88.github.io/hangry3001/feed.xml" rel="self" />
     <link href="https://buzzlightyeah88.github.io/hangry3001" />
-    <updated>2024-12-27T23:52:27+08:00</updated>
+    <updated>2024-12-28T00:09:15+08:00</updated>
     <author>
         <name>buzzlightyeah!</name>
     </author>
@@ -52,32 +52,207 @@
         <content></content>
     </entry>
     <entry>
-        <title>BlenderCH7</title>
+        <title>BlenderCH7Outliner</title>
         <author>
             <name>buzzlightyeah!</name>
         </author>
         <link href="https://buzzlightyeah88.github.io/hangry3001/blenderch7.html"/>
         <id>https://buzzlightyeah88.github.io/hangry3001/blenderch7.html</id>
+        <media:content url="https://buzzlightyeah88.github.io/hangry3001/media/posts/23/Jie-Tu-2024-12-28-Ling-Chen-12.05.21.png" medium="image" />
             <category term="Fri345"/>
             <category term="All Posts"/>
 
         <updated>2024-12-27T22:59:48+08:00</updated>
-            <summary></summary>
-        <content></content>
+            <summary>
+                <![CDATA[
+                        <img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/23/Jie-Tu-2024-12-28-Ling-Chen-12.05.21.png" alt="" />
+                    外部視窗（Outliner）功能詳解 Outliner 是 Blender 中管理場景內容的重要工具，像是物件清單的「指揮中心」。它能夠顯示、選取、組織場景中的所有元素，幫助用戶快速找到並操作特定物件或屬性。（非常重要的整理區！物件多的時候比較好找！） Outliner 會以樹狀結構顯示場景中的所有元素，這些元素可能包含： 右上角的選單可選擇不同的顯示模式： 集合的用途： 操作方法： Outliner 是專案管理的核心工具，靈活運用各種功能可以顯著提升效率！
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/23/Jie-Tu-2024-12-28-Ling-Chen-12.05.21.png" class="type:primaryImage" alt="" /></p>
+                <h3><strong>外部視窗（Outliner）功能詳解</strong></h3>
+<p><strong>Outliner</strong> 是 Blender 中管理場景內容的重要工具，像是物件清單的「指揮中心」。它能夠顯示、選取、組織場景中的所有元素，幫助用戶快速找到並操作特定物件或屬性。<span style="color: #e03e2d;">（非常重要的整理區！物件多的時候比較好找！）</span></p>
+<h3><strong>主要介面與基本功能</strong></h3>
+<h4><strong>1. 顯示內容</strong></h4>
+<p>Outliner 會以樹狀結構顯示場景中的所有元素，這些元素可能包含：</p>
+<ul>
+<li><strong>物件</strong>：如模型、燈光、相機。</li>
+<li><strong>集合（Collection）</strong>：用於分組場景元素。</li>
+<li><strong>約束（Constraints）</strong>：如追蹤目標或限制運動。</li>
+<li><strong>修改器（Modifiers）</strong>：如細分表面或布料模擬。</li>
+</ul>
+<h4><strong>2. 顯示模式（Display Modes）</strong></h4>
+<p>右上角的選單可選擇不同的顯示模式：</p>
+<ul>
+<li><strong>View Layer</strong>：依據場景的視圖層顯示物件。</li>
+<li><strong>Scenes</strong>：列出場景中的所有元素。</li>
+<li><strong>Blender File</strong>：檢視整個 Blender 檔案的所有資源，包括貼圖、材質等。</li>
+<li><strong>Orphan Data</strong>：顯示未被使用的數據塊，方便清理無用資源。</li>
+</ul>
+<h3><strong>進階功能</strong></h3>
+<h4><strong>1. 顯示/隱藏物件</strong></h4>
+<ul>
+<li><strong>眼睛圖標</strong>：點擊眼睛圖標來控制物件是否在 3D 視窗中顯示。適合隱藏背景或不需要當前編輯的物件。
+<ul>
+<li><strong>Shift 點擊眼睛</strong>：可以一次隱藏或顯示所有物件，適合快速整理場景。</li>
+<li><strong>Ctrl 點擊眼睛</strong>：單獨顯示某個物件，其他物件將被隱藏。</li>
+</ul>
+</li>
+</ul>
+<h4><strong>2. 鎖定物件</strong></h4>
+<ul>
+<li><strong>鎖頭圖標</strong>：點擊後，該物件無法被選中或編輯。適合在複雜場景中防止誤操作。
+<ul>
+<li><strong>應用場景</strong>：避免無意中移動背景、地板、燈光等固定元素。</li>
+<li><strong>批量鎖定</strong>：Shift 點擊鎖頭圖標，可一次鎖定或解鎖多個物件。</li>
+</ul>
+</li>
+</ul>
+<h4><strong>3. 分組管理（Collection）</strong></h4>
+<ul>
+<li>
+<p><strong>集合的用途</strong>：</p>
+<ul>
+<li><strong>分類場景</strong>：可以根據用途或位置，將物件分組（如「角色」、「道具」、「燈光」等）。</li>
+<li><strong>視圖層控制</strong>：不同集合可以啟用或禁用，便於專注於某一部分工作。</li>
+</ul>
+</li>
+<li>
+<p><strong>操作方法</strong>：</p>
+<ul>
+<li><strong>拖曳操作</strong>：將物件拖動到集合中進行分組。</li>
+<li><strong>建立新集合</strong>：
+<ol>
+<li>右鍵單擊空白處，選擇 <strong>New Collection</strong>。</li>
+<li>命名新集合，例如「背景建築」。</li>
+</ol>
+</li>
+<li><strong>隱藏/顯示集合</strong>：點擊集合左側的圖標，控制整個集合是否顯示於視窗中。</li>
+</ul>
+</li>
+</ul>
+<h4><strong>4. 物件屬性預覽</strong></h4>
+<ul>
+<li>展開物件名稱可以查看其附屬屬性：
+<ul>
+<li><strong>Modifiers（修改器）</strong>：列出當前應用於物件的修改器，例如細分表面或布料模擬。</li>
+<li><strong>Constraints（約束）</strong>：顯示並調整約束的類型，例如追蹤目標或固定位置。</li>
+<li><strong>Material Slots（材質槽）</strong>：快速查看並切換物件的材質。</li>
+</ul>
+</li>
+</ul>
+<h3><strong>搜尋與過濾功能</strong></h3>
+<h4><strong>1. 搜尋功能</strong></h4>
+<ul>
+<li><strong>頂部搜尋欄</strong>：輸入物件名稱快速定位目標物件。</li>
+<li><strong>快捷鍵 F3</strong>：呼出搜尋欄，搜尋特定物件或功能。</li>
+</ul>
+<h4><strong>2. 過濾器設置</strong></h4>
+<ul>
+<li><strong>顯示特定類型物件</strong>：右上角點擊「過濾器圖標」，選擇需要顯示的物件類型，例如僅顯示「燈光」或「相機」。</li>
+<li><strong>啟用顯示屬性</strong>：
+<ul>
+<li><strong>禁用圖層</strong>：過濾掉目前未啟用的視圖層內容。</li>
+<li><strong>孤立數據（Orphan Data）</strong>：檢視未被使用的數據資源，方便清理場景。</li>
+</ul>
+</li>
+</ul>
+<p><strong>Outliner</strong> 是專案管理的核心工具，靈活運用各種功能可以顯著提升效率！</p>
+            ]]>
+        </content>
     </entry>
     <entry>
-        <title>BlenderCH6</title>
+        <title>BlenderCH6Timeline</title>
         <author>
             <name>buzzlightyeah!</name>
         </author>
         <link href="https://buzzlightyeah88.github.io/hangry3001/blenderch6.html"/>
         <id>https://buzzlightyeah88.github.io/hangry3001/blenderch6.html</id>
+        <media:content url="https://buzzlightyeah88.github.io/hangry3001/media/posts/22/Jie-Tu-2024-12-28-Ling-Chen-12.04.24.png" medium="image" />
             <category term="Fri345"/>
             <category term="All Posts"/>
 
         <updated>2024-12-27T22:59:37+08:00</updated>
-            <summary></summary>
-        <content></content>
+            <summary>
+                <![CDATA[
+                        <img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/22/Jie-Tu-2024-12-28-Ling-Chen-12.04.24.png" alt="" />
+                    時間軸（Timeline）功能詳解 Timeline 是 Blender 的動畫基礎工具，用來管理和控制動畫幀數與播放操作。以下是詳細功能解說： 幀數控制 添加關鍵幀（Insert Keyframe） 播放與暫停動畫 選取與編輯關鍵幀 關鍵幀屬性編輯
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/22/Jie-Tu-2024-12-28-Ling-Chen-12.04.24.png" class="type:primaryImage" alt="" /></p>
+                <h3><strong>時間軸（Timeline）功能詳解</strong></h3>
+<p><strong>Timeline</strong> 是 Blender 的動畫基礎工具，用來管理和控制動畫幀數與播放操作。以下是詳細功能解說：</p>
+<h4><strong>主要功能</strong></h4>
+<ol>
+<li>
+<p><strong>幀數控制</strong></p>
+<ul>
+<li><strong>開始與結束幀數</strong>：
+<ul>
+<li><strong>開始幀（Start Frame）</strong> 和 <strong>結束幀（End Frame）</strong> 位於 Timeline 下方的數字框內，預設範圍是 <strong>1～250 幀</strong>。</li>
+<li><strong>用法</strong>：輸入新的數值可調整動畫的長度，例如短片可設為 1～120 幀（5 秒 @ 24fps）。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>添加關鍵幀（Insert Keyframe）</strong></p>
+<ul>
+<li><strong>快捷鍵</strong>：按 <strong>I</strong> 打開「插入關鍵幀菜單」，選擇關鍵幀類型，如：
+<ul>
+<li><strong>Location（位置）</strong></li>
+<li><strong>Rotation（旋轉）</strong></li>
+<li><strong>Scale（縮放）</strong></li>
+<li><strong>LocRotScale（位置+旋轉+縮放）</strong></li>
+</ul>
+</li>
+<li><strong>顏色表示</strong>：
+<ul>
+<li>黃色標記：已設置關鍵幀。</li>
+<li>灰色標記：物體有動畫數據但未選中當前物件。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>播放與暫停動畫</strong></p>
+<ul>
+<li><strong>快捷鍵</strong>：按 <strong>Space</strong> 播放或暫停動畫。</li>
+<li><strong>進階控制</strong>：
+<ul>
+<li><strong>Shift + Space</strong>：快速播放（Real-time Sync）。</li>
+<li>使用播放頭拖動可即時預覽任意幀。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>選取與編輯關鍵幀</strong></p>
+<ul>
+<li><strong>左鍵選取</strong>：選擇單一關鍵幀。</li>
+<li><strong>框選</strong>：按 <strong>B</strong> 並框住多個關鍵幀。</li>
+<li><strong>移動關鍵幀</strong>：選中後按 <strong>G</strong>，拖曳到新位置（可改變幀數）。</li>
+</ul>
+</li>
+<li>
+<p><strong>關鍵幀屬性編輯</strong></p>
+<ul>
+<li><strong>右鍵菜單</strong>：右鍵點選關鍵幀，調整：
+<ul>
+<li><strong>Interpolation（插值模式）</strong>：例如線性（Linear）、貝茲（Bezier）。</li>
+<li><strong>Ease In/Out（緩入/緩出效果）</strong>：自然過渡。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p> </p>
+            ]]>
+        </content>
     </entry>
     <entry>
         <title>BlenderCH5右下Properties Panel</title>
