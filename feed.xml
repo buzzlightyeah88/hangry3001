@@ -3,14 +3,256 @@
     <title>@hangry3001</title>
     <link href="https://buzzlightyeah88.github.io/hangry3001/feed.xml" rel="self" />
     <link href="https://buzzlightyeah88.github.io/hangry3001" />
-    <updated>2024-12-28T02:48:39+08:00</updated>
+    <updated>2024-12-28T03:20:15+08:00</updated>
     <author>
         <name>buzzlightyeah!</name>
     </author>
     <id>https://buzzlightyeah88.github.io/hangry3001</id>
 
     <entry>
-        <title>BlenderCH21推薦資源</title>
+        <title>BlenderCH10材質、貼圖</title>
+        <author>
+            <name>buzzlightyeah!</name>
+        </author>
+        <link href="https://buzzlightyeah88.github.io/hangry3001/blenderch10.html"/>
+        <id>https://buzzlightyeah88.github.io/hangry3001/blenderch10.html</id>
+        <media:content url="https://buzzlightyeah88.github.io/hangry3001/media/posts/26/Jie-Tu-2024-12-28-Ling-Chen-1.27.25.png" medium="image" />
+            <category term="Fri345"/>
+            <category term="All Posts"/>
+
+        <updated>2024-12-27T23:00:18+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/26/Jie-Tu-2024-12-28-Ling-Chen-1.27.25.png" alt="" />
+                    1. 創建與應用材質 (Creating and Applying Materials) 選擇物體 首先，確保您已經選擇了 3D 視窗中的物體，這是您要應用材質的對象。可以直接 右鍵單擊（或 左鍵單擊，取決於您的選擇模式）物體來選中它。&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/26/Jie-Tu-2024-12-28-Ling-Chen-1.27.25.png" class="type:primaryImage" alt="" /></p>
+                <h3><strong>1. 創建與應用材質 (Creating and Applying Materials)</strong></h3>
+<h4><strong>選擇物體</strong></h4>
+<ol>
+<li>首先，確保您已經選擇了 3D 視窗中的物體，這是您要應用材質的對象。可以直接 <strong>右鍵單擊</strong>（或 <strong>左鍵單擊</strong>，取決於您的選擇模式）物體來選中它。</li>
+</ol>
+<h4><strong>材質屬性面板 (Material Properties)</strong></h4>
+<ol start="2">
+<li>
+<p>在右側的 <strong>屬性面板</strong>（Properties Panel）中，點擊材質屬性圖標，這是 <strong>圓形圖標</strong>，通常位於面板上方。</p>
+</li>
+</ol>
+<h4><strong>創建新材質 (Create New Material)</strong></h4>
+<ol start="3">
+<li>在材質屬性面板中，點擊 <strong>New</strong> 按鈕來創建一個新的材質。這將為選中的物體創建一個新的材質，並將其命名為預設名稱（例如“Material”）。</li>
+</ol>
+<h4><strong>更名材質 (Rename Material)</strong></h4>
+<ol start="4">
+<li>為了更好地管理材質，建議將材質重命名。單擊材質名稱框，輸入更具描述性的名稱（如 “Wood_Material” 或 “Metal_Shiny”）。</li>
+</ol>
+<h3><strong>2. 使用 Shader Editor 編輯材質 (Editing Materials Using Shader Editor)</strong></h3>
+<h4><strong>開啟 Shader Editor</strong></h4>
+<ol>
+<li>
+<p><span style="color: #e03e2d;">切換到 Shading 工作區</span>。這會自動顯示 <strong>Shader Editor</strong> 和 3D 視窗。選擇工作區上方的 <strong>Shading</strong> 標籤，即可進入。</p>
+<p><span style="color: #3598db;">（在 Blender 中，Shading 區域 是用來創建、編輯和調整物體材質和貼圖的核心區域。它通常是您與材質、貼圖、光照和渲染設定進行互動的地方。Shading 區域包含了不同的工作區域和工具，讓您可以對物體的外觀進行精細調整。以下是 Shading 區域的簡單介紹：</span></p>
+<h3><span style="color: #3598db;">1. Shading 區域的主要組成部分</span></h3>
+<ol>
+<li>
+<p><span style="color: #3598db;">Shader Editor (材質節點編輯器)</span></p>
+<ul>
+<li><span style="color: #3598db;">功能：用於編輯和創建複雜的材質和貼圖。您可以在這裡使用節點來定義材質的外觀，並通過節點之間的連接來實現各種效果。</span></li>
+<li><span style="color: #3598db;">操作：在 Shading 區域，您可以選擇物體並開始對其材質進行編輯，將不同的節點（如 Principled BSDF、Image Texture、Mix Shader 等）連接在一起，調整屬性來創建所需的材質效果。</span></li>
+</ul>
+</li>
+<li>
+<p><span style="color: #3598db;">3D Viewport (三維視窗)</span></p>
+<ul>
+<li><span style="color: #3598db;">功能：用來預覽物體的材質效果，您可以在這裡看到即時反映在 3D 模型上的材質變化。您可以在不同的視圖模式下查看材質（如 Solid、Material Preview、Rendered 等）。</span></li>
+<li><span style="color: #3598db;">操作：在 Rendered 模式下，您可以查看渲染效果，並即時看到材質的視覺效果。</span></li>
+</ul>
+</li>
+<li>
+<p><span style="color: #3598db;">材質屬性面板 (Material Properties Panel)</span></p>
+<ul>
+<li><span style="color: #3598db;">功能：顯示當前選擇物體的材質屬性，您可以在這裡進行快速的材質設置、創建新材質以及管理已經應用到物體上的所有材質。</span></li>
+<li><span style="color: #3598db;">操作：這個面板位於右側，您可以創建新的材質、調整顏色、光澤度、金屬感等屬性，並應用貼圖。</span></li>
+</ul>
+</li>
+</ol>
+<h3><span style="color: #3598db;">2. Shading 區域中的工作區</span></h3>
+<p><span style="color: #3598db;">在 Blender 的 Shading 工作區 中，您會看到以下幾個主要區域：</span></p>
+<ul>
+<li><span style="color: #3598db;">上方欄位：這是操作工具的地方，包括與節點相關的工具和選項（如 Add 节点、连接节点等）。</span></li>
+<li><span style="color: #3598db;">中間區域 (Shader Editor)：這是編輯材質節點的主要區域，您可以在這裡建立或修改材質。不同的節點（如 Principled BSDF、Diffuse、Image Texture 等）將依照需要進行連接，以構建材質的複雜效果。</span></li>
+<li><span style="color: #3598db;">右側區域 (材質屬性面板)：顯示當前物體的材質設定，並提供簡單的控制選項，比如顏色、光滑度、金屬感等。</span></li>
+<li><span style="color: #3598db;">3D 視窗 (3D Viewport)：即時顯示渲染結果，讓您看到材質和貼圖效果。這裡的渲染模式可以設置為 Material Preview 或 Rendered，用於檢視物體的最終效果。</span></li>
+</ul>
+<h3><span style="color: #3598db;">3. 工作流</span></h3>
+<p><span style="color: #3598db;">在 Shading 區域的工作流中，您通常會：</span></p>
+<ol>
+<li><span style="color: #3598db;">在 Shader Editor 中選擇物體並開始編輯材質節點。</span></li>
+<li><span style="color: #3598db;">使用 材質屬性面板 進行簡單的調整，如顏色、光澤度、粗糙度等。</span></li>
+<li><span style="color: #3598db;">在 3D 視窗 中即時查看您的編輯效果，可以切換到 Material Preview 或 Rendered 模式來檢查材質如何在光照下呈現。）</span></li>
+</ol>
+</li>
+<li>
+<p>在 <strong>Shader Editor</strong> 視窗中，您會看到一個基礎的 <strong>Principled BSDF</strong> 節點，它會自動與材質屬性面板中的材質對應。</p>
+</li>
+</ol>
+<h4><strong>選擇材質 (Select Material)</strong></h4>
+<ol start="3">
+<li>在 <strong>Shader Editor</strong> 中，右上角會顯示當前選中的材質名稱，確保選中的物體與此材質對應。</li>
+</ol>
+<h4><strong>修改節點 (Modify Nodes)</strong></h4>
+<ol start="4">
+<li><strong>Principled BSDF</strong> 節點是大多數材質的基礎，您可以修改它的各種屬性：
+<ul>
+<li><strong>Base Color</strong>：設定顏色。</li>
+<li><strong>Roughness</strong>：控制光滑度（0 表示光滑，1 表示粗糙）。</li>
+<li><strong>Metallic</strong>：控制物體是否呈現金屬效果。</li>
+</ul>
+根據需要調整這些數值，您會在 <strong>3D 視窗</strong> 中看到即時變化。</li>
+</ol>
+<h4><strong>添加其他節點 (Add More Nodes)</strong></h4>
+<ol start="5">
+<li>按 <strong>Shift + A</strong>，選擇 <strong>Texture &gt; Image Texture</strong> 節點，這樣可以加載圖像貼圖。將 <strong>Image Texture</strong> 節點的輸出連接到 <strong>Principled BSDF</strong> 節點的相應輸入，如 <strong>Base Color</strong> 或 <strong>Normal</strong>。</li>
+</ol>
+<h3><strong>3. Blender 中的貼圖類型 (Texture Types in Blender)</strong></h3>
+<p>Blender 支援多種貼圖類型，它們對材質效果有不同影響。這裡介紹一些常見貼圖：</p>
+<h4><strong>3.1 顏色貼圖 (Diffuse/Albedo Map)</strong></h4>
+<ul>
+<li><strong>作用</strong>：顏色貼圖決定物體的基礎顏色。</li>
+<li><strong>操作</strong>：
+<ol>
+<li>使用 <strong>Image Texture</strong> 節點來加載顏色貼圖，將其連接到 <strong>Principled BSDF</strong> 節點的 <strong>Base Color</strong> 輸入。</li>
+<li>調整顏色貼圖的 <strong>UV 展開</strong>，確保貼圖準確對應到物體的表面。</li>
+</ol>
+</li>
+</ul>
+<h4><strong>3.2 法線貼圖 (Normal Map)</strong></h4>
+<ul>
+<li><strong>作用</strong>：法線貼圖模擬細節，改變光照反應，但不改變物體幾何形狀。</li>
+<li><strong>操作</strong>：使用 <strong>Normal Map</strong> 節點來處理法線貼圖，並將其連接到 <strong>Principled BSDF</strong> 節點的 <strong>Normal</strong> 輸入。</li>
+</ul>
+<h4><strong>3.3 粗糙度貼圖 (Roughness Map)</strong></h4>
+<ul>
+<li><strong>作用</strong>：控制材質的光滑程度。</li>
+<li><strong>操作</strong>：將 <strong>Image Texture</strong> 節點連接到 <strong>Principled BSDF</strong> 節點的 <strong>Roughness</strong> 輸入。</li>
+</ul>
+<h4><strong>3.4 位移貼圖 (Displacement Map)</strong></h4>
+<ul>
+<li><strong>作用</strong>：實際改變物體的表面高度。</li>
+<li><strong>操作</strong>：使用 <strong>Displacement</strong> 節點，將 <strong>Image Texture</strong> 節點的輸出連接到 <strong>Displacement</strong> 節點的 <strong>Height</strong> 輸入，並將其輸出連接到 <strong>Material Output</strong> 節點的 <strong>Displacement</strong> 輸入。</li>
+</ul>
+<h4><strong>3.5 透明貼圖 (Alpha/Transparency Map)</strong></h4>
+<ul>
+<li><strong>作用</strong>：控制物體透明度。</li>
+<li><strong>操作</strong>：
+<ol>
+<li>使用 <strong>Image Texture</strong> 節點來加載透明貼圖，將其連接到 <strong>Principled BSDF</strong> 節點的 <strong>Alpha</strong> 輸入。</li>
+<li>在材質屬性面板中，將 <strong>Blend Mode</strong> 設為 <strong>Alpha Blend</strong>，使物體具有透明效果。</li>
+</ol>
+</li>
+</ul>
+<h3><strong>4. 如何將貼圖應用於材質 (Applying Textures to Materials)</strong></h3>
+<h4><strong>加載貼圖</strong></h4>
+<ol>
+<li>按 <strong>Shift + A</strong>，選擇 <strong>Texture &gt; Image Texture</strong> 節點。</li>
+<li>在 <strong>Image Texture</strong> 節點中，點擊 <strong>Open</strong> 按鈕，選擇您要加載的貼圖。</li>
+</ol>
+<h4><strong>設置 UV 展開 (Setting Up UV Unwrapping)</strong></h4>
+<ol>
+<li>進入 <strong>UV Editing</strong> 工作區。</li>
+<li>在 <strong>UV Editing</strong> 視窗中，選擇物體，進行 <strong>UV 展開</strong>，將 3D 物體的表面展開為 2D 平面，這樣貼圖就能正確映射到物體表面。</li>
+</ol>
+<h3><strong>5. 調整與優化貼圖 (Adjusting and Optimizing Textures)</strong></h3>
+<h4><strong>Mapping 節點 (Mapping Node)</strong></h4>
+<p>使用 <strong>Mapping</strong> 節點來控制貼圖的縮放、旋轉和位置。將其連接到 <strong>Texture Coordinate</strong> 節點，再將 <strong>Texture Coordinate</strong> 節點連接到 <strong>Image Texture</strong> 節點。</p>
+<h4><strong>顏色空間 (Color Space)</strong></h4>
+<p>根據貼圖類型選擇適當的顏色空間。如果是法線貼圖或位移貼圖，請選擇 <strong>Non-Color Data</strong>，以保持數據準確。</p>
+<h3><strong>6. 預覽貼圖效果 (Previewing Textures)</strong></h3>
+<h4><strong>渲染模式 (Rendered View)</strong></h4>
+<p>在 <strong>3D 視窗</strong> 中，切換視圖模式為 <strong>Rendered</strong>，以即時查看材質和貼圖效果。這樣您就能看到渲染後的實際效果。</p>
+<h4><strong>選擇渲染引擎 (Render Engine)</strong></h4>
+<p>使用 <strong>Cycles 渲染引擎</strong>，您可以得到更真實的渲染效果，但會耗費更多時間。<strong>Eevee 渲染引擎</strong>則提供即時預覽，更適合快速檢查。</p>
+<h3><strong>7. 保存與重用材質 (Saving and Reusing Materials)</strong></h3>
+<h4><strong>保存為資源 (Save as Asset)</strong></h4>
+<p>您可以將材質保存為 <strong>Asset</strong>，在其他場景或項目中重用。在 <strong>材質屬性面板</strong> 中，點擊 <strong>Shield 圖標</strong>（它位於材質名稱旁邊）。這樣，您創建的材質將被保存為資源，可以在 <strong>資源瀏覽器</strong> 中進行管理和重用。</p>
+<h4><strong>導出與共享材質 (Exporting and Sharing Materials)</strong></h4>
+<ol>
+<li>
+<p>如果您希望將材質從一個項目導出並在另一個項目中使用，您可以使用 <strong>Blender 的 Asset Library</strong> 或者將材質保存為 <strong>.blend 文件</strong>，然後將其加載到其他項目中。這樣可以保證材質不會丟失，並且可以跨場景使用。</p>
+</li>
+<li>
+<p>您也可以將整個物體導出為 <strong>.fbx</strong> 或 <strong>.obj</strong> 等格式，這樣在其他 3D 應用中也能繼承這些材質設定。</p>
+</li>
+</ol>
+<hr>
+<h3><strong>進階技巧與最佳實踐 (Advanced Tips and Best Practices)</strong></h3>
+<h4><strong>1. 使用程序化貼圖 (Procedural Textures)</strong></h4>
+<ul>
+<li>
+<p><strong>程序化貼圖</strong>不依賴於外部圖像檔案，而是使用數學算法來生成貼圖。這樣可以創建不需要手動繪製的紋理，並且具有更多的控制權。</p>
+<p><strong>操作步驟</strong>：</p>
+<ol>
+<li>按 <strong>Shift + A</strong>，選擇 <strong>Texture &gt; Noise</strong>，<strong>Texture &gt; Musgrave</strong> 等節點來生成程序化貼圖。</li>
+<li>您可以使用這些節點與其他節點組合，來創建地面、牆壁等不規則的紋理效果。</li>
+</ol>
+</li>
+</ul>
+<h4><strong>2. 使用節點組合創建復雜的材質 (Creating Complex Materials Using Node Combinations)</strong></h4>
+<ul>
+<li>
+<p>您可以將多個節點組合起來，創建更加複雜的材質。例如，使用 <strong>混合著色器（Mix Shader）</strong> 節點來結合不同的 <strong>Principled BSDF</strong> 節點，來創建多層次的材質效果（如金屬、玻璃、水面等）。</p>
+<p><strong>操作步驟</strong>：</p>
+<ol>
+<li>按 <strong>Shift + A</strong>，選擇 <strong>Shader &gt; Mix Shader</strong>，將兩個不同的 <strong>Principled BSDF</strong> 節點通過 <strong>Mix Shader</strong> 節點進行混合。</li>
+<li>通過使用 <strong>Fac</strong> 輸入控制混合比例，並根據需要進一步調整其他屬性，如 <strong>Base Color</strong> 和 <strong>Roughness</strong>。</li>
+</ol>
+</li>
+</ul>
+<h4><strong>3. 高效的貼圖管理 (Efficient Texture Management)</strong></h4>
+<ul>
+<li>當您在場景中使用多個貼圖時，合理組織和管理貼圖會顯得尤為重要。以下是一些小技巧：
+<ol>
+<li>使用有意義的文件夾來組織貼圖文件，確保貼圖有清晰的命名規則（例如：<code>Wood_Texture_1.jpg</code>，<code>Brick_NormalMap.png</code>）。</li>
+<li>可以使用 <strong>UV 編輯器</strong> 中的 “<strong>選擇所有面</strong>” 和 “<strong>拉伸</strong>” 工具來確保 UV 布局不會產生不必要的拉伸，保持貼圖的質量。</li>
+</ol>
+</li>
+</ul>
+<h4><strong>4. 渲染優化與貼圖效果 (Rendering Optimization and Texture Effects)</strong></h4>
+<p> </p>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li>使用高解析度貼圖雖然能帶來更真實的效果，但會增加渲染時間。您可以根據需要平衡貼圖的解析度與渲染速度：
+<ol>
+<li>使用 <strong>Mipmap</strong> 技術來降低遠距離物體的貼圖解析度，這樣可以減少內存佔用並加速渲染。</li>
+<li><strong>烘焙貼圖（Bake Textures）</strong>：當需要高效的渲染結果時，可以考慮將動態材質和光照烘焙成靜態貼圖，這樣可以顯著提高渲染速度。</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>BlenderCH22資源推薦</title>
+        <author>
+            <name>buzzlightyeah!</name>
+        </author>
+        <link href="https://buzzlightyeah88.github.io/hangry3001/blenderch22.html"/>
+        <id>https://buzzlightyeah88.github.io/hangry3001/blenderch22.html</id>
+            <category term="Fri345"/>
+            <category term="All Posts"/>
+
+        <updated>2024-12-27T02:51:00+08:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>BlenderCH21角色</title>
         <author>
             <name>buzzlightyeah!</name>
         </author>
@@ -19,37 +261,1058 @@
             <category term="Fri345"/>
             <category term="All Posts"/>
 
-        <updated>2024-12-28T02:48:38+08:00</updated>
-            <summary></summary>
-        <content></content>
+        <updated>2024-12-27T02:48:00+08:00</updated>
+            <summary>
+                <![CDATA[
+                    一、角色建模基礎 角色建模的目的是構建角色的初始形狀。從簡單的幾何形狀開始，逐步細化到完成的模型。 添加基本幾何 使用鏡像修改器（Mirror Modifier） 調整比例 細分幾何 手動調整頂點 雕刻是用來添加模型細節的核心功能。Blender 提供多種雕刻筆刷和實用工具。 Blender 提供多達&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h3><strong>一、角色建模基礎</strong></h3>
+<p>角色建模的目的是構建角色的初始形狀。從簡單的幾何形狀開始，逐步細化到完成的模型。</p>
+<h4><strong>1. 預備工作</strong></h4>
+<ol>
+<li><strong>設定參考圖像</strong>
+<ul>
+<li>在 Blender 中，切換到「前視圖」（按數字鍵 1），進入正交模式（按數字鍵 5）。</li>
+<li>導入參考圖像：點擊 <code>Shift + A</code> &gt; Image &gt; Reference，選擇角色的正面和側面圖片。</li>
+<li>將圖像分別對齊到 Z 軸（正面）和 X 軸（側面），確保兩張圖片比例一致。</li>
+</ul>
+</li>
+<li><strong>設置單位和比例</strong>
+<ul>
+<li>在右側屬性欄中，點擊「場景屬性（Scene Properties）」&gt; 單位（Units），設置為「公制（Metric）」。</li>
+<li>通常，角色的高度設為 1.8 公尺（成人）。</li>
+</ul>
+</li>
+</ol>
+<h4><strong>2. 建立基礎形狀</strong></h4>
+<ol>
+<li>
+<p><strong>添加基本幾何</strong></p>
+<ul>
+<li>按 <code>Shift + A</code> 添加基本幾何體（例如立方體或圓柱體）。</li>
+<li>通過縮放（<code>S</code> 鍵）和移動（<code>G</code> 鍵）調整大致的頭部、軀幹、手臂和腿部的比例。</li>
+</ul>
+</li>
+<li>
+<p><strong>使用鏡像修改器（Mirror Modifier）</strong></p>
+<ul>
+<li>為角色建模只需創建一側，使用鏡像功能自動生成對稱部分。</li>
+<li>添加修改器：右側屬性欄 &gt; 「修改器」&gt; Add Modifier &gt; Mirror。</li>
+<li>將鏡像軸設置為 X 軸，確保中心線對齊角色的中線。</li>
+</ul>
+</li>
+<li>
+<p><strong>調整比例</strong></p>
+<ul>
+<li>參考「8頭身比例法」：
+<ul>
+<li>頭部：1個頭部的高度。</li>
+<li>頸部到腰部：3個頭部的高度。</li>
+<li>腿部：4個頭部的高度。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h4><strong>3. 擴展和細化模型</strong></h4>
+<ol>
+<li>
+<p><strong>細分幾何</strong></p>
+<ul>
+<li>點擊 <code>Ctrl + R</code> 使用 Loop Cut，增加網格細分。</li>
+<li>根據角色的特徵，增加額外的細分以便進一步雕刻。</li>
+</ul>
+</li>
+<li>
+<p><strong>手動調整頂點</strong></p>
+<ul>
+<li>切換到編輯模式（Tab 鍵），選擇頂點（Vertex Selection）。</li>
+<li>使用移動（<code>G</code> 鍵）和縮放（<code>S</code> 鍵）調整模型的形狀。</li>
+</ul>
+</li>
+</ol>
+<h3><strong>二、雕刻工具使用</strong></h3>
+<p>雕刻是用來添加模型細節的核心功能。Blender 提供多種雕刻筆刷和實用工具。</p>
+<h4><strong>1. 切換到雕刻模式</strong></h4>
+<ol>
+<li>在物件模式中，選中模型。</li>
+<li>按 <code>Tab</code> 或從左上角模式菜單切換到「雕刻模式（Sculpt Mode）」。</li>
+<li>確保模型的多邊形數量足夠（應用細分曲面或啟用動態拓撲，見下文）。</li>
+</ol>
+<h4><strong>2. 使用雕刻筆刷</strong></h4>
+<p>Blender 提供多達 20 多種筆刷。以下是常用筆刷的介紹及應用：</p>
+<ol>
+<li>
+<p><strong>Draw（繪畫筆刷）</strong></p>
+<ul>
+<li>功能：添加或移除模型表面的小凸起或凹陷。</li>
+<li>用途：雕刻皮膚細節、肌肉線條。</li>
+<li>調整：改變筆刷大小（F 鍵）和強度（Shift + F 鍵）。</li>
+</ul>
+</li>
+<li>
+<p><strong>Smooth（平滑筆刷）</strong></p>
+<ul>
+<li>功能：平滑模型表面，消除不規則的細節。</li>
+<li>用途：修正雕刻時的多餘細節。</li>
+<li>快捷鍵：按住 <code>Shift</code> 在任何筆刷模式下臨時切換到平滑。</li>
+</ul>
+</li>
+<li>
+<p><strong>Crease（摺痕筆刷）</strong></p>
+<ul>
+<li>功能：創建銳利的摺痕或邊緣。</li>
+<li>用途：雕刻眼睛周圍的皺紋或衣服的褶皺。</li>
+</ul>
+</li>
+<li>
+<p><strong>Grab（抓取筆刷）</strong></p>
+<ul>
+<li>功能：移動大範圍的幾何。</li>
+<li>用途：快速調整角色比例，例如延長手臂或腿部。</li>
+</ul>
+</li>
+<li>
+<p><strong>Inflate（膨脹筆刷）</strong></p>
+<ul>
+<li>功能：使模型局部區域向外膨脹。</li>
+<li>用途：雕刻肌肉或角色的臉頰。</li>
+</ul>
+</li>
+</ol>
+<h4><strong>3. 動態拓撲（Dynamic Topology）</strong></h4>
+<ol>
+<li><strong>開啟動態拓撲</strong>
+<ul>
+<li>在雕刻模式下，右側工具欄中啟用「動態拓撲」。</li>
+<li>選擇細分方式：細分-摺疊（Subdivision Collapse）適合創建更精細的細節。</li>
+</ul>
+</li>
+<li><strong>優化性能</strong>
+<ul>
+<li>選擇適當的解析度（Resolution），通常設為 10-20。</li>
+<li>經常檢查多邊形數量，避免過多頂點導致卡頓。</li>
+</ul>
+</li>
+</ol>
+<h3><strong>三、細節處理</strong></h3>
+<p>細節處理是讓模型更具真實感的關鍵步驟。</p>
+<h4><strong>1. 細分曲面</strong></h4>
+<ol>
+<li><strong>添加細分曲面修改器</strong>
+<ul>
+<li>選中模型，進入「修改器」面板。</li>
+<li>添加 Subdivision Surface 修改器，設置細分級別為 2 或 3。</li>
+</ul>
+</li>
+<li><strong>應用修改器</strong>
+<ul>
+<li>當模型基礎完成且雕刻細節已定型時，應用修改器（Apply），以便進一步雕刻。</li>
+</ul>
+</li>
+</ol>
+<h4><strong>2. 增加微細細節</strong></h4>
+<ol>
+<li><strong>使用細節雕刻筆刷</strong>
+<ul>
+<li>例如，使用 Crease（摺痕筆刷）雕刻角色臉部的細紋，或用 Draw 筆刷加強肌肉的線條感。</li>
+</ul>
+</li>
+<li><strong>手繪貼圖</strong>
+<ul>
+<li>切換到 Texture Paint 模式，在模型表面繪製紋理，添加逼真的皮膚細節或衣物紋理。</li>
+</ul>
+</li>
+</ol>
+<h4><strong>3. 模擬布料與配件</strong></h4>
+<ol>
+<li><strong>模擬布料</strong>
+<ul>
+<li>使用 Blender 的布料模擬器創建角色的衣服。</li>
+<li>調整重力和布料屬性以模擬真實的褶皺效果。</li>
+</ul>
+</li>
+<li><strong>添加配件</strong>
+<ul>
+<li>使用獨立建模或雕刻技術創建角色的配件，如帽子、鞋子或武器。</li>
+</ul>
+</li>
+</ol>
+<h3><strong>四、拓撲重建（Retopology）</strong></h3>
+<p>在雕刻模式下，模型的多邊形數量可能非常高，這對動畫或遊戲來說並不實用。拓撲重建能有效降低多邊形數量並優化網格結構。</p>
+<h4><strong>1. 手動拓撲重建</strong></h4>
+<ol>
+<li>
+<p><strong>添加新網格</strong></p>
+<ul>
+<li>創建新物件，添加一個簡單的平面（Plane）。</li>
+<li>進入編輯模式（Tab鍵），將平面縮放至適合角色的比例。</li>
+</ul>
+</li>
+<li>
+<p><strong>啟用快照功能（Snap）</strong></p>
+<ul>
+<li>在界面頂部啟用「快照到面（Snap to Face）」。</li>
+<li>開啟「投射到其他物體（Project Individual Elements on Surface）」。</li>
+</ul>
+</li>
+<li>
+<p><strong>手動重新拓撲</strong></p>
+<ul>
+<li>選擇角色模型作為參考，在其表面上逐步構建新的低多邊形網格。</li>
+<li>使用 <code>Ctrl + R</code> 添加邊環（Loop Cut），並將頂點手動調整到合理位置。</li>
+<li>確保拓撲結構遵循動畫要求，例如保持環形結構（Loops）在眼睛、嘴巴和關節處。</li>
+</ul>
+</li>
+</ol>
+<h4><strong>2. 自動拓撲重建</strong></h4>
+<p>如果手動拓撲過於耗時，可以嘗試使用 Blender 自帶的自動拓撲工具：</p>
+<ol>
+<li><strong>啟用動態重建（Remesh）</strong>
+<ul>
+<li>在雕刻模式下，使用右側工具欄中的「重構（Remesh）」功能。</li>
+<li>設置適當的解析度（Voxel Size），例如 0.01 - 0.05，視模型細節而定。</li>
+</ul>
+</li>
+<li><strong>檢查結果</strong>
+<ul>
+<li>自動拓撲可能會導致某些部位的細節丟失，需要手動微調。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3><strong>五、UV 展開</strong></h3>
+<p>UV 展開是將 3D 模型的表面「展平」成 2D，便於應用材質和貼圖。</p>
+<h4><strong>1. 自動展開 UV</strong></h4>
+<ol>
+<li>進入編輯模式（Tab鍵），選中模型。</li>
+<li>使用 <code>U</code> 快捷鍵，選擇「Smart UV Project」。
+<ul>
+<li>此方法適合初學者，可快速生成合理的 UV 展開，但控制力較低。</li>
+</ul>
+</li>
+</ol>
+<h4><strong>2. 手動展開 UV</strong></h4>
+<ol>
+<li><strong>創建縫線（Seam）</strong>
+<ul>
+<li>在編輯模式中，切換到邊緣選擇（Edge Select）。</li>
+<li>選中需要切割的邊（如模型背部或非顯眼處），按 <code>Ctrl + E</code> &gt; 「標記縫線（Mark Seam）」。</li>
+</ul>
+</li>
+<li><strong>展開 UV</strong>
+<ul>
+<li>按 <code>U</code> &gt; 「展開（Unwrap）」，查看展開效果。</li>
+</ul>
+</li>
+<li><strong>檢查 UV 分佈</strong>
+<ul>
+<li>切換到 UV 編輯工作區，確保展開的 UV 峰值均勻分布且無明顯拉伸。</li>
+</ul>
+</li>
+</ol>
+<h3><strong>六、材質與貼圖</strong></h3>
+<p>材質和貼圖能賦予角色逼真的外觀，從皮膚紋理到衣物細節。</p>
+<h4><strong>1. 基本材質設置</strong></h4>
+<ol>
+<li>進入材質屬性（右側屬性面板中的球體圖標）。</li>
+<li>點擊「新建（New）」創建材質。</li>
+<li><strong>設置基礎顏色</strong>
+<ul>
+<li>在基礎著色器（Principled BSDF）中調整 Base Color。</li>
+<li>添加粗糙度（Roughness）和金屬度（Metallic）來模擬不同材質效果。</li>
+</ul>
+</li>
+</ol>
+<h4><strong>2. 使用貼圖</strong></h4>
+<ol>
+<li><strong>添加貼圖</strong>
+<ul>
+<li>導入外部紋理貼圖（如皮膚、衣物的圖像），並應用到 Base Color 中。</li>
+</ul>
+</li>
+<li><strong>連接紋理節點</strong>
+<ul>
+<li>切換到「著色工作區（Shading Workspace）」。</li>
+<li>添加「圖像紋理（Image Texture）」節點，連接到基礎著色器的 Base Color。</li>
+</ul>
+</li>
+<li><strong>檢查貼圖</strong>
+<ul>
+<li>在 UV 編輯器中查看貼圖分佈，確保無明顯的拉伸或錯位。</li>
+</ul>
+</li>
+</ol>
+<h4><strong>3. 法線貼圖與置換貼圖</strong></h4>
+<ol>
+<li><strong>法線貼圖（Normal Map）</strong>
+<ul>
+<li>添加法線貼圖節點，用於模擬表面細節（如皺紋、紋理）。</li>
+<li>連接到基礎著色器的「Normal」插槽。</li>
+</ul>
+</li>
+<li><strong>置換貼圖（Displacement Map）</strong>
+<ul>
+<li>如果需要更真實的細節，可以使用置換貼圖來改變模型表面幾何。</li>
+</ul>
+</li>
+</ol>
+<h3><strong>七、角色綁定與骨骼系統（Rigging）</strong></h3>
+<p>角色綁定是為模型添加骨骼，用於動畫控制。</p>
+<h4><strong>1. 添加骨骼（Armature）</strong></h4>
+<ol>
+<li>按 <code>Shift + A</code> &gt; Armature &gt; Single Bone，添加一根骨骼。</li>
+<li>進入骨骼編輯模式（Edit Mode），根據角色的身體結構調整骨骼位置。
+<ul>
+<li>例如，添加脊椎、手臂、腿部和頭部骨骼。</li>
+</ul>
+</li>
+</ol>
+<h4><strong>2. 自動權重綁定</strong></h4>
+<ol>
+<li>選中角色模型，然後按住 <code>Shift</code> 選中骨骼。</li>
+<li>按 <code>Ctrl + P</code> &gt; 選擇「自動權重（With Automatic Weights）」。
+<ul>
+<li>這會自動將模型的頂點分配給相應的骨骼。</li>
+</ul>
+</li>
+</ol>
+<h4><strong>3. 測試綁定效果</strong></h4>
+<ol>
+<li>切換到姿勢模式（Pose Mode）。</li>
+<li>選中骨骼並進行旋轉（R鍵）或移動（G鍵），檢查模型是否跟隨骨骼變形。</li>
+</ol>
+<h3><strong>八、燈光與渲染</strong></h3>
+<p>完成模型後，可以添加燈光和相機，進行最終的渲染。</p>
+<h4><strong>1. 添加燈光</strong></h4>
+<ol>
+<li>按 <code>Shift + A</code> &gt; Light &gt; Point/Spot/Sun，選擇適合的燈光類型。</li>
+<li>調整燈光強度和位置，確保角色面部和細節能夠清晰呈現。</li>
+</ol>
+<h4><strong>2. 調整渲染設置</strong></h4>
+<ol>
+<li>進入渲染屬性（右側屬性面板中的相機圖標）。</li>
+<li>渲染引擎選擇：
+<ul>
+<li>Eevee：適合快速渲染和預覽。</li>
+<li>Cycles：適合高品質渲染，支持全局光照和真實反射。</li>
+</ul>
+</li>
+<li>調整分辨率與採樣數量：
+<ul>
+<li>分辨率：1920x1080 或更高。</li>
+<li>採樣：Eevee 建議 64-128，Cycles 建議 200-500。</li>
+</ul>
+</li>
+</ol>
+<h4><strong>3. 最終渲染</strong></h4>
+<p> </p>
+<ol>
+<li style="list-style-type: none;">
+<ol>
+<li style="list-style-type: none;">
+<ol>
+<li>設置好相機角度（按 <code>N</code> 調整 View &gt; Lock Camera to View）。</li>
+<li>按 <code>F12</code> 渲染圖片。</li>
+<li>渲染完成後，保存結果（<code>Ctrl + S</code> 或 File &gt; Save As）。</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<h3><strong>九、進階拓撲與網格優化</strong></h3>
+<h4><strong>1. 確保動畫友好的拓撲</strong></h4>
+<p>拓撲重建時需要考慮模型的動畫效果，以下部位的拓撲需特別注意：</p>
+<ul>
+<li><strong>面部</strong>：眼睛、嘴巴周圍應該有同心環形結構（Loops），用於表情動畫。</li>
+<li><strong>關節</strong>：膝蓋、肘部等關節處應有額外的邊環以支持彎曲和變形。</li>
+</ul>
+<h4><strong>2. 清理多餘的幾何</strong></h4>
+<ol>
+<li>切換到編輯模式，選擇所有頂點（<code>A</code> 鍵）。</li>
+<li>在頂點菜單中選擇「合併重疊頂點（Merge by Distance）」，刪除重疊頂點。</li>
+<li>使用 <code>Ctrl + T</code> 將非三角形面轉為三角形（適合遊戲引擎使用）。</li>
+</ol>
+<h4><strong>3. 減少網格密度</strong></h4>
+<ul>
+<li>對於高多邊形模型，可以使用「Decimate Modifier」減少面數。</li>
+<li>減少後檢查模型細節是否受到影響，必要時手動修復。</li>
+</ul>
+<h3><strong>十、表情綁定與形變（Shape Keys）</strong></h3>
+<p>如果角色需要有表情變化，可以使用形變鍵（Shape Keys）製作面部表情。</p>
+<h4><strong>1. 添加形變鍵</strong></h4>
+<ol>
+<li>在物件模式下，選中角色模型。</li>
+<li>在屬性欄中打開「數據屬性（Object Data Properties）」&gt; Shape Keys。</li>
+<li>點擊「+」號，創建基礎形狀（Basis）。</li>
+<li>再次點擊「+」，創建新的形變鍵，命名為例如「Smile」。</li>
+</ol>
+<h4><strong>2. 編輯形變</strong></h4>
+<ol>
+<li>切換到編輯模式，手動調整頂點，創建表情（如嘴角上揚）。</li>
+<li>返回物件模式，調整形變滑桿（Value），預覽表情效果。</li>
+</ol>
+<h4><strong>3. 配合骨骼使用</strong></h4>
+<ul>
+<li>形變鍵可以與骨骼結合，例如角色笑時張嘴的幅度與形變鍵同步。</li>
+</ul>
+<h3><strong>十一、進階材質與貼圖</strong></h3>
+<h4><strong>1. 使用多層貼圖</strong></h4>
+<ol>
+<li><strong>皮膚細節層次</strong>
+<ul>
+<li>基礎貼圖（Base Color）：角色皮膚的主要顏色。</li>
+<li>法線貼圖（Normal Map）：添加毛孔、皺紋等細節。</li>
+<li>高光貼圖（Specular Map）：模擬皮膚的光澤。</li>
+</ul>
+</li>
+<li><strong>疊加其他材質</strong>
+<ul>
+<li>例如添加斑點、疤痕或泥土效果，可用透明度貼圖（Alpha Map）疊加到皮膚上。</li>
+</ul>
+</li>
+</ol>
+<h4><strong>2. 使用貼圖繪製工具</strong></h4>
+<ol>
+<li>在「紋理繪製模式（Texture Paint）」中，可以直接在模型上畫出細節，例如斑點、化妝、傷疤。</li>
+<li>配合筆刷（Brush）和遮罩（Mask）功能，控制細節繪製範圍。</li>
+</ol>
+<h3><strong>十二、進階渲染與後期處理</strong></h3>
+<h4><strong>1. 使用 HDR 環境光</strong></h4>
+<ol>
+<li>添加 HDRI（高動態範圍圖像）作為背景光源：
+<ul>
+<li>在「世界屬性（World Properties）」中，將背景設定為環境貼圖（Environment Texture），導入 HDRI。</li>
+<li>提高環境光強度，增強細節的真實感。</li>
+</ul>
+</li>
+</ol>
+<h4><strong>2. 添加景深與光暈</strong></h4>
+<ol>
+<li>開啟相機的景深（Depth of Field）功能，模糊遠景，突出角色。</li>
+<li>在「合成工作區（Compositing）」中，加入光暈效果（Glare Filter），讓場景更具吸引力。</li>
+</ol>
+<h4><strong>3. 使用影片編輯器進行後期</strong></h4>
+<ol>
+<li>在渲染完成後，使用 Blender 內置的「視頻序列編輯器（Video Sequencer）」進行後期調色。</li>
+<li>增加亮度、對比度或添加特效濾鏡。</li>
+</ol>
+<h3><strong>十三、解決常見問題</strong></h3>
+<h4><strong>1. 雕刻時細節丟失</strong></h4>
+<ul>
+<li>啟用「動態拓撲（Dynamic Topology）」或提高網格解析度（Voxel Size 設為更小值）。</li>
+<li>檢查是否應用了細分曲面修改器。</li>
+</ul>
+<h4><strong>2. UV 拉伸問題</strong></h4>
+<ul>
+<li>確保 UV 展開時選對了展開方式（如 Unwrap 或 Smart UV Project）。</li>
+<li>在 UV 編輯器中使用「平均拉伸（Average Island Scale）」功能，均勻縮放 UV 峰值。</li>
+</ul>
+<h4><strong>3. 貼圖無法正確顯示</strong></h4>
+<ul>
+<li>確認貼圖節點已正確連接至材質。</li>
+<li>在「材質預覽模式」檢查是否 UV 對應正確。</li>
+</ul>
+<hr>
+<h3><strong>十四、優化導出至遊戲引擎</strong></h3>
+<p> </p>
+<ol>
+<li style="list-style-type: none;">
+<ol>
+<li style="list-style-type: none;">
+<ol>
+<li style="list-style-type: none;">
+<ol>
+<li>
+<p><strong>檢查模型限制</strong></p>
+<ul>
+<li>多邊形數量適合遊戲需求（例如 5k-50k 範圍）。</li>
+<li>刪除隱藏面（Invisible Faces），減少不必要的幾何。</li>
+</ul>
+</li>
+<li>
+<p><strong>貼圖打包</strong></p>
+<ul>
+<li>使用 Blender 的「貼圖烘焙（Bake）」功能，將多層材質整合成單一貼圖。</li>
+<li>常用貼圖類型包括 Diffuse（漫射）、Normal（法線）和 Ambient Occlusion（環境光遮擋）。</li>
+</ul>
+</li>
+<li>
+<p><strong>選擇導出格式</strong></p>
+<ul>
+<li>遊戲常用格式：FBX 或 GLTF。</li>
+<li>在導出時選擇「包括動畫（Include Animation）」和「包含貼圖（Include Textures）」選項。</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+            ]]>
+        </content>
     </entry>
     <entry>
-        <title>BlenderCH20角色建模</title>
-        <author>
-            <name>buzzlightyeah!</name>
-        </author>
-        <link href="https://buzzlightyeah88.github.io/hangry3001/blenderch20.html"/>
-        <id>https://buzzlightyeah88.github.io/hangry3001/blenderch20.html</id>
-            <category term="Fri345"/>
-            <category term="All Posts"/>
-
-        <updated>2024-12-28T02:45:40+08:00</updated>
-            <summary></summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>BlenderCH19粒子</title>
+        <title>BlenderCH19粒子、流體、布料</title>
         <author>
             <name>buzzlightyeah!</name>
         </author>
         <link href="https://buzzlightyeah88.github.io/hangry3001/blenderch19.html"/>
         <id>https://buzzlightyeah88.github.io/hangry3001/blenderch19.html</id>
+        <media:content url="https://buzzlightyeah88.github.io/hangry3001/media/posts/35/Jie-Tu-2024-12-28-Ling-Chen-2.59.54.png" medium="image" />
             <category term="Fri345"/>
             <category term="All Posts"/>
 
-        <updated>2024-12-28T02:45:23+08:00</updated>
-            <summary></summary>
-        <content></content>
+        <updated>2024-12-27T02:45:00+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/35/Jie-Tu-2024-12-28-Ling-Chen-2.59.54.png" alt="" />
+                    1. 粒子系統基礎 1.1 開啟粒子系統 選擇物體： 進入粒子系統屬性： 新增粒子系統： 選擇粒子類型： Number（粒子數量）： Frame Start /&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/35/Jie-Tu-2024-12-28-Ling-Chen-2.59.54.png" class="type:primaryImage" alt="" /></p>
+                <h2>1. 粒子系統基礎</h2>
+<h3>1.1 開啟粒子系統</h3>
+<ol>
+<li>
+<p><strong>選擇物體</strong>：</p>
+<ul>
+<li>在 3D 視窗中選擇一個物體，這個物體會作為粒子的發射源。</li>
+<li>例如，可以選擇一個立方體或球體。</li>
+</ul>
+</li>
+<li>
+<p><strong>進入粒子系統屬性</strong>：</p>
+<ul>
+<li>在右側面板中，找到一個名為<strong>粒子屬性</strong>（Particles Properties）的圖標，這個圖標看起來像是一個小圓圈和尾巴的形狀，位於一系列屬性選項的中間部分。</li>
+</ul>
+</li>
+<li>
+<p><strong>新增粒子系統</strong>：</p>
+<ul>
+<li>點選**+ New** 按鈕，會創建一個新的粒子系統，並且此時會出現粒子屬性面板。</li>
+</ul>
+</li>
+</ol>
+<h3>1.2 設定粒子系統</h3>
+<ol>
+<li>
+<p><strong>選擇粒子類型</strong>：</p>
+<ul>
+<li>在<strong>Type</strong>欄位中，選擇粒子系統的類型：
+<ul>
+<li><strong>Emitter</strong>（發射器）：粒子會被發射並且向外散開，通常用於煙霧、火焰等效果。</li>
+<li><strong>Hair</strong>（毛發）：粒子會固定在物體上，通常用來模擬頭髮或草等。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Number</strong>（粒子數量）：</p>
+<ul>
+<li>在<strong>Number</strong>欄位中，設置要生成的粒子數量。你可以手動調整此數值，通常煙霧或火焰需要更多的粒子。</li>
+</ul>
+</li>
+<li>
+<p><strong>Frame Start / End</strong>（發射起始與結束幀）：</p>
+<ul>
+<li>設定粒子生成的起始與結束時間。這樣可以控制粒子生成的時間範圍。</li>
+</ul>
+</li>
+<li>
+<p><strong>Lifetime</strong>（粒子生命週期）：</p>
+<ul>
+<li>設定每個粒子的生存時間，通常用幀數來表示。例如，如果你希望粒子在30幀後消失，設置為30。</li>
+</ul>
+</li>
+<li>
+<p><strong>Emit From</strong>（發射位置）：</p>
+<ul>
+<li>設定粒子生成的區域。選擇<strong>Faces</strong>（面）會使粒子從物體的表面發射，選擇<strong>Volume</strong>（體積）則會從物體的內部發射粒子，選擇<strong>Vertices</strong>（頂點）會從物體的頂點發射粒子。</li>
+</ul>
+</li>
+<li>
+<p><strong>Initial Velocity</strong>（初始速度）：</p>
+<ul>
+<li>在<strong>Velocity</strong>選項下，你可以調整粒子的速度：
+<ul>
+<li><strong>Normal</strong>：設定粒子沿著物體表面的法線方向的速度。</li>
+<li><strong>Random</strong>：設定隨機的速度，使粒子在不同的方向上發射。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Render</strong>（渲染顯示）：</p>
+<ul>
+<li>在粒子屬性面板的<strong>Render</strong>區域，你可以設定粒子的顯示樣式：
+<ul>
+<li><strong>Halo</strong>（光暈）：使粒子顯示為小圓點，常用於煙霧等效果。</li>
+<li><strong>Object</strong>（物體）：讓每個粒子渲染成指定的物體（例如小球、立方體等）。</li>
+<li><strong>Group</strong>（群組）：使用一組物體作為粒子渲染。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3>1.3 進階效果：煙霧與火焰</h3>
+<ol>
+<li>
+<p><strong>煙霧</strong>：</p>
+<ul>
+<li>點選<strong>Render</strong>欄位，選擇<strong>Halo</strong>來讓粒子顯示為光暈。</li>
+<li>在<strong>Physics</strong>（物理）面板中，選擇<strong>Fluid</strong>（流體）選項來設定煙霧源。</li>
+<li>在<strong>Smoke</strong>（煙霧）模組中，選擇<strong>Flow Type</strong>為<strong>Smoke</strong>，並設置<strong>Flow Behavior</strong>（流動行為）為<strong>Inflow</strong>，這樣可以讓粒子形成煙霧效果。</li>
+</ul>
+</li>
+<li>
+<p><strong>火焰</strong>：</p>
+<ul>
+<li>在<strong>Render</strong>欄位中，選擇<strong>Object</strong>，並將火焰對應的物體設置為粒子物體。</li>
+<li>在<strong>Physics</strong>面板中，選擇<strong>Fluid</strong>，並將<strong>Flow Type</strong>設置為<strong>Fire</strong>，這樣粒子就會模擬出火焰。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2>2. 流體模擬</h2>
+<h3>2.1 開啟流體模擬</h3>
+<ol>
+<li>
+<p><strong>選擇物體</strong>：</p>
+<ul>
+<li>在 3D 視窗中選擇一個物體，這個物體將作為流體模擬的容器或流體源。</li>
+</ul>
+</li>
+<li>
+<p><strong>開啟流體屬性</strong>：</p>
+<ul>
+<li>在右側面板中選擇<strong>物理屬性</strong>（Physics Properties），並選擇<strong>Fluid</strong>（流體）選項。</li>
+</ul>
+</li>
+</ol>
+<h3>2.2 設定流體模擬</h3>
+<ol>
+<li>
+<p><strong>Domain（流體範圍）</strong>：</p>
+<ul>
+<li>設定一個物體作為<strong>Domain</strong>（流體範圍），這個物體會限制流體的模擬範圍。常見的選擇是使用立方體作為容器。</li>
+</ul>
+</li>
+<li>
+<p><strong>Fluid Type（流體類型）</strong>：</p>
+<ul>
+<li>設定流體的類型，可以選擇：
+<ul>
+<li><strong>Liquid</strong>（液體）：用來模擬水流等液態物質。</li>
+<li><strong>Gas</strong>（氣體）：用來模擬煙霧或火焰。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Flow</strong>（流動源）：</p>
+<ul>
+<li>在<strong>Flow Type</strong>欄位中，設定流體源：
+<ul>
+<li><strong>Liquid</strong>（液體）：模擬水流。</li>
+<li><strong>Gas</strong>（氣體）：模擬煙霧。</li>
+</ul>
+</li>
+<li>設定流體源的形狀，例如使用物體的表面（Mesh）或體積（Volume）來發射流體。</li>
+</ul>
+</li>
+<li>
+<p><strong>Resolution Divisions（解析度分割）</strong>：</p>
+<ul>
+<li>在<strong>Domain</strong>設置中，調整<strong>Resolution Divisions</strong>來控制流體模擬的細節。數值越大，模擬效果越細緻，但會需要更多計算資源。</li>
+</ul>
+</li>
+<li>
+<p><strong>Viscosity（粘度）</strong>：</p>
+<ul>
+<li>在<strong>Flow</strong>設定中，調整流體的粘度。高粘度會使流體像蜂蜜或油漬一樣流動緩慢，低粘度則像水一樣流動快速。</li>
+</ul>
+</li>
+<li>
+<p><strong>Surface Tension（表面張力）</strong>：</p>
+<ul>
+<li>設定流體的表面張力，會影響水滴的形狀和流動行為。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2>3. 布料與剛體模擬</h2>
+<h3>3.1 布料模擬</h3>
+<ol>
+<li>
+<p><strong>選擇布料物體</strong>：</p>
+<ul>
+<li>在 3D 視窗中選擇一個物體，通常是用來模擬布料的物體。最常見的是選擇一個平面物體（如方形或圓形）。</li>
+</ul>
+</li>
+<li>
+<p><strong>開啟布料物理</strong>：</p>
+<ul>
+<li>在右側面板中選擇<strong>物理屬性</strong>（Physics Properties），並選擇<strong>Cloth</strong>（布料）選項。</li>
+</ul>
+</li>
+</ol>
+<h3>3.2 設定布料模擬</h3>
+<ol>
+<li>
+<p><strong>質量</strong>：</p>
+<ul>
+<li>在<strong>Cloth</strong>屬性面板中，設定<strong>Mass</strong>（質量）。較小的質量會讓布料更輕，較大的質量則會讓布料下垂得更快。</li>
+</ul>
+</li>
+<li>
+<p><strong>張力與剛性</strong>：</p>
+<ul>
+<li><strong>Stiffness</strong>（剛性）：控制布料的彈性，數值越大，布料越硬。</li>
+<li><strong>Bending</strong>（彎曲）：控制布料彎曲的柔軟度，數值越小，布料越柔軟。</li>
+</ul>
+</li>
+<li>
+<p><strong>風與重力</strong>：</p>
+<ul>
+<li>在<strong>Field Weights</strong>部分，調整<strong>Wind</strong>（風力）與<strong>Gravity</strong>（重力）的影響，來模擬風對布料的影響。</li>
+</ul>
+</li>
+<li>
+<p><strong>碰撞</strong>：</p>
+<ul>
+<li>在<strong>Collision</strong>區域中，開啟布料與其他物體的碰撞檢測。設定<strong>Thickness</strong>（厚度）來避免物體穿透布料。</li>
+</ul>
+</li>
+</ol>
+<h3>3.3 剛體模擬</h3>
+<ol>
+<li>
+<p><strong>選擇剛體物體</strong>：</p>
+<ul>
+<li>在 3D 視窗中選擇一個物體，這個物體會進行剛體模擬。</li>
+</ul>
+</li>
+<li>
+<p><strong>開啟剛體物理</strong>：</p>
+<ul>
+<li>在右側面板中選擇<strong>物理屬性</strong>（Physics Properties），並選擇<strong>Rigid Body</strong>（剛體）選項。</li>
+</ul>
+</li>
+</ol>
+<h3>3.4 設定剛體模擬</h3>
+<ol>
+<li>
+<p><strong>Type（類型）</strong>：</p>
+<ul>
+<li>設定為<strong>Active</strong>（主動）或<strong>Passive</strong>（靜態）。
+<ul>
+<li><strong>Active</strong>：物體會根據物理模擬運動，並與其他物體發生碰撞。</li>
+<li><strong>Passive</strong>：物體保持靜止，但仍與主動物體發生碰撞。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Mass（質量）</strong>：</p>
+<ul>
+<li>設定物體的質量，影響物體的運動。</li>
+</ul>
+</li>
+<li>
+<p><strong>Friction（摩擦力）</strong>：</p>
+<ul>
+<li>設定物體與其他物體之間的摩擦力。</li>
+</ul>
+</li>
+<li>
+<p><strong>Restitution（彈性）</strong>：</p>
+<ul>
+<li>設定物體的反彈程度，數值越高，物體反彈越強。</li>
+</ul>
+</li>
+</ol>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>BlenderCH20幾何節點</title>
+        <author>
+            <name>buzzlightyeah!</name>
+        </author>
+        <link href="https://buzzlightyeah88.github.io/hangry3001/blenderch20.html"/>
+        <id>https://buzzlightyeah88.github.io/hangry3001/blenderch20.html</id>
+        <media:content url="https://buzzlightyeah88.github.io/hangry3001/media/posts/36/Jie-Tu-2024-12-28-Ling-Chen-1.32.48.png" medium="image" />
+            <category term="Fri345"/>
+            <category term="All Posts"/>
+
+        <updated>2024-12-27T02:45:00+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/36/Jie-Tu-2024-12-28-Ling-Chen-1.32.48.png" alt="" />
+                    Blender 中的 Geometry Nodes 是一個強大的程序化建模工具，可以用來建立和操作 3D 物體的幾何形狀。它透過節點網絡來建立和操控物體，讓使用者不僅能夠快速生成複雜的模型，還能夠更靈活地進行修改和調整。這裡會詳細解釋其操作、功能以及一些重要的事項。 Geometry Nodes 主要使用節點來描述物體的幾何結構，這些節點將幾何資料流進行處理並產生結果。這些節點可以在 Attribute (屬性)、Geometry&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/36/Jie-Tu-2024-12-28-Ling-Chen-1.32.48.png" class="type:primaryImage" alt="" /></p>
+                <p>Blender 中的 <strong>Geometry Nodes</strong> 是一個強大的程序化建模工具，可以用來建立和操作 3D 物體的幾何形狀。它透過節點網絡來建立和操控物體，讓使用者不僅能夠快速生成複雜的模型，還能夠更靈活地進行修改和調整。這裡會詳細解釋其操作、功能以及一些重要的事項。</p>
+<h3>1. <strong>Geometry Nodes 的基本概念</strong></h3>
+<p>Geometry Nodes 主要使用節點來描述物體的幾何結構，這些節點將幾何資料流進行處理並產生結果。這些節點可以在 <strong>Attribute (屬性)</strong>、<strong>Geometry (幾何體)</strong> 和 <strong>Vector (向量)</strong> 等領域中進行操作。</p>
+<ul>
+<li><strong>節點</strong>：每一個節點都代表著一個特定的操作或功能。節點接收輸入並且產生輸出。</li>
+<li><strong>屬性</strong>：包括幾何體的頂點、邊、面等元素的屬性（例如位置、顏色、法線等）。</li>
+<li><strong>Geometry</strong>：幾何體本身，包含頂點、邊、面等。</li>
+</ul>
+<h3>2. <strong>常見的 Geometry Nodes 節點類型</strong></h3>
+<p>以下是一些基本的節點類型，它們用來操作幾何體：</p>
+<ul>
+<li>
+<p><strong>Input 節點</strong>：</p>
+<ul>
+<li><strong>Group Input</strong>：引入外部輸入，通常用來將資料傳遞到節點組中。</li>
+<li><strong>Position</strong>：獲取當前物體上每個頂點的位置。</li>
+<li><strong>Normal</strong>：獲取每個頂點或面的法線向量。</li>
+</ul>
+</li>
+<li>
+<p><strong>Output 節點</strong>：</p>
+<ul>
+<li><strong>Group Output</strong>：將計算結果輸出到物體的幾何體中。</li>
+</ul>
+</li>
+<li>
+<p><strong>操作節點</strong>：</p>
+<ul>
+<li><strong>Transform</strong>：對物體進行平移、旋轉和縮放等操作。</li>
+<li><strong>Subdivide</strong>：將面細分成更多的面。</li>
+<li><strong>Join Geometry</strong>：將不同的幾何體合併在一起。</li>
+</ul>
+</li>
+<li>
+<p><strong>數學與向量操作</strong>：</p>
+<ul>
+<li><strong>Vector Math</strong>：進行向量運算，如加法、減法、點積、叉積等。</li>
+<li><strong>Float Math</strong>：進行數值的加減乘除運算。</li>
+</ul>
+</li>
+<li>
+<p><strong>點與面處理節點</strong>：</p>
+<ul>
+<li><strong>Instance on Points</strong>：在每個頂點上生成實例化物體。</li>
+<li><strong>Mesh to Curve</strong>：將網格物體轉換為曲線物體，便於進行進一步操作。</li>
+</ul>
+</li>
+<li>
+<p><strong>自訂屬性與材質操作</strong>：</p>
+<ul>
+<li><strong>Set Material</strong>：設定幾何體的材質。</li>
+<li><strong>Attribute Fill</strong>：將特定的屬性值填充到物體的每個元素（如頂點、邊、面）。</li>
+</ul>
+</li>
+</ul>
+<h3>3. <strong>如何使用 Geometry Nodes</strong></h3>
+<p>使用 Geometry Nodes 時，工作流程大致分為以下幾個步驟：</p>
+<ol>
+<li><strong>建立新物體</strong>：首先，在場景中創建一個物體，例如立方體或球體。</li>
+<li><strong>進入 Geometry Nodes 編輯模式</strong>：選中物體後，進入 Geometry Nodes 編輯器，這樣可以開始建立節點網絡。</li>
+<li><strong>添加節點並連接</strong>：從左側的節點庫中選擇所需的節點，並將它們連接在一起。每個節點都會接收輸入並輸出結果。</li>
+<li><strong>調整參數</strong>：在節點屬性面板中調整每個節點的參數，以達到預期的效果。</li>
+<li><strong>實時預覽</strong>：Geometry Nodes 支援實時預覽，因此可以即時看到變更的效果。</li>
+</ol>
+<h3>4. <strong>Geometry Nodes 的應用領域</strong></h3>
+<p>Geometry Nodes 提供了許多靈活的工具，可以在不同的領域中使用：</p>
+<ul>
+<li><strong>程序化建模</strong>：利用節點來自動生成建築物、自然景觀、複雜的機械結構等。</li>
+<li><strong>自動化設計</strong>：例如，使用幾何節點生成大量隨機分佈的物體、變化的結構等，特別適合於需要隨機化或重複性結構的情境。</li>
+<li><strong>動畫和效果</strong>：幾何節點可以與動畫系統結合，生成動態的幾何變化，如植物生長、物體分裂等。</li>
+</ul>
+<h3>5. <strong>重要事項與技巧</strong></h3>
+<ul>
+<li><strong>非破壞性建模</strong>：Geometry Nodes 的強大之處在於它的非破壞性建模特性，你可以隨時修改節點的配置來更新幾何結構，這對於快速迭代和設計非常有幫助。</li>
+<li><strong>性能考量</strong>：大量的節點操作和複雜的幾何計算可能會對性能產生影響，特別是在處理大量物體或複雜場景時。合理規劃節點網絡，並使用簡化的操作，能夠提高性能。</li>
+<li><strong>自訂節點</strong>：Blender 支援自訂節點功能，可以根據需要創建特定的功能節點，這對於有高級需求的使用者尤其重要。</li>
+</ul>
+<h3>6. <strong>進階功能</strong></h3>
+<ul>
+<li><strong>Simulation</strong>：Geometry Nodes 也支援簡單的物理模擬，例如粒子系統、流體模擬等。</li>
+<li><strong>Attribute Wrangle</strong>：這是一種能夠編寫自訂代碼的節點，允許用戶編寫 Python 代碼來進行進一步的操作。</li>
+<li><strong>Modifiers</strong>：Geometry Nodes 可以作為修改器使用，可以將其應用於物體並且在物體的屬性中持續進行調整。</li>
+</ul>
+<h3>初階用法 (Basic Usage)</h3>
+<h4>1. <strong>創建一個基本的 Geometry Nodes 系統</strong></h4>
+<ul>
+<li><strong>建立新物體</strong>：選擇一個物體（例如立方體）作為起點。</li>
+<li><strong>開啟 Geometry Nodes 編輯器</strong>：選中物體，切換到 <strong>Geometry Nodes</strong> 編輯模式（<code>Shift + F3</code>）。</li>
+<li><strong>添加 Geometry Nodes 節點組</strong>：在右側面板中選擇 <strong>New</strong>，這會創建一個新的 Geometry Nodes 節點組。</li>
+</ul>
+<h4>2. <strong>簡單的節點連接</strong></h4>
+<ul>
+<li>
+<p><strong>Group Input</strong>：用來從物體中取得基礎資料，例如物體的位置或材質。</p>
+<ul>
+<li>在「Input」節點分類中，找到 <strong>Group Input</strong>，這是進入節點網絡的入口。</li>
+</ul>
+</li>
+<li>
+<p><strong>Position 節點</strong>：用來取得每個頂點的位置數據。</p>
+<ul>
+<li>在「Input」分類下，選擇 <strong>Position</strong> 節點，這會返回每個頂點的世界座標。</li>
+</ul>
+</li>
+<li>
+<p><strong>Join Geometry 節點</strong>：用來將不同的幾何體連接在一起。</p>
+<ul>
+<li>在「Geometry」分類下，選擇 <strong>Join Geometry</strong> 節點。將兩個不同的幾何體結合在一起。</li>
+</ul>
+</li>
+<li>
+<p><strong>Group Output</strong>：將幾何結果輸出到物體中。</p>
+<ul>
+<li>在「Output」分類下，選擇 <strong>Group Output</strong>，這是節點網絡的結束節點。</li>
+</ul>
+</li>
+</ul>
+<h4>3. <strong>簡單變換操作</strong></h4>
+<ul>
+<li>
+<p><strong>Transform 節點</strong>：可以對物體進行平移、縮放和旋轉等操作。</p>
+<ul>
+<li>在「Geometry」分類下，找到 <strong>Transform</strong> 節點，並調整其輸入的參數來改變物體的位置、旋轉角度或大小。</li>
+</ul>
+</li>
+<li>
+<p><strong>Set Material 節點</strong>：設置物體的材質。</p>
+<ul>
+<li>在「Material」分類下，選擇 <strong>Set Material</strong> 節點，並將其連接到幾何體上，然後選擇材質。</li>
+</ul>
+</li>
+</ul>
+<h4>初階範例：簡單移動物體</h4>
+<ol>
+<li><strong>Position</strong> 節點取得物體的位置。</li>
+<li>使用 <strong>Vector Math</strong> 節點來平移物體（例如將 X 軸位置加上一個偏移量）。</li>
+<li>最後將結果輸出到 <strong>Group Output</strong>。</li>
+</ol>
+<h3>進階用法 (Advanced Usage)</h3>
+<h4>1. <strong>程序化建模</strong></h4>
+<p>進階用法的一個主要特點是生成程序化結構，如隨機散佈物體、生成複雜的幾何形狀等。</p>
+<ul>
+<li>
+<p><strong>Instance on Points 節點</strong>：可以在頂點上放置物體的實例。這可以用來生成大量重複的物體，如草叢或建築物的窗戶。</p>
+<ul>
+<li>節點名稱：<strong>Instance on Points</strong></li>
+<li>將此節點與 <strong>Mesh Primitive Cube</strong> 節點連接，可以在每個點上放置一個立方體，從而創建多個物體。</li>
+</ul>
+</li>
+<li>
+<p><strong>Subdivide 節點</strong>：將每個面細分成更多的面，通常用於細化網格。</p>
+<ul>
+<li>節點名稱：<strong>Subdivide</strong></li>
+<li>此節點可以細分物體的網格結構，增加更多的細節。</li>
+</ul>
+</li>
+<li>
+<p><strong>Attribute Randomize 節點</strong>：用來為每個點或面隨機分配屬性值，例如隨機分配顏色或大小。</p>
+<ul>
+<li>節點名稱：<strong>Attribute Randomize</strong></li>
+<li>用於隨機化物體的顏色、大小或其他屬性，這對生成自然或隨機分佈的物體非常有用。</li>
+</ul>
+</li>
+</ul>
+<h4>2. <strong>動態和模擬</strong></h4>
+<p>Geometry Nodes 也可以與動畫和模擬系統結合，創建動態變化的幾何效果。</p>
+<ul>
+<li>
+<p><strong>Attribute Wrangle 節點</strong>：這是一個強大的節點，可以通過編寫自訂的 <strong>VEX</strong> 或 <strong>Python</strong> 代碼來進行屬性操作。它允許進行高度自訂的數據處理。</p>
+<ul>
+<li>節點名稱：<strong>Attribute Wrangle</strong></li>
+</ul>
+</li>
+<li>
+<p><strong>Curve to Mesh 節點</strong>：將曲線轉換為網格，可以用來創建隨時間變化的形狀。</p>
+<ul>
+<li>節點名稱：<strong>Curve to Mesh</strong></li>
+</ul>
+</li>
+<li>
+<p><strong>Geometry Proximity 節點</strong>：計算物體之間的距離，這可以用來生成交互效果，如粒子系統或物體的碰撞。</p>
+<ul>
+<li>節點名稱：<strong>Geometry Proximity</strong></li>
+</ul>
+</li>
+</ul>
+<h4>3. <strong>進階屬性和變換</strong></h4>
+<ul>
+<li><strong>Vector Rotate 節點</strong>：用來旋轉向量數據，這對於進行旋轉變換時非常有用。
+<ul>
+<li>節點名稱：<strong>Vector Rotate</strong></li>
+</ul>
+</li>
+<li><strong>Set Curve Radius 節點</strong>：設置曲線的半徑，這對於自動化建模和生成可調尺寸的結構非常有用。
+<ul>
+<li>節點名稱：<strong>Set Curve Radius</strong></li>
+</ul>
+</li>
+</ul>
+<h4>進階範例：隨機散佈物體並改變大小</h4>
+<ol>
+<li>使用 <strong>Mesh Primitive Cube</strong> 節點創建一個立方體。</li>
+<li>使用 <strong>Point Distribute</strong> 節點將立方體放置在隨機位置。</li>
+<li>使用 <strong>Attribute Randomize</strong> 節點來隨機改變立方體的大小。</li>
+<li>最後將物體與 <strong>Instance on Points</strong> 節點結合，將隨機大小的立方體實例放置在每個隨機選擇的點上。</li>
+</ol>
+<h3>重要提示：</h3>
+<p> </p>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li><strong>非破壞性操作</strong>：所有操作都是非破壞性的，你可以隨時修改幾何結構，而不會直接修改原始物體。</li>
+<li><strong>節點命名</strong>：不同語言版本的 Blender 中，節點名稱可能會有所不同，這裡提到的都是英文版本的名稱。</li>
+</ul>
+</li>
+</ul>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>BlenderCH17我有裝的插件</title>
+        <author>
+            <name>buzzlightyeah!</name>
+        </author>
+        <link href="https://buzzlightyeah88.github.io/hangry3001/blenderch17.html"/>
+        <id>https://buzzlightyeah88.github.io/hangry3001/blenderch17.html</id>
+        <media:content url="https://buzzlightyeah88.github.io/hangry3001/media/posts/33/Jie-Tu-2024-12-28-Ling-Chen-2.27.59.png" medium="image" />
+            <category term="Fri345"/>
+            <category term="All Posts"/>
+
+        <updated>2024-12-27T02:06:00+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/33/Jie-Tu-2024-12-28-Ling-Chen-2.27.59.png" alt="" />
+                    fulldome pro : https://blender-addons.org/fulldome-pro/ 用來做穹頂空間的投影作品 archimesh 現成建築物、家具，可以自己調整各個部位 MBlab : https://github.com/animate1978/MB-Lab 人物建模 building&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/33/Jie-Tu-2024-12-28-Ling-Chen-2.27.59.png" class="type:primaryImage" alt="" /></p>
+                <p>fulldome pro : <a href="https://blender-addons.org/fulldome-pro/">https://blender-addons.org/fulldome-pro/</a></p>
+<p>用來做穹頂空間的投影作品</p>
+<p>archimesh </p>
+<p>現成建築物、家具，可以自己調整各個部位</p>
+<p>MBlab : <a href="https://github.com/animate1978/MB-Lab">https://github.com/animate1978/MB-Lab</a></p>
+<p>人物建模</p>
+<p>building tools : <a href="https://github.com/ranjian0/building_tools">https://github.com/ranjian0/building_tools</a></p>
+<p>建築物</p>
+            ]]>
+        </content>
     </entry>
     <entry>
         <title>BlenderCH18雕刻、物理模擬</title>
@@ -61,7 +1324,7 @@
             <category term="Fri345"/>
             <category term="All Posts"/>
 
-        <updated>2024-12-28T02:06:42+08:00</updated>
+        <updated>2024-12-27T02:06:00+08:00</updated>
             <summary>
                 <![CDATA[
                     一、雕刻工具 (Sculpting Tools) Blender 的雕刻工具設計非常強大，提供了一個類似傳統雕刻的數位環境，讓你能夠像雕刻木頭或石膏一樣，對 3D 模型進行細緻的操作。以下是每個雕刻工具及其使用方法，這些工具會在「雕刻模式」中顯示。 Blender 提供多種雕刻工具，每個工具都有不同的效果和設定。這裡列出一些最常用的工具及其細節： Draw (繪製) Clay&hellip;
@@ -227,34 +1490,272 @@
         </content>
     </entry>
     <entry>
-        <title>BlenderCH17我有裝的插件</title>
+        <title>BlenderCH14動畫技巧</title>
         <author>
             <name>buzzlightyeah!</name>
         </author>
-        <link href="https://buzzlightyeah88.github.io/hangry3001/blenderch17.html"/>
-        <id>https://buzzlightyeah88.github.io/hangry3001/blenderch17.html</id>
-        <media:content url="https://buzzlightyeah88.github.io/hangry3001/media/posts/33/Jie-Tu-2024-12-28-Ling-Chen-2.27.59.png" medium="image" />
+        <link href="https://buzzlightyeah88.github.io/hangry3001/blenderch14.html"/>
+        <id>https://buzzlightyeah88.github.io/hangry3001/blenderch14.html</id>
             <category term="Fri345"/>
             <category term="All Posts"/>
 
-        <updated>2024-12-28T02:06:31+08:00</updated>
+        <updated>2024-12-27T02:02:00+08:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/33/Jie-Tu-2024-12-28-Ling-Chen-2.27.59.png" alt="" />
-                    fulldome pro : https://blender-addons.org/fulldome-pro/ 用來做穹頂空間的投影作品 archimesh 現成建築物、家具，可以自己調整各個部位 MBlab : https://github.com/animate1978/MB-Lab 人物建模 building&hellip;
+                    1. 形狀鍵（Shape Keys） 形狀鍵通常用來控制物體或角色的變形，像是角色的表情變化或物體的變形動畫。 功能介紹： 設置步驟： 約束用來讓物體的某些屬性跟其他物體的屬性有所依賴，避免你每次都手動設置關鍵幀，可以讓動畫變得更靈活。 功能介紹： 設置步驟： 驅動器讓你可以利用一個物體的屬性來驅動另一個物體的屬性，這樣可以自動化一些動畫效果。 功能介紹： 設置步驟：&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/33/Jie-Tu-2024-12-28-Ling-Chen-2.27.59.png" class="type:primaryImage" alt="" /></p>
-                <p>fulldome pro : <a href="https://blender-addons.org/fulldome-pro/">https://blender-addons.org/fulldome-pro/</a></p>
-<p>用來做穹頂空間的投影作品</p>
-<p>archimesh </p>
-<p>現成建築物、家具，可以自己調整各個部位</p>
-<p>MBlab : <a href="https://github.com/animate1978/MB-Lab">https://github.com/animate1978/MB-Lab</a></p>
-<p>人物建模</p>
-<p>building tools : <a href="https://github.com/ranjian0/building_tools">https://github.com/ranjian0/building_tools</a></p>
-<p>建築物</p>
+                <h3>1. <strong>形狀鍵（Shape Keys）</strong></h3>
+<p>形狀鍵通常用來控制物體或角色的變形，像是角色的表情變化或物體的變形動畫。</p>
+<p><strong>功能介紹：</strong></p>
+<ul>
+<li>透過形狀鍵，你可以精細控制物體的頂點，做出像是表情、變形或其他細節動畫。</li>
+</ul>
+<p><strong>設置步驟：</strong></p>
+<ol>
+<li><strong>選擇物體</strong>：首先選擇你想要設置形狀鍵的物體。</li>
+<li><strong>進入屬性面板</strong>：在右邊的 <strong>Properties Panel</strong>，選擇 <strong>Object Data Properties</strong>（物體數據屬性），圖示像是綠色的三角形。</li>
+<li><strong>新增形狀鍵</strong>：在 <strong>Shape Keys</strong> 面板裡點擊 <strong>+</strong> 來新增一個形狀鍵。</li>
+<li><strong>編輯形狀鍵</strong>：選擇基礎形狀（<strong>Basis</strong>），接著進行頂點編輯，創造不同的形狀變化。</li>
+<li><strong>插入關鍵幀</strong>：調整形狀鍵的數值（通常是0到1），然後在 <strong>Timeline</strong> 裡插入關鍵幀。</li>
+</ol>
+<h3>2. <strong>約束（Constraints）</strong></h3>
+<p>約束用來讓物體的某些屬性跟其他物體的屬性有所依賴，避免你每次都手動設置關鍵幀，可以讓動畫變得更靈活。</p>
+<p><strong>功能介紹：</strong></p>
+<ul>
+<li>約束讓物體的動作可以跟隨其他物體的屬性，例如相機跟隨物體，或是物體跟隨其他物體的移動。</li>
+</ul>
+<p><strong>設置步驟：</strong></p>
+<ol>
+<li><strong>選擇物體</strong>：選擇你要加約束的物體。</li>
+<li><strong>進入屬性面板</strong>：在右側的 <strong>Properties Panel</strong> 中，選擇 <strong>Object Constraints</strong>（物體約束），圖示像一個鏈條。</li>
+<li><strong>添加約束</strong>：點擊 <strong>Add Object Constraint</strong>（添加物體約束），然後選擇你需要的約束類型（例如 <strong>Follow Path</strong> 或 <strong>Track To</strong>）。</li>
+<li><strong>設置約束屬性</strong>：設置約束的參數，例如選擇目標物體、調整方向或偏移量等。</li>
+</ol>
+<h3>3. <strong>驅動器（Drivers）</strong></h3>
+<p>驅動器讓你可以利用一個物體的屬性來驅動另一個物體的屬性，這樣可以自動化一些動畫效果。</p>
+<p><strong>功能介紹：</strong></p>
+<ul>
+<li>驅動器可以讓你根據一個物體的屬性變化來控制另一個物體的屬性，實現像是同步旋轉、變形等效果。</li>
+</ul>
+<p><strong>設置步驟：</strong></p>
+<ol>
+<li><strong>右鍵屬性</strong>：在 <strong>Properties Panel</strong> 中，對你要設置驅動器的屬性（像是縮放、位置等）右鍵點擊。</li>
+<li><strong>添加驅動器</strong>：選擇 <strong>Add Driver</strong>（添加驅動器）。</li>
+<li><strong>進入圖形編輯器</strong>：打開 <strong>Graph Editor</strong>（圖形編輯器），然後在這裡編輯驅動器的來源物體和它如何影響目標物體。</li>
+<li><strong>設置驅動來源</strong>：在 <strong>Graph Editor</strong> 裡設置驅動的來源，像是利用物體的旋轉來控制它的縮放。</li>
+</ol>
+<h3>4. <strong>非線性動畫（NLA）</strong></h3>
+<p>非線性動畫（NLA）編輯器讓你能夠將不同的動畫片段（例如角色的行走、跳躍等）結合起來，創造更複雜的動畫。</p>
+<p><strong>功能介紹：</strong></p>
+<ul>
+<li>NLA編輯器可以讓你將多個動畫片段按時間順序或重複播放，方便管理多段動畫。</li>
+</ul>
+<p><strong>設置步驟：</strong></p>
+<ol>
+<li><strong>進入NLA編輯器</strong>：在Blender界面的底部區域，切換到 <strong>NLA Editor</strong>（非線性動畫編輯器）。</li>
+<li><strong>推送動作</strong>：選擇物體，然後點擊 <strong>Push Down</strong>（推送下去），將物體的動作推送到NLA編輯器。</li>
+<li><strong>添加動作條目</strong>：在NLA編輯器中點擊 <strong>Add Action Strip</strong>（新增動作條目），選擇需要的動作。</li>
+<li><strong>管理動畫層次</strong>：你可以在NLA編輯器中調整每個動畫的開始和結束時間，控制它們的播放順序，甚至設置過渡效果。</li>
+</ol>
+<h3>5. <strong>粒子系統（Particle System）</strong></h3>
+<p>粒子系統用來創建自然現象動畫，像是煙霧、火焰、雨水等，這樣的動畫可以讓你的場景更生動。</p>
+<p><strong>功能介紹：</strong></p>
+<ul>
+<li>粒子系統可以用來模擬煙霧、火焰、下雨等效果，這些效果通常用於自然場景。</li>
+</ul>
+<p><strong>設置步驟：</strong></p>
+<ol>
+<li><strong>選擇物體</strong>：選擇一個物體，然後打開 <strong>Properties Panel</strong>。</li>
+<li><strong>進入粒子屬性</strong>：選擇 <strong>Particle Properties</strong>（粒子屬性），這個圖示像是一個小圓球。</li>
+<li><strong>創建粒子系統</strong>：點擊 <strong>+</strong> 創建新的粒子系統。</li>
+<li><strong>調整粒子屬性</strong>：設置粒子的數量、速度、生命周期等參數，然後可以在時間軸中插入關鍵幀來改變粒子的行為。</li>
+</ol>
+<h3>6. <strong>相機動畫（Camera Animation）</strong></h3>
+<p>為相機設置動畫可以讓你的動畫場景更具動感，尤其是當需要移動相機來追蹤物體或改變視角時，這是必須的。</p>
+<p><strong>功能介紹：</strong></p>
+<ul>
+<li>相機動畫能夠幫助你設置動畫中的鏡頭運動，實現動態視角。</li>
+</ul>
+<p><strong>設置步驟：</strong></p>
+<ol>
+<li><strong>選擇相機</strong>：選擇3D視窗中的相機物體。</li>
+<li><strong>進入相機屬性</strong>：在 <strong>Properties Panel</strong> 中，選擇 <strong>Camera</strong>（相機）面板，這個圖示像一個小相機。</li>
+<li><strong>設置位置與旋轉</strong>：調整相機的位置和旋轉，並在 <strong>Timeline</strong> 上插入關鍵幀。</li>
+<li><strong>使用Track To約束</strong>：你可以為相機設置 <strong>Track To</strong>（追蹤目標）約束，讓相機始終對準指定的物體，這樣相機就能跟隨物體運動。</li>
+</ol>
+<h3>7. <strong>音效同步（Synchronizing Sound with Animation）</strong></h3>
+<p>音效與動畫的同步對於提升動畫的真實感和效果非常重要，Blender也有提供相關功能來處理這一部分。</p>
+<p><strong>功能介紹：</strong></p>
+<ul>
+<li>你可以將音效加入動畫中，並且和動畫的事件（像是跳躍、碰撞等）進行同步。</li>
+</ul>
+<p><strong>設置步驟：</strong></p>
+<ol>
+<li><strong>導入音效</strong>：進入 <strong>Video Sequence Editor</strong>（視頻序列編輯器），點擊 <strong>Add</strong> &gt; <strong>Sound</strong>（音效），然後選擇你的音效檔案。</li>
+<li><strong>調整音效時間</strong>：在 <strong>Timeline</strong> 上調整音效的播放時間，讓它跟動畫的事件對齊。</li>
+<li><strong>檢查同步</strong>：播放動畫並確認音效與動畫同步。</li>
+</ol>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>BlenderCH15渲染</title>
+        <author>
+            <name>buzzlightyeah!</name>
+        </author>
+        <link href="https://buzzlightyeah88.github.io/hangry3001/blenderch15.html"/>
+        <id>https://buzzlightyeah88.github.io/hangry3001/blenderch15.html</id>
+        <media:content url="https://buzzlightyeah88.github.io/hangry3001/media/posts/31/Jie-Tu-2024-12-28-Ling-Chen-2.17.11.png" medium="image" />
+            <category term="Fri345"/>
+            <category term="All Posts"/>
+
+        <updated>2024-12-27T02:02:00+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/31/Jie-Tu-2024-12-28-Ling-Chen-2.17.11.png" alt="" />
+                    1. 渲染引擎介紹：區分 Eevee 與 Cycles 渲染器 Blender 提供兩種主要的渲染引擎：Eevee 和 Cycles，這兩者有著不同的工作方式和渲染效果。根據你的需求，選擇適合的渲染引擎非常重要。 功能名稱： Render&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/31/Jie-Tu-2024-12-28-Ling-Chen-2.17.11.png" class="type:primaryImage" alt="" /></p>
+                <h3><strong>1. 渲染引擎介紹：區分 Eevee 與 Cycles 渲染器</strong></h3>
+<p>Blender 提供兩種主要的渲染引擎：<strong>Eevee</strong> 和 <strong>Cycles</strong>，這兩者有著不同的工作方式和渲染效果。根據你的需求，選擇適合的渲染引擎非常重要。</p>
+<h4><strong>Eevee 渲染引擎：</strong></h4>
+<ul>
+<li>
+<p><strong>功能名稱：</strong> <code>Render Engine</code></p>
+</li>
+<li>
+<p><strong>位置：</strong> <code>Render Properties</code> 面板 → <code>Render Engine</code>（位於右側的攝影機圖示下）</p>
+<p><strong>簡介</strong>：Eevee 是一個即時渲染引擎，它基於即時光線追蹤技術（Realtime Ray Tracing），能快速生成影像，主要用於遊戲開發、動畫預覽和需要快速渲染的情況。</p>
+<p><strong>優點：</strong></p>
+<ul>
+<li>高效能：能夠即時渲染並顯示結果，快速渲染場景和動畫。</li>
+<li>實時預覽：Eevee 能在視窗中即時顯示場景的渲染效果，讓你隨時調整燈光、材質等元素。</li>
+<li>適合快速迭代：適用於需要頻繁修改的場景，尤其在製作動畫預覽時。</li>
+</ul>
+<p><strong>缺點：</strong></p>
+<ul>
+<li>渲染質量較低：雖然快速，但在光照、反射、折射等複雜效果上不如 Cycles 精細。</li>
+</ul>
+</li>
+</ul>
+<h4><strong>Cycles 渲染引擎：</strong></h4>
+<ul>
+<li>
+<p><strong>功能名稱：</strong> <code>Render Engine</code></p>
+</li>
+<li>
+<p><strong>位置：</strong> <code>Render Properties</code> 面板 → <code>Render Engine</code>（位於右側的攝影機圖示下）</p>
+<p><strong>簡介</strong>：Cycles 是一個基於物理的光線追蹤渲染引擎，提供更高的真實性，特別適合需要高度真實感和複雜光影效果的場景。</p>
+<p><strong>優點：</strong></p>
+<ul>
+<li>高品質渲染：提供非常精細的光照、反射、折射效果，適合電影級的渲染。</li>
+<li>真實的光線追蹤：光照模擬非常真實，特別是反射、折射、全局照明等複雜光照效果。</li>
+</ul>
+<p><strong>缺點：</strong></p>
+<ul>
+<li>渲染速度較慢：由於使用了真實光線追蹤技術，渲染速度較慢，尤其是高取樣數量下。</li>
+<li>需要較高的硬體要求：為了獲得最佳效能，尤其是 GPU 渲染，可能需要較強的顯示卡。</li>
+</ul>
+</li>
+</ul>
+<h4><strong>切換渲染引擎：</strong></h4>
+<ol>
+<li>打開 Blender。</li>
+<li>在右側的 <code>Properties</code> 面板中，點擊 <code>Render Properties</code>（攝影機圖示）。</li>
+<li>在 <code>Render Engine</code> 下拉選單中，選擇 <strong>Eevee</strong> 或 <strong>Cycles</strong> 渲染引擎。</li>
+</ol>
+<h3><strong>2. 基礎設置：設置分辨率、取樣數量與輸出格式</strong></h3>
+<h4><strong>分辨率設置：</strong></h4>
+<ul>
+<li><strong>功能名稱：</strong> <code>Resolution</code></li>
+<li><strong>位置：</strong> <code>Output Properties</code> 面板 → <code>Resolution</code>（位於右側的圖片圖示下）</li>
+</ul>
+<ol>
+<li>
+<p>點擊右側的 <code>Output Properties</code>（圖片圖示）。</p>
+</li>
+<li>
+<p>在 <code>Resolution</code> 區塊中，設置渲染的寬度（Width）和高度（Height）。</p>
+<ul>
+<li>常見設置：1920x1080（Full HD），3840x2160（4K）。</li>
+<li>預設為 1920x1080，你可以依據需求更改數值。</li>
+</ul>
+</li>
+<li>
+<p>調整 <code>Aspect Ratio</code>，它控制圖像的寬高比，通常保持 1:1 以保證正方形，或使用 16:9 來適配電影和電視。</p>
+</li>
+</ol>
+<h4><strong>取樣數量設置：</strong></h4>
+<ol>
+<li>
+<p><strong>Eevee 渲染引擎：</strong></p>
+<ul>
+<li><strong>功能名稱：</strong> <code>Sampling</code></li>
+<li><strong>位置：</strong> <code>Render Properties</code> 面板 → <code>Sampling</code> → <code>Samples</code>（位於右側的攝影機圖示下）</li>
+</ul>
+<p>在 Eevee 渲染器中，<code>Samples</code> 決定了渲染的品質和速度。較高的取樣數量會增加渲染品質，但也會增加渲染時間。</p>
+<ul>
+<li><strong>Render Samples</strong>（渲染取樣數量）：這個數值決定了最終渲染的品質。
+<ul>
+<li>建議設定：對於快速預覽，設置為 32~128，對於正式渲染，設置為 256 或更高。</li>
+</ul>
+</li>
+<li><strong>Viewport Samples</strong>（預覽取樣數量）：這影響即時渲染視窗的顯示效果，通常設置為較低數值以提高預覽速度。</li>
+</ul>
+</li>
+<li>
+<p><strong>Cycles 渲染引擎：</strong></p>
+<ul>
+<li><strong>功能名稱：</strong> <code>Sampling</code></li>
+<li><strong>位置：</strong> <code>Render Properties</code> 面板 → <code>Sampling</code> → <code>Render Samples</code>（位於右側的攝影機圖示下）</li>
+</ul>
+<p>在 Cycles 渲染器中，<code>Render Samples</code> 決定了渲染的清晰度和精確度。較高的取樣數量會顯著提高渲染質量，但也會增加渲染時間。</p>
+<ul>
+<li><strong>Render Samples</strong>（渲染取樣數量）：對於高品質渲染，設置較高的數值，通常為 100~1000 之間。</li>
+<li><strong>Viewport Samples</strong>（預覽取樣數量）：影響預覽視窗的效果，通常設為較低的數值。</li>
+</ul>
+</li>
+</ol>
+<h4><strong>輸出格式設置：</strong></h4>
+<ul>
+<li><strong>功能名稱：</strong> <code>Output</code></li>
+<li><strong>位置：</strong> <code>Output Properties</code> 面板 → <code>Output</code>（右側的圖片圖示下）</li>
+</ul>
+<ol>
+<li>在 <code>Output Properties</code> 面板中，找到 <code>File Format</code>，選擇你希望的輸出格式：
+<ul>
+<li><strong>PNG</strong>：無損的靜態圖片格式，適合儲存高品質的圖像。</li>
+<li><strong>JPEG</strong>：有損壓縮的圖片格式，適合儲存小型圖片。</li>
+<li><strong>FFmpeg Video</strong>：選擇此選項來輸出動畫視頻文件（如 MP4 格式）。</li>
+</ul>
+</li>
+<li>當選擇 <code>FFmpeg Video</code> 進行動畫渲染時，可以在 <code>Encoding</code> 區域設置更多選項：
+<ul>
+<li><strong>Container</strong>（容器）：選擇影片格式（如 <code>MP4</code>）。</li>
+<li><strong>Video Codec</strong>（視頻編碼器）：選擇編碼方式（如 <code>H.264</code>）。</li>
+<li><strong>Audio Codec</strong>（音訊編碼器）：如果你需要音效，設置為 <code>AAC</code>。</li>
+</ul>
+</li>
+</ol>
+<h3><strong>3. 渲染出圖：導出靜態圖像或動畫</strong></h3>
+<h4><strong>靜態圖像渲染：</strong></h4>
+<ol>
+<li>設置完分辨率、取樣數量和輸出格式後，點擊 <strong>Render</strong> 菜單（頂部菜單）。</li>
+<li>選擇 <strong>Render Image</strong>（或按快捷鍵 F12）來開始渲染靜態圖像。</li>
+<li>渲染完成後，點擊 <strong>Image</strong> 菜單 → <strong>Save As</strong> 來保存渲染結果，選擇保存位置和文件格式。</li>
+</ol>
+<h4><strong>動畫渲染：</strong></h4>
+<ol>
+<li>設置好動畫的起始幀（Start Frame）和結束幀（End Frame），以及輸出格式（選擇 <code>FFmpeg Video</code>）。</li>
+<li>點擊 <strong>Render</strong> 菜單 → <strong>Render Animation</strong>（或按快捷鍵 Ctrl + F12）來開始渲染動畫。</li>
+<li>渲染完成後，Blender 會將動畫以你設置的格式儲存。</li>
+</ol>
             ]]>
         </content>
     </entry>
@@ -269,7 +1770,7 @@
             <category term="Fri345"/>
             <category term="All Posts"/>
 
-        <updated>2024-12-28T02:02:35+08:00</updated>
+        <updated>2024-12-27T02:02:00+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/32/Jie-Tu-2024-12-28-Ling-Chen-2.26.23.png" alt="" />
@@ -452,656 +1953,6 @@
 </ol>
 <p>這些插件都是在 Blender 社群中非常受歡迎的工具，根據你的需求選擇適合的插件能提高你的工作效率。</p>
 <p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>BlenderCH15渲染</title>
-        <author>
-            <name>buzzlightyeah!</name>
-        </author>
-        <link href="https://buzzlightyeah88.github.io/hangry3001/blenderch15.html"/>
-        <id>https://buzzlightyeah88.github.io/hangry3001/blenderch15.html</id>
-        <media:content url="https://buzzlightyeah88.github.io/hangry3001/media/posts/31/Jie-Tu-2024-12-28-Ling-Chen-2.17.11.png" medium="image" />
-            <category term="Fri345"/>
-            <category term="All Posts"/>
-
-        <updated>2024-12-28T02:02:24+08:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/31/Jie-Tu-2024-12-28-Ling-Chen-2.17.11.png" alt="" />
-                    1. 渲染引擎介紹：區分 Eevee 與 Cycles 渲染器 Blender 提供兩種主要的渲染引擎：Eevee 和 Cycles，這兩者有著不同的工作方式和渲染效果。根據你的需求，選擇適合的渲染引擎非常重要。 功能名稱： Render&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/31/Jie-Tu-2024-12-28-Ling-Chen-2.17.11.png" class="type:primaryImage" alt="" /></p>
-                <h3><strong>1. 渲染引擎介紹：區分 Eevee 與 Cycles 渲染器</strong></h3>
-<p>Blender 提供兩種主要的渲染引擎：<strong>Eevee</strong> 和 <strong>Cycles</strong>，這兩者有著不同的工作方式和渲染效果。根據你的需求，選擇適合的渲染引擎非常重要。</p>
-<h4><strong>Eevee 渲染引擎：</strong></h4>
-<ul>
-<li>
-<p><strong>功能名稱：</strong> <code>Render Engine</code></p>
-</li>
-<li>
-<p><strong>位置：</strong> <code>Render Properties</code> 面板 → <code>Render Engine</code>（位於右側的攝影機圖示下）</p>
-<p><strong>簡介</strong>：Eevee 是一個即時渲染引擎，它基於即時光線追蹤技術（Realtime Ray Tracing），能快速生成影像，主要用於遊戲開發、動畫預覽和需要快速渲染的情況。</p>
-<p><strong>優點：</strong></p>
-<ul>
-<li>高效能：能夠即時渲染並顯示結果，快速渲染場景和動畫。</li>
-<li>實時預覽：Eevee 能在視窗中即時顯示場景的渲染效果，讓你隨時調整燈光、材質等元素。</li>
-<li>適合快速迭代：適用於需要頻繁修改的場景，尤其在製作動畫預覽時。</li>
-</ul>
-<p><strong>缺點：</strong></p>
-<ul>
-<li>渲染質量較低：雖然快速，但在光照、反射、折射等複雜效果上不如 Cycles 精細。</li>
-</ul>
-</li>
-</ul>
-<h4><strong>Cycles 渲染引擎：</strong></h4>
-<ul>
-<li>
-<p><strong>功能名稱：</strong> <code>Render Engine</code></p>
-</li>
-<li>
-<p><strong>位置：</strong> <code>Render Properties</code> 面板 → <code>Render Engine</code>（位於右側的攝影機圖示下）</p>
-<p><strong>簡介</strong>：Cycles 是一個基於物理的光線追蹤渲染引擎，提供更高的真實性，特別適合需要高度真實感和複雜光影效果的場景。</p>
-<p><strong>優點：</strong></p>
-<ul>
-<li>高品質渲染：提供非常精細的光照、反射、折射效果，適合電影級的渲染。</li>
-<li>真實的光線追蹤：光照模擬非常真實，特別是反射、折射、全局照明等複雜光照效果。</li>
-</ul>
-<p><strong>缺點：</strong></p>
-<ul>
-<li>渲染速度較慢：由於使用了真實光線追蹤技術，渲染速度較慢，尤其是高取樣數量下。</li>
-<li>需要較高的硬體要求：為了獲得最佳效能，尤其是 GPU 渲染，可能需要較強的顯示卡。</li>
-</ul>
-</li>
-</ul>
-<h4><strong>切換渲染引擎：</strong></h4>
-<ol>
-<li>打開 Blender。</li>
-<li>在右側的 <code>Properties</code> 面板中，點擊 <code>Render Properties</code>（攝影機圖示）。</li>
-<li>在 <code>Render Engine</code> 下拉選單中，選擇 <strong>Eevee</strong> 或 <strong>Cycles</strong> 渲染引擎。</li>
-</ol>
-<h3><strong>2. 基礎設置：設置分辨率、取樣數量與輸出格式</strong></h3>
-<h4><strong>分辨率設置：</strong></h4>
-<ul>
-<li><strong>功能名稱：</strong> <code>Resolution</code></li>
-<li><strong>位置：</strong> <code>Output Properties</code> 面板 → <code>Resolution</code>（位於右側的圖片圖示下）</li>
-</ul>
-<ol>
-<li>
-<p>點擊右側的 <code>Output Properties</code>（圖片圖示）。</p>
-</li>
-<li>
-<p>在 <code>Resolution</code> 區塊中，設置渲染的寬度（Width）和高度（Height）。</p>
-<ul>
-<li>常見設置：1920x1080（Full HD），3840x2160（4K）。</li>
-<li>預設為 1920x1080，你可以依據需求更改數值。</li>
-</ul>
-</li>
-<li>
-<p>調整 <code>Aspect Ratio</code>，它控制圖像的寬高比，通常保持 1:1 以保證正方形，或使用 16:9 來適配電影和電視。</p>
-</li>
-</ol>
-<h4><strong>取樣數量設置：</strong></h4>
-<ol>
-<li>
-<p><strong>Eevee 渲染引擎：</strong></p>
-<ul>
-<li><strong>功能名稱：</strong> <code>Sampling</code></li>
-<li><strong>位置：</strong> <code>Render Properties</code> 面板 → <code>Sampling</code> → <code>Samples</code>（位於右側的攝影機圖示下）</li>
-</ul>
-<p>在 Eevee 渲染器中，<code>Samples</code> 決定了渲染的品質和速度。較高的取樣數量會增加渲染品質，但也會增加渲染時間。</p>
-<ul>
-<li><strong>Render Samples</strong>（渲染取樣數量）：這個數值決定了最終渲染的品質。
-<ul>
-<li>建議設定：對於快速預覽，設置為 32~128，對於正式渲染，設置為 256 或更高。</li>
-</ul>
-</li>
-<li><strong>Viewport Samples</strong>（預覽取樣數量）：這影響即時渲染視窗的顯示效果，通常設置為較低數值以提高預覽速度。</li>
-</ul>
-</li>
-<li>
-<p><strong>Cycles 渲染引擎：</strong></p>
-<ul>
-<li><strong>功能名稱：</strong> <code>Sampling</code></li>
-<li><strong>位置：</strong> <code>Render Properties</code> 面板 → <code>Sampling</code> → <code>Render Samples</code>（位於右側的攝影機圖示下）</li>
-</ul>
-<p>在 Cycles 渲染器中，<code>Render Samples</code> 決定了渲染的清晰度和精確度。較高的取樣數量會顯著提高渲染質量，但也會增加渲染時間。</p>
-<ul>
-<li><strong>Render Samples</strong>（渲染取樣數量）：對於高品質渲染，設置較高的數值，通常為 100~1000 之間。</li>
-<li><strong>Viewport Samples</strong>（預覽取樣數量）：影響預覽視窗的效果，通常設為較低的數值。</li>
-</ul>
-</li>
-</ol>
-<h4><strong>輸出格式設置：</strong></h4>
-<ul>
-<li><strong>功能名稱：</strong> <code>Output</code></li>
-<li><strong>位置：</strong> <code>Output Properties</code> 面板 → <code>Output</code>（右側的圖片圖示下）</li>
-</ul>
-<ol>
-<li>在 <code>Output Properties</code> 面板中，找到 <code>File Format</code>，選擇你希望的輸出格式：
-<ul>
-<li><strong>PNG</strong>：無損的靜態圖片格式，適合儲存高品質的圖像。</li>
-<li><strong>JPEG</strong>：有損壓縮的圖片格式，適合儲存小型圖片。</li>
-<li><strong>FFmpeg Video</strong>：選擇此選項來輸出動畫視頻文件（如 MP4 格式）。</li>
-</ul>
-</li>
-<li>當選擇 <code>FFmpeg Video</code> 進行動畫渲染時，可以在 <code>Encoding</code> 區域設置更多選項：
-<ul>
-<li><strong>Container</strong>（容器）：選擇影片格式（如 <code>MP4</code>）。</li>
-<li><strong>Video Codec</strong>（視頻編碼器）：選擇編碼方式（如 <code>H.264</code>）。</li>
-<li><strong>Audio Codec</strong>（音訊編碼器）：如果你需要音效，設置為 <code>AAC</code>。</li>
-</ul>
-</li>
-</ol>
-<h3><strong>3. 渲染出圖：導出靜態圖像或動畫</strong></h3>
-<h4><strong>靜態圖像渲染：</strong></h4>
-<ol>
-<li>設置完分辨率、取樣數量和輸出格式後，點擊 <strong>Render</strong> 菜單（頂部菜單）。</li>
-<li>選擇 <strong>Render Image</strong>（或按快捷鍵 F12）來開始渲染靜態圖像。</li>
-<li>渲染完成後，點擊 <strong>Image</strong> 菜單 → <strong>Save As</strong> 來保存渲染結果，選擇保存位置和文件格式。</li>
-</ol>
-<h4><strong>動畫渲染：</strong></h4>
-<ol>
-<li>設置好動畫的起始幀（Start Frame）和結束幀（End Frame），以及輸出格式（選擇 <code>FFmpeg Video</code>）。</li>
-<li>點擊 <strong>Render</strong> 菜單 → <strong>Render Animation</strong>（或按快捷鍵 Ctrl + F12）來開始渲染動畫。</li>
-<li>渲染完成後，Blender 會將動畫以你設置的格式儲存。</li>
-</ol>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>BlenderCH14動畫技巧</title>
-        <author>
-            <name>buzzlightyeah!</name>
-        </author>
-        <link href="https://buzzlightyeah88.github.io/hangry3001/blenderch14.html"/>
-        <id>https://buzzlightyeah88.github.io/hangry3001/blenderch14.html</id>
-            <category term="Fri345"/>
-            <category term="All Posts"/>
-
-        <updated>2024-12-28T02:02:08+08:00</updated>
-            <summary>
-                <![CDATA[
-                    1. 形狀鍵（Shape Keys） 形狀鍵通常用來控制物體或角色的變形，像是角色的表情變化或物體的變形動畫。 功能介紹： 設置步驟： 約束用來讓物體的某些屬性跟其他物體的屬性有所依賴，避免你每次都手動設置關鍵幀，可以讓動畫變得更靈活。 功能介紹： 設置步驟： 驅動器讓你可以利用一個物體的屬性來驅動另一個物體的屬性，這樣可以自動化一些動畫效果。 功能介紹： 設置步驟：&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <h3>1. <strong>形狀鍵（Shape Keys）</strong></h3>
-<p>形狀鍵通常用來控制物體或角色的變形，像是角色的表情變化或物體的變形動畫。</p>
-<p><strong>功能介紹：</strong></p>
-<ul>
-<li>透過形狀鍵，你可以精細控制物體的頂點，做出像是表情、變形或其他細節動畫。</li>
-</ul>
-<p><strong>設置步驟：</strong></p>
-<ol>
-<li><strong>選擇物體</strong>：首先選擇你想要設置形狀鍵的物體。</li>
-<li><strong>進入屬性面板</strong>：在右邊的 <strong>Properties Panel</strong>，選擇 <strong>Object Data Properties</strong>（物體數據屬性），圖示像是綠色的三角形。</li>
-<li><strong>新增形狀鍵</strong>：在 <strong>Shape Keys</strong> 面板裡點擊 <strong>+</strong> 來新增一個形狀鍵。</li>
-<li><strong>編輯形狀鍵</strong>：選擇基礎形狀（<strong>Basis</strong>），接著進行頂點編輯，創造不同的形狀變化。</li>
-<li><strong>插入關鍵幀</strong>：調整形狀鍵的數值（通常是0到1），然後在 <strong>Timeline</strong> 裡插入關鍵幀。</li>
-</ol>
-<h3>2. <strong>約束（Constraints）</strong></h3>
-<p>約束用來讓物體的某些屬性跟其他物體的屬性有所依賴，避免你每次都手動設置關鍵幀，可以讓動畫變得更靈活。</p>
-<p><strong>功能介紹：</strong></p>
-<ul>
-<li>約束讓物體的動作可以跟隨其他物體的屬性，例如相機跟隨物體，或是物體跟隨其他物體的移動。</li>
-</ul>
-<p><strong>設置步驟：</strong></p>
-<ol>
-<li><strong>選擇物體</strong>：選擇你要加約束的物體。</li>
-<li><strong>進入屬性面板</strong>：在右側的 <strong>Properties Panel</strong> 中，選擇 <strong>Object Constraints</strong>（物體約束），圖示像一個鏈條。</li>
-<li><strong>添加約束</strong>：點擊 <strong>Add Object Constraint</strong>（添加物體約束），然後選擇你需要的約束類型（例如 <strong>Follow Path</strong> 或 <strong>Track To</strong>）。</li>
-<li><strong>設置約束屬性</strong>：設置約束的參數，例如選擇目標物體、調整方向或偏移量等。</li>
-</ol>
-<h3>3. <strong>驅動器（Drivers）</strong></h3>
-<p>驅動器讓你可以利用一個物體的屬性來驅動另一個物體的屬性，這樣可以自動化一些動畫效果。</p>
-<p><strong>功能介紹：</strong></p>
-<ul>
-<li>驅動器可以讓你根據一個物體的屬性變化來控制另一個物體的屬性，實現像是同步旋轉、變形等效果。</li>
-</ul>
-<p><strong>設置步驟：</strong></p>
-<ol>
-<li><strong>右鍵屬性</strong>：在 <strong>Properties Panel</strong> 中，對你要設置驅動器的屬性（像是縮放、位置等）右鍵點擊。</li>
-<li><strong>添加驅動器</strong>：選擇 <strong>Add Driver</strong>（添加驅動器）。</li>
-<li><strong>進入圖形編輯器</strong>：打開 <strong>Graph Editor</strong>（圖形編輯器），然後在這裡編輯驅動器的來源物體和它如何影響目標物體。</li>
-<li><strong>設置驅動來源</strong>：在 <strong>Graph Editor</strong> 裡設置驅動的來源，像是利用物體的旋轉來控制它的縮放。</li>
-</ol>
-<h3>4. <strong>非線性動畫（NLA）</strong></h3>
-<p>非線性動畫（NLA）編輯器讓你能夠將不同的動畫片段（例如角色的行走、跳躍等）結合起來，創造更複雜的動畫。</p>
-<p><strong>功能介紹：</strong></p>
-<ul>
-<li>NLA編輯器可以讓你將多個動畫片段按時間順序或重複播放，方便管理多段動畫。</li>
-</ul>
-<p><strong>設置步驟：</strong></p>
-<ol>
-<li><strong>進入NLA編輯器</strong>：在Blender界面的底部區域，切換到 <strong>NLA Editor</strong>（非線性動畫編輯器）。</li>
-<li><strong>推送動作</strong>：選擇物體，然後點擊 <strong>Push Down</strong>（推送下去），將物體的動作推送到NLA編輯器。</li>
-<li><strong>添加動作條目</strong>：在NLA編輯器中點擊 <strong>Add Action Strip</strong>（新增動作條目），選擇需要的動作。</li>
-<li><strong>管理動畫層次</strong>：你可以在NLA編輯器中調整每個動畫的開始和結束時間，控制它們的播放順序，甚至設置過渡效果。</li>
-</ol>
-<h3>5. <strong>粒子系統（Particle System）</strong></h3>
-<p>粒子系統用來創建自然現象動畫，像是煙霧、火焰、雨水等，這樣的動畫可以讓你的場景更生動。</p>
-<p><strong>功能介紹：</strong></p>
-<ul>
-<li>粒子系統可以用來模擬煙霧、火焰、下雨等效果，這些效果通常用於自然場景。</li>
-</ul>
-<p><strong>設置步驟：</strong></p>
-<ol>
-<li><strong>選擇物體</strong>：選擇一個物體，然後打開 <strong>Properties Panel</strong>。</li>
-<li><strong>進入粒子屬性</strong>：選擇 <strong>Particle Properties</strong>（粒子屬性），這個圖示像是一個小圓球。</li>
-<li><strong>創建粒子系統</strong>：點擊 <strong>+</strong> 創建新的粒子系統。</li>
-<li><strong>調整粒子屬性</strong>：設置粒子的數量、速度、生命周期等參數，然後可以在時間軸中插入關鍵幀來改變粒子的行為。</li>
-</ol>
-<h3>6. <strong>相機動畫（Camera Animation）</strong></h3>
-<p>為相機設置動畫可以讓你的動畫場景更具動感，尤其是當需要移動相機來追蹤物體或改變視角時，這是必須的。</p>
-<p><strong>功能介紹：</strong></p>
-<ul>
-<li>相機動畫能夠幫助你設置動畫中的鏡頭運動，實現動態視角。</li>
-</ul>
-<p><strong>設置步驟：</strong></p>
-<ol>
-<li><strong>選擇相機</strong>：選擇3D視窗中的相機物體。</li>
-<li><strong>進入相機屬性</strong>：在 <strong>Properties Panel</strong> 中，選擇 <strong>Camera</strong>（相機）面板，這個圖示像一個小相機。</li>
-<li><strong>設置位置與旋轉</strong>：調整相機的位置和旋轉，並在 <strong>Timeline</strong> 上插入關鍵幀。</li>
-<li><strong>使用Track To約束</strong>：你可以為相機設置 <strong>Track To</strong>（追蹤目標）約束，讓相機始終對準指定的物體，這樣相機就能跟隨物體運動。</li>
-</ol>
-<h3>7. <strong>音效同步（Synchronizing Sound with Animation）</strong></h3>
-<p>音效與動畫的同步對於提升動畫的真實感和效果非常重要，Blender也有提供相關功能來處理這一部分。</p>
-<p><strong>功能介紹：</strong></p>
-<ul>
-<li>你可以將音效加入動畫中，並且和動畫的事件（像是跳躍、碰撞等）進行同步。</li>
-</ul>
-<p><strong>設置步驟：</strong></p>
-<ol>
-<li><strong>導入音效</strong>：進入 <strong>Video Sequence Editor</strong>（視頻序列編輯器），點擊 <strong>Add</strong> &gt; <strong>Sound</strong>（音效），然後選擇你的音效檔案。</li>
-<li><strong>調整音效時間</strong>：在 <strong>Timeline</strong> 上調整音效的播放時間，讓它跟動畫的事件對齊。</li>
-<li><strong>檢查同步</strong>：播放動畫並確認音效與動畫同步。</li>
-</ol>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>BlenderCH13動畫製作、關鍵幀</title>
-        <author>
-            <name>buzzlightyeah!</name>
-        </author>
-        <link href="https://buzzlightyeah88.github.io/hangry3001/blenderch13dong-hua-zhi-zuoguan-jian-zheng.html"/>
-        <id>https://buzzlightyeah88.github.io/hangry3001/blenderch13dong-hua-zhi-zuoguan-jian-zheng.html</id>
-        <media:content url="https://buzzlightyeah88.github.io/hangry3001/media/posts/29/Jie-Tu-2024-12-28-Ling-Chen-1.55.07.png" medium="image" />
-            <category term="Fri345"/>
-            <category term="All Posts"/>
-
-        <updated>2024-12-28T01:55:17+08:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/29/Jie-Tu-2024-12-28-Ling-Chen-1.55.07.png" alt="" />
-                    動起來的重點！ 在3D動畫中，**關鍵幀（Keyframe）**是定義物體在時間軸上各種屬性變化（如位置、旋轉、縮放）的基本單位。學會設置關鍵幀是創建平滑、動態且富有表現力動畫的基礎技能。本文將介紹為何學習設置關鍵幀至關重要，具體的操作步驟，以及它所帶來的效果，幫助你理解這個過程。 精確控制 關鍵幀讓你在時間軸（Timeline）上精確控制物體的屬性（位置、旋轉、縮放等），這對於動畫的每個細節都能提供充分的掌控。 動畫過渡流暢 關鍵幀定義了動畫的起點和終點，而Blender會自動計算兩個關鍵幀之間的過渡。你可以通過調整插值（如Ease In/Out）來讓動畫過渡更加自然，避免生硬的移動。 提高創作效率 一旦設置了關鍵幀，Blender會自動處理中間的過渡幀，節省了大量時間。這樣你就能專注於創意和細節，而不需要手動編排每一幀。 多樣化與複雜的動畫效果 設置關鍵幀後，你可以同時控制物體的多個屬性，創造出更複雜和富有層次感的動畫效果。 選擇物體（Select&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/29/Jie-Tu-2024-12-28-Ling-Chen-1.55.07.png" class="type:primaryImage" alt="" /></p>
-                <p><strong><span style="color: #236fa1;">動起來的重點！</span></strong></p>
-<p>在3D動畫中，**關鍵幀（Keyframe）**是定義物體在時間軸上各種屬性變化（如位置、旋轉、縮放）的基本單位。學會設置關鍵幀是創建平滑、動態且富有表現力動畫的基礎技能。本文將介紹為何學習設置<span style="color: #e03e2d;">關鍵幀至關重要</span>，具體的操作步驟，以及它所帶來的效果，幫助你理解這個過程。</p>
-<h3><strong>為什麼要學習設置關鍵幀？</strong></h3>
-<ol>
-<li>
-<p><strong>精確控制</strong><br>關鍵幀讓你在時間軸（<strong>Timeline</strong>）上精確控制物體的屬性（位置、旋轉、縮放等），這對於動畫的每個細節都能提供充分的掌控。</p>
-</li>
-<li>
-<p><strong>動畫過渡流暢</strong><br>關鍵幀定義了動畫的起點和終點，而Blender會自動計算兩個關鍵幀之間的過渡。你可以通過調整插值（如Ease In/Out）來讓動畫過渡更加自然，避免生硬的移動。</p>
-</li>
-<li>
-<p><strong>提高創作效率</strong><br>一旦設置了關鍵幀，Blender會自動處理中間的過渡幀，節省了大量時間。這樣你就能專注於創意和細節，而不需要手動編排每一幀。</p>
-</li>
-<li>
-<p><strong>多樣化與複雜的動畫效果</strong><br>設置關鍵幀後，你可以同時控制物體的多個屬性，創造出更複雜和富有層次感的動畫效果。</p>
-</li>
-</ol>
-<h3><strong>設置關鍵幀的步驟</strong></h3>
-<ol>
-<li>
-<p><strong>選擇物體（Select the Object）</strong><br>在3D視窗（<strong>3D Viewport</strong>）中，右鍵選擇你想要設置動畫的物體，例如一個立方體（<strong>Cube</strong>）。</p>
-</li>
-<li>
-<p><strong>調整初始屬性（Adjust Initial Properties）</strong></p>
-<ul>
-<li><strong>位置（Location）</strong>：在物體屬性面板（<strong>Properties Panel</strong>）中調整物體的起始位置。你可以在<strong>Item</strong>面板（右側）下查看其<strong>Location</strong>值，並手動修改X、Y、Z座標。</li>
-<li><strong>旋轉（Rotation）</strong>：調整物體的旋轉，這同樣可以在<strong>Item</strong>面板中找到<strong>Rotation</strong>選項。</li>
-<li><strong>縮放（Scale）</strong>：調整物體的縮放，這個屬性也位於<strong>Item</strong>面板下的<strong>Scale</strong>欄位。</li>
-</ul>
-</li>
-<li>
-<p><strong>插入關鍵幀（Insert Keyframe）</strong></p>
-<ul>
-<li><strong>選擇時間點（Choose the Timeline）</strong>：將時間指針（<strong>Timeline Cursor</strong>）移動到你想設置的時間點，通常是起始幀（例如第1幀）。</li>
-<li><strong>插入關鍵幀（Insert Keyframe）</strong>：按 <code>I</code> 鍵，選擇你需要的屬性來插入關鍵幀。在彈出的選單中，選擇<strong>Location</strong>、<strong>Rotation</strong>或<strong>Scale</strong>。</li>
-</ul>
-</li>
-<li>
-<p><strong>修改屬性並插入第二個關鍵幀（Modify Properties and Insert Second Keyframe）</strong></p>
-<ul>
-<li><strong>選擇時間點（Choose the Timeline）</strong>：將時間指針移動到後續幀數（例如第30幀）。</li>
-<li><strong>調整物體屬性（Adjust the Object）</strong>：更改物體的位置、旋轉或縮放，讓它達到動畫的結束狀態。</li>
-<li><strong>插入第二個關鍵幀（Insert the Second Keyframe）</strong>：再次按 <code>I</code> 鍵，選擇相同的屬性來插入第二個關鍵幀。</li>
-</ul>
-</li>
-<li>
-<p><strong>播放動畫（Play the Animation）</strong><br>按下 <strong>空格鍵（Spacebar）</strong> 來播放動畫，你會看到物體從初始位置到達第二個關鍵幀的位置，並完成運動。</p>
-</li>
-</ol>
-<h3><strong>關鍵幀插值類型（Interpolation Types）</strong></h3>
-<p>Blender會自動為兩個關鍵幀之間進行插值，但你可以根據需要調整插值方式，來改變動畫的過渡效果。這些設置位於<strong>Graph Editor</strong>或<strong>Dope Sheet</strong>中。</p>
-<ol>
-<li>
-<p><strong>線性插值（Linear Interpolation）</strong></p>
-<ul>
-<li>物體的運動在兩個關鍵幀之間保持均勻，速度不變。這種插值方式適用於簡單的直線運動。</li>
-</ul>
-</li>
-<li>
-<p><strong>加速和減速（Ease In 和 Ease Out）</strong></p>
-<ul>
-<li><strong>Ease In</strong>：動畫開始時較慢，然後加速。</li>
-<li><strong>Ease Out</strong>：動畫結束時較慢，前面較快。</li>
-<li><strong>Ease In/Out</strong>：結合了Ease In和Ease Out，動畫的開始和結束都會有自然的加速和減速效果，模仿現實世界的運動。</li>
-</ul>
-</li>
-<li>
-<p><strong>彈跳效果（Bounce Interpolation）</strong></p>
-<ul>
-<li>使用像**彈性（Elastic）<strong>或</strong>彈跳（Bounce）**的插值來創建有衝擊力和反彈感的動畫，這在做物體下落或彈跳時非常有用。</li>
-</ul>
-</li>
-</ol>
-<h3><strong>關鍵幀帶來的效果</strong></h3>
-<ol>
-<li>
-<p><strong>精確控制物體變化（Precise Control Over Changes）</strong><br>每個關鍵幀標記了時間軸上的具體變化點，讓你精確控制物體的運動、旋轉和縮放。這使得動畫過程更加可預測和可控。</p>
-</li>
-<li>
-<p><strong>過渡流暢（Smooth Transitions）</strong><br>設置關鍵幀後，Blender會自動計算兩個關鍵幀之間的過渡。通過調整插值方式，可以讓動畫變得更加平滑和自然。</p>
-</li>
-<li>
-<p><strong>創建複雜動畫（Create Complex Animations）</strong><br>你可以設置多個屬性的關鍵幀（例如，同時控制位置和旋轉），創建複雜的動畫效果。例如，讓物體在旋轉的同時移動，或者在放大的同時改變顏色。</p>
-</li>
-<li>
-<p><strong>提高動畫效率（Efficiency in Animation Creation）</strong><br>設置關鍵幾個幀後，Blender會自動處理兩個關鍵幀之間的過渡過程，這大大提高了製作長時間動畫的效率，節省大量手動設置的時間。</p>
-</li>
-<li>
-<p><strong>動態效果（Dynamic Effects）</strong><br>關鍵幀不僅限於位置、旋轉、縮放。你還可以為材質、燈光、鏡頭等屬性設置關鍵幀，創建動態的視覺效果，例如顏色變化、光源強度的變化等。</p>
-</li>
-</ol>
-<h3><strong>如何識別已設置的關鍵幀（Identifying Set Keyframes）</strong></h3>
-<ul>
-<li><strong>視覺標示（Visual Indicator）</strong>：一旦插入關鍵幀，時間軸（<strong>Timeline</strong>）上會顯示一個小小的菱形符號（<strong>Keyframe Marker</strong>）。</li>
-<li><strong>顏色變化（Color Change）</strong>：當關鍵幀插入成功時，菱形符號會變成<strong>橙色（Orange）</strong>，表示這個屬性已經被設置為關鍵幀。</li>
-</ul>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>BlenderCH12場景、圖層</title>
-        <author>
-            <name>buzzlightyeah!</name>
-        </author>
-        <link href="https://buzzlightyeah88.github.io/hangry3001/blenderch12chang-jingtu-ceng.html"/>
-        <id>https://buzzlightyeah88.github.io/hangry3001/blenderch12chang-jingtu-ceng.html</id>
-            <category term="Fri345"/>
-            <category term="All Posts"/>
-
-        <updated>2024-12-28T01:44:56+08:00</updated>
-            <summary>
-                <![CDATA[
-                    當你處理大型或複雜的 3D 場景時，合理的場景組織和圖層管理對於工作流程至關重要。Blender 提供了強大的集合（Collections）、命名與篩選功能，以及圖層與場景管理工具，可以讓你高效管理和控制大型場景。下面是更詳細的步驟，帶有所有關鍵位置和快捷鍵的英文描述，適用於多種工作環境。 在 Blender 中，集合是一種用來組織物件的容器，可以包含不同類型的物件（例如模型、燈光、相機等）。它使得管理大型場景變得更簡單，能夠讓你隨時顯示、隱藏、選擇或編輯一組物件。 創建新的集合： 將物件移入集合： 集合的層級結構管理： 顯示與隱藏集合： 禁用集合渲染：&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>當你處理大型或複雜的 3D 場景時，合理的場景組織和圖層管理對於工作流程至關重要。Blender 提供了強大的集合（Collections）、命名與篩選功能，以及圖層與場景管理工具，可以讓你高效管理和控制大型場景。下面是更詳細的步驟，帶有所有關鍵位置和快捷鍵的英文描述，適用於多種工作環境。</p>
-<h3>1. 集合（Collections）：如何組織場景中的物件</h3>
-<h4>1.1 什麼是集合（Collections）？</h4>
-<p>在 Blender 中，集合是一種用來組織物件的容器，可以包含不同類型的物件（例如模型、燈光、相機等）。它使得管理大型場景變得更簡單，能夠讓你隨時顯示、隱藏、選擇或編輯一組物件。</p>
-<h4>1.2 創建與管理集合</h4>
-<ul>
-<li>
-<p><strong>創建新的集合</strong>：</p>
-<ol>
-<li>在 <code>Outliner</code>（場景大綱）面板中，右鍵點擊一個物件，選擇 <code>Move to Collection</code>（移動到集合）。</li>
-<li>在彈出的菜單中，選擇 <code>New Collection</code>（新建集合），並命名為適合的名稱，例如 <code>Furniture</code>（家具）或 <code>Lighting</code>（燈光）。</li>
-<li>或者，點擊頂部菜單的 <code>Collection</code> → <code>New</code> 來創建集合（<code>Shift + C</code> 是快速創建集合的快捷鍵）。</li>
-</ol>
-</li>
-<li>
-<p><strong>將物件移入集合</strong>：</p>
-<ol>
-<li>在 <code>3D View</code>（3D 視圖）中選擇你要移動的物件。</li>
-<li>按 <code>M</code>，調出 <code>Move to Collection</code> 菜單，然後選擇你希望將物件移入的集合。</li>
-<li>你可以選擇將物件放入已經存在的集合中，或者創建一個新的集合。</li>
-</ol>
-</li>
-<li>
-<p><strong>集合的層級結構管理</strong>：</p>
-<ul>
-<li>你可以在 <code>Outliner</code> 中創建嵌套集合。例如，將一個集合命名為 <code>Environment</code>，並將其他子集合如 <code>Trees</code>、<code>Ground</code> 放在其中。這樣有助於讓場景結構更有條理。</li>
-<li>你可以通過拖放操作將子集合嵌套到主集合中。</li>
-</ul>
-</li>
-</ul>
-<h4>1.3 使用集合進行顯示、隱藏和渲染控制</h4>
-<ul>
-<li>
-<p><strong>顯示與隱藏集合</strong>：</p>
-<ol>
-<li>在 <code>Outliner</code> 中，每個集合旁邊會有一個眼睛圖標。點擊這個眼睛圖標，可以隱藏或顯示該集合中的物件。</li>
-<li>這可以幫助你在處理場景時，專注於特定部分。例如，隱藏家具集合來專注於建築結構。</li>
-</ol>
-</li>
-<li>
-<p><strong>禁用集合渲染</strong>：</p>
-<ol>
-<li>在 <code>Outliner</code> 中，集合旁邊有一個相機圖標。點擊它會禁用該集合的渲染。</li>
-<li>這樣可以在渲染最終圖像時不顯示某些集合中的物件，常用於不需要渲染的場景元素（例如輔助物件或參考物件）。</li>
-</ol>
-</li>
-</ul>
-<h3>2. 命名與篩選：命名物件及使用過濾器管理大場景</h3>
-<h4>2.1 命名物件</h4>
-<p>在大型場景中，正確命名物件對於快速識別和選擇物件至關重要。這不僅有助於你在場景中尋找物件，還有助於在大型專案中保持一致性。</p>
-<ul>
-<li>
-<p><strong>命名規範</strong>：</p>
-<ol>
-<li>給物件賦予描述性的名稱，例如將 <code>Cube</code> 改名為 <code>Chair_01</code>、<code>Tree_01</code> 等。</li>
-<li>使用數字、字母或類別來區分相同類型的物件，例如 <code>Car_01</code>、<code>Car_02</code>，或者 <code>Door_Wood</code> 和 <code>Door_Metal</code>。</li>
-</ol>
-</li>
-<li>
-<p><strong>批量重命名物件</strong>：</p>
-<ol>
-<li>在 <code>Outliner</code> 中右鍵點擊任意物件，選擇 <code>Rename</code>（重命名），然後手動輸入新名稱。</li>
-<li>你可以選擇性地使用批量命名工具。使用 <code>Ctrl + Shift + R</code> 可以在一個範圍內重命名物件。</li>
-</ol>
-</li>
-</ul>
-<h4>2.2 使用篩選器篩選物件</h4>
-<p>Blender 提供了多種篩選工具，能幫助你在擁有大量物件的場景中快速定位所需的物件。</p>
-<ul>
-<li>
-<p><strong>篩選器功能</strong>：</p>
-<ol>
-<li>在 <code>Outliner</code> 上方有一個篩選器欄位。在這裡，你可以輸入物件名稱來篩選顯示物件。比如輸入 <code>Cube</code> 會顯示所有名稱中包含 <code>Cube</code> 的物件。</li>
-<li>在篩選器欄中點擊 <code>Filter</code>（過濾器）圖標，選擇顯示/隱藏物件、集合、燈光等。</li>
-</ol>
-</li>
-<li>
-<p><strong>使用類型過濾器</strong>：</p>
-<ol>
-<li>在 <code>Outliner</code> 的過濾選項中，點擊下拉菜單，選擇物件類型，例如 <code>Mesh</code>、<code>Camera</code>、<code>Light</code>，只顯示這些類型的物件。</li>
-</ol>
-</li>
-<li>
-<p><strong>快速過濾物件</strong>：</p>
-<ol>
-<li>使用 <code>Shift + G</code> 可以根據不同屬性快速選擇物件，例如選擇所有使用相同材質的物件，或者所有處於同一集合中的物件。</li>
-<li>在 <code>3D View</code> 中，選擇一個物件後，按 <code>Ctrl + L</code> 來選擇與之相連的物件，這樣能在場景中快速選擇並修改相關物件。</li>
-</ol>
-</li>
-</ul>
-<h3>3. 圖層和場景功能：多場景和圖層的使用方法</h3>
-<h4>3.1 圖層管理（Layers）</h4>
-<p>在 Blender 2.8 及以後的版本中，圖層管理已經被集合（Collections）取代。但有時候，你仍然需要知道如何處理舊版圖層（例如當你加載舊場景時）。如果你使用的是 Blender 2.8 或更高版本，圖層將以集合的形式出現。</p>
-<ul>
-<li><strong>在集合中使用圖層</strong>：
-<ol>
-<li>你可以在 <code>Outliner</code> 中組織物件，使它們屬於不同的集合，從而模擬多圖層的效果。</li>
-<li>每個集合可以看作是一個圖層，它可以包含多個物件，並且可以單獨控制顯示、隱藏、選擇和渲染。</li>
-</ol>
-</li>
-</ul>
-<h4>3.2 多場景（Multiple Scenes）</h4>
-<p>Blender 允許在同一個文件中創建多個場景。這對於處理大型專案（如動畫、不同渲染版本等）時非常有用。</p>
-<ul>
-<li>
-<p><strong>創建新場景</strong>：</p>
-<ol>
-<li>點擊 <code>File</code>（文件） → <code>New</code> → <code>Scene</code>（新建場景），可以創建一個新的場景。</li>
-<li>你也可以選擇基於當前場景創建一個新場景，這樣新場景會繼承當前的設置（例如物件、材質等）。</li>
-<li>使用 <code>Ctrl + Shift + N</code> 來創建新的場景。</li>
-</ol>
-</li>
-<li>
-<p><strong>切換場景</strong>：</p>
-<ol>
-<li>在 <code>Outliner</code> 中，你會看到場景的列表。點擊任何一個場景名稱來切換到該場景。</li>
-<li>你可以在不同場景之間來回切換，並且它們的設定和物件是獨立的。</li>
-</ol>
-</li>
-</ul>
-<h4>3.3 場景間物件共享與管理</h4>
-<ul>
-<li>
-<p><strong>物件共享</strong>：</p>
-<ol>
-<li>在多場景工作中，你可以使用 <code>Link</code> 和 <code>Append</code> 操作來共享物件。</li>
-<li><code>Link</code> 允許你將其他場景中的物件鏈接到當前場景，這樣當物件更新時，所有場景都會反映更改。</li>
-<li><code>Append</code> 則是將物件實際複製到當前場景中，使其變成獨立的副本。</li>
-</ol>
-</li>
-<li>
-<p><strong>場景參數設置</strong>：每個場景都有自己的屬性，你可以在 <code>Properties Panel</code>（屬性面板）中設置不同的渲染選項、相機、燈光等。<span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">使用 </span><code style="font-weight: var(--font-weight-normal);">Scene</code><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);"> 標籤來修改場景特定的屬性。</span></p>
-</li>
-</ul>
-<h3>4. 進階功能與技巧</h3>
-<h4>4.1 使用視圖層（View Layers）來分層管理</h4>
-<p><code>視圖層</code>（View Layers）是 Blender 中處理複雜渲染的強大工具。它允許你將場景中的物件按照不同的視角進行分層管理，每個視圖層可以有不同的顯示、渲染和遮罩設置。</p>
-<ul>
-<li>
-<p><strong>創建視圖層</strong>：</p>
-<ol>
-<li>在 <code>Properties</code> 面板中，找到 <code>View Layer</code> 標籤（它是類似於「攝影機」的圖標）。</li>
-<li>在 <code>View Layer</code> 設置中，點擊 <code>+</code> 創建新的視圖層。</li>
-<li>每個視圖層都可以選擇不同的物件、集合、燈光，甚至是渲染設置來創建不同的渲染效果。</li>
-</ol>
-</li>
-<li>
-<p><strong>視圖層與集合的結合使用</strong>：</p>
-<ol>
-<li>你可以將特定的集合分配到不同的視圖層，這樣每個視圖層僅渲染特定集合中的物件。</li>
-<li>這對於渲染特效、遮罩層、通道等非常有用，能夠讓你在合成過程中有更多的控制權。</li>
-</ol>
-</li>
-<li>
-<p><strong>遮罩（Masks）</strong>：在視圖層中，你可以使用遮罩來控制物件的顯示。例如，你可以將某些物件或集合的顯示狀態設置為遮罩，這樣它們在渲染中不會顯示出來。</p>
-</li>
-</ul>
-<h4>4.2 利用標籤（Tags）來標記物件</h4>
-<p>Blender 允許使用標籤（Tags）來對物件進行額外分類，這有助於更精細的管理。標籤通常在大型場景中很有用，可以快速標記物件屬性或用途。</p>
-<ul>
-<li>
-<p><strong>為物件添加標籤</strong>：</p>
-<ol>
-<li>在 <code>Outliner</code> 中右鍵點擊物件，選擇 <code>Add Tag</code>（添加標籤）。</li>
-<li>輸入標籤名稱，例如 <code>Prop</code>（道具）、<code>Character</code>（角色）等。</li>
-<li>你可以為每個物件添加多個標籤來標記其屬性。</li>
-</ol>
-</li>
-<li>
-<p><strong>篩選帶標籤的物件</strong>：</p>
-<ol>
-<li>在 <code>Outliner</code> 中，點擊篩選器（Filter）圖標，並選擇 <code>Tags</code>，然後選擇你想要篩選的標籤。</li>
-<li>這樣，所有擁有該標籤的物件會被高亮顯示，幫助你快速查找。</li>
-</ol>
-</li>
-</ul>
-<h4>4.3 自訂快捷鍵與快捷操作</h4>
-<p>Blender 提供了大量的快捷鍵來加快工作流程。你可以自定義快捷鍵來提高場景組織與圖層管理的效率。</p>
-<ul>
-<li>
-<p><strong>自定義快捷鍵</strong>：</p>
-<ol>
-<li>前往 <code>Edit</code> → <code>Preferences</code> → <code>Keymap</code>，在這裡你可以查看、修改並創建新的快捷鍵。</li>
-<li>例如，為經常使用的命令（如 <code>Move to Collection</code>）設置一個自定義的快捷鍵，這樣你不需要每次都進入菜單。</li>
-</ol>
-</li>
-<li>
-<p><strong>場景/集合選擇快捷鍵</strong>：</p>
-<ol>
-<li>當場景中有多個集合時，使用 <code>Ctrl + [數字鍵]</code> 可以快速切換顯示不同的集合。</li>
-<li>使用 <code>Shift + [數字鍵]</code> 可以選擇不同的視圖層。</li>
-</ol>
-</li>
-</ul>
-<h4>4.4 使用 Python 腳本進行自動化</h4>
-<p>Blender 提供了強大的 Python API，允許你使用腳本進行自動化操作。這對於管理大型專案中的集合、物件和場景非常有用。</p>
-<ul>
-<li><strong>使用腳本來自動化集合管理</strong>：
-<ol>
-<li>打開 <code>Scripting</code>（腳本）視窗，創建新的 Python 腳本。</li>
-<li>使用 <code>bpy</code>（Blender Python 模組）來創建、管理和組織集合。例如，下面的腳本可以自動創建集合並將物件移入其中：</li>
-</ol>
-</li>
-</ul>
-<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
-<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">python</div>
-<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-python"><span style="color: #e03e2d;">import bpy</span><br><br><span style="color: #e03e2d;"># 創建新集合</span><br><span style="color: #e03e2d;">collection = bpy.data.collections.new("MyCollection")</span><br><span style="color: #e03e2d;">bpy.context.scene.collection.children.link(collection)</span><br><br><span style="color: #e03e2d;"># 移動物件到新集合</span><br><span style="color: #e03e2d;">obj = bpy.context.view_layer.objects.active</span><br><span style="color: #e03e2d;">collection.objects.link(obj)</span><br></code></div>
-</div>
-<ul>
-<li><strong>批量重命名物件</strong>： 你可以編寫腳本來根據規則批量重命名物件，這對於大型場景中的物件管理非常有用。</li>
-</ul>
-<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
-<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">python</div>
-<div> </div>
-<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-python"><span class="hljs-keyword"><span style="color: #e03e2d;">import bpy</span><br><br><span style="color: #e03e2d;"># 批量重命名物件</span><br><span style="color: #e03e2d;">for i, obj in enumerate(bpy.context.selected_objects):</span><br><span style="color: #e03e2d;">    obj.name = f"Object_{i+1}</span>"<br></span></code></div>
-</div>
-<h4>4.5 使用軟體連接和協作</h4>
-<p>Blender 支援多種協作方式，尤其是當你與團隊合作時。以下是一些協作工具：</p>
-<p> </p>
-<ul>
-<li style="list-style-type: none;">
-<ul>
-<li style="list-style-type: none;">
-<ul>
-<li>
-<p><strong>使用外部資源</strong>：</p>
-<ol>
-<li>使用 <code>Link</code>（鏈接）而非 <code>Append</code>（追加）將外部資源引入場景，這樣可以保持物件的更新同步。</li>
-<li>使用 <code>Asset Browser</code>（資產瀏覽器）來管理資源，將常用的物件、材質、燈光等資源保存為資產，方便在不同場景中重複使用。</li>
-</ol>
-</li>
-<li>
-<p><strong>利用版本控制</strong>：使用 Git 或其他版本控制系統來管理 Blender 專案。這樣，即使場景文件變得龐大，也能保持對不同版本的控制，並確保團隊成員之間的協作順利進行。</p>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
             ]]>
         </content>
     </entry>
