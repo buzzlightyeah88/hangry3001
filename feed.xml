@@ -3,7 +3,7 @@
     <title>@hangry3001</title>
     <link href="https://buzzlightyeah88.github.io/hangry3001/feed.xml" rel="self" />
     <link href="https://buzzlightyeah88.github.io/hangry3001" />
-    <updated>2024-12-28T01:34:17+08:00</updated>
+    <updated>2024-12-28T01:36:28+08:00</updated>
     <author>
         <name>buzzlightyeah!</name>
     </author>
@@ -309,29 +309,17 @@
 <h4><strong>3.2 法線貼圖 (Normal Map)</strong></h4>
 <ul>
 <li><strong>作用</strong>：法線貼圖模擬細節，改變光照反應，但不改變物體幾何形狀。</li>
-<li><strong>操作</strong>：
-<ol>
-<li>使用 <strong>Normal Map</strong> 節點來處理法線貼圖，並將其連接到 <strong>Principled BSDF</strong> 節點的 <strong>Normal</strong> 輸入。</li>
-</ol>
-</li>
+<li><strong>操作</strong>：使用 <strong>Normal Map</strong> 節點來處理法線貼圖，並將其連接到 <strong>Principled BSDF</strong> 節點的 <strong>Normal</strong> 輸入。</li>
 </ul>
 <h4><strong>3.3 粗糙度貼圖 (Roughness Map)</strong></h4>
 <ul>
 <li><strong>作用</strong>：控制材質的光滑程度。</li>
-<li><strong>操作</strong>：
-<ol>
-<li>將 <strong>Image Texture</strong> 節點連接到 <strong>Principled BSDF</strong> 節點的 <strong>Roughness</strong> 輸入。</li>
-</ol>
-</li>
+<li><strong>操作</strong>：將 <strong>Image Texture</strong> 節點連接到 <strong>Principled BSDF</strong> 節點的 <strong>Roughness</strong> 輸入。</li>
 </ul>
 <h4><strong>3.4 位移貼圖 (Displacement Map)</strong></h4>
 <ul>
 <li><strong>作用</strong>：實際改變物體的表面高度。</li>
-<li><strong>操作</strong>：
-<ol>
-<li>使用 <strong>Displacement</strong> 節點，將 <strong>Image Texture</strong> 節點的輸出連接到 <strong>Displacement</strong> 節點的 <strong>Height</strong> 輸入，並將其輸出連接到 <strong>Material Output</strong> 節點的 <strong>Displacement</strong> 輸入。</li>
-</ol>
-</li>
+<li><strong>操作</strong>：使用 <strong>Displacement</strong> 節點，將 <strong>Image Texture</strong> 節點的輸出連接到 <strong>Displacement</strong> 節點的 <strong>Height</strong> 輸入，並將其輸出連接到 <strong>Material Output</strong> 節點的 <strong>Displacement</strong> 輸入。</li>
 </ul>
 <h4><strong>3.5 透明貼圖 (Alpha/Transparency Map)</strong></h4>
 <ul>
@@ -356,18 +344,12 @@
 </ol>
 <h3><strong>5. 調整與優化貼圖 (Adjusting and Optimizing Textures)</strong></h3>
 <h4><strong>Mapping 節點 (Mapping Node)</strong></h4>
-<ol>
-<li>使用 <strong>Mapping</strong> 節點來控制貼圖的縮放、旋轉和位置。將其連接到 <strong>Texture Coordinate</strong> 節點，再將 <strong>Texture Coordinate</strong> 節點連接到 <strong>Image Texture</strong> 節點。</li>
-</ol>
+<p>使用 <strong>Mapping</strong> 節點來控制貼圖的縮放、旋轉和位置。將其連接到 <strong>Texture Coordinate</strong> 節點，再將 <strong>Texture Coordinate</strong> 節點連接到 <strong>Image Texture</strong> 節點。</p>
 <h4><strong>顏色空間 (Color Space)</strong></h4>
-<ol>
-<li>根據貼圖類型選擇適當的顏色空間。如果是法線貼圖或位移貼圖，請選擇 <strong>Non-Color Data</strong>，以保持數據準確。</li>
-</ol>
+<p>根據貼圖類型選擇適當的顏色空間。如果是法線貼圖或位移貼圖，請選擇 <strong>Non-Color Data</strong>，以保持數據準確。</p>
 <h3><strong>6. 預覽貼圖效果 (Previewing Textures)</strong></h3>
 <h4><strong>渲染模式 (Rendered View)</strong></h4>
-<ol>
-<li>在 <strong>3D 視窗</strong> 中，切換視圖模式為 <strong>Rendered</strong>，以即時查看材質和貼圖效果。這樣您就能看到渲染後的實際效果。</li>
-</ol>
+<p>在 <strong>3D 視窗</strong> 中，切換視圖模式為 <strong>Rendered</strong>，以即時查看材質和貼圖效果。這樣您就能看到渲染後的實際效果。</p>
 <h4><strong>選擇渲染引擎 (Render Engine)</strong></h4>
 <p>使用 <strong>Cycles 渲染引擎</strong>，您可以得到更真實的渲染效果，但會耗費更多時間。<strong>Eevee 渲染引擎</strong>則提供即時預覽，更適合快速檢查。</p>
 <h3><strong>7. 保存與重用材質 (Saving and Reusing Materials)</strong></h3>
