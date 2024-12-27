@@ -3,7 +3,7 @@
     <title>@hangry3001</title>
     <link href="https://buzzlightyeah88.github.io/hangry3001/feed.xml" rel="self" />
     <link href="https://buzzlightyeah88.github.io/hangry3001" />
-    <updated>2024-12-28T02:17:37+08:00</updated>
+    <updated>2024-12-28T02:34:04+08:00</updated>
     <author>
         <name>buzzlightyeah!</name>
     </author>
@@ -24,32 +24,192 @@
         <content></content>
     </entry>
     <entry>
-        <title>BlenderCH17</title>
+        <title>BlenderCH17我有裝的插件</title>
         <author>
             <name>buzzlightyeah!</name>
         </author>
         <link href="https://buzzlightyeah88.github.io/hangry3001/blenderch17.html"/>
         <id>https://buzzlightyeah88.github.io/hangry3001/blenderch17.html</id>
+        <media:content url="https://buzzlightyeah88.github.io/hangry3001/media/posts/33/Jie-Tu-2024-12-28-Ling-Chen-2.27.59.png" medium="image" />
             <category term="Fri345"/>
             <category term="All Posts"/>
 
         <updated>2024-12-28T02:06:31+08:00</updated>
-            <summary></summary>
-        <content></content>
+            <summary>
+                <![CDATA[
+                        <img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/33/Jie-Tu-2024-12-28-Ling-Chen-2.27.59.png" alt="" />
+                    fulldome pro : https://blender-addons.org/fulldome-pro/ 用來做穹頂空間的投影作品 archimesh 現成建築物、家具，可以自己調整各個部位 MBlab : https://github.com/animate1978/MB-Lab 人物建模 building&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/33/Jie-Tu-2024-12-28-Ling-Chen-2.27.59.png" class="type:primaryImage" alt="" /></p>
+                <p>fulldome pro : <a href="https://blender-addons.org/fulldome-pro/">https://blender-addons.org/fulldome-pro/</a></p>
+<p>用來做穹頂空間的投影作品</p>
+<p>archimesh </p>
+<p>現成建築物、家具，可以自己調整各個部位</p>
+<p>MBlab : <a href="https://github.com/animate1978/MB-Lab">https://github.com/animate1978/MB-Lab</a></p>
+<p>人物建模</p>
+<p>building tools : <a href="https://github.com/ranjian0/building_tools">https://github.com/ranjian0/building_tools</a></p>
+<p>建築物</p>
+            ]]>
+        </content>
     </entry>
     <entry>
-        <title>BlenderCH16</title>
+        <title>BlenderCH16插件</title>
         <author>
             <name>buzzlightyeah!</name>
         </author>
         <link href="https://buzzlightyeah88.github.io/hangry3001/blenderch16.html"/>
         <id>https://buzzlightyeah88.github.io/hangry3001/blenderch16.html</id>
+        <media:content url="https://buzzlightyeah88.github.io/hangry3001/media/posts/32/Jie-Tu-2024-12-28-Ling-Chen-2.26.23.png" medium="image" />
             <category term="Fri345"/>
             <category term="All Posts"/>
 
         <updated>2024-12-28T02:02:35+08:00</updated>
-            <summary></summary>
-        <content></content>
+            <summary>
+                <![CDATA[
+                        <img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/32/Jie-Tu-2024-12-28-Ling-Chen-2.26.23.png" alt="" />
+                    1. 插件安裝：如何在 macOS 上啟用官方和第三方插件 步驟： 打開 Blender。 在畫面左上角的 Edit，點選 Preferences。 英文界面：Edit &gt;&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://buzzlightyeah88.github.io/hangry3001/media/posts/32/Jie-Tu-2024-12-28-Ling-Chen-2.26.23.png" class="type:primaryImage" alt="" /></p>
+                <h3>1. <strong>插件安裝：如何在 macOS 上啟用官方和第三方插件</strong></h3>
+<h4>步驟：</h4>
+<ol>
+<li><strong>打開 Blender</strong>。</li>
+<li>在畫面左上角的 <strong>Edit</strong>，點選 <strong>Preferences</strong>。
+<ul>
+<li><strong>英文界面</strong>：<strong>Edit</strong> &gt; <strong>Preferences</strong>。</li>
+</ul>
+</li>
+<li>在 <strong>Preferences</strong> 視窗中，選擇上方的 <strong>Add-ons</strong> 標籤。
+<ul>
+<li><strong>英文界面</strong>：<strong>Preferences</strong> 窗口 &gt; <strong>Add-ons</strong>。</li>
+</ul>
+</li>
+</ol>
+<h4>插件安裝：</h4>
+<ol start="4">
+<li>
+<p>點選 <strong>Install</strong> 按鈕，選擇你下載的插件 <code>.zip</code> 檔案。</p>
+<ul>
+<li><strong>英文界面</strong>：<strong>Install</strong> 按鈕。</li>
+</ul>
+</li>
+<li>
+<p>插件安裝後會顯示在 <strong>Add-ons</strong> 列表中，勾選該插件旁邊的 <strong>Enable</strong> 方框來啟用。</p>
+<ul>
+<li><strong>英文界面</strong>：勾選 <strong>Enable</strong>（啟用插件）。</li>
+</ul>
+</li>
+<li>
+<p>點選左下角的 <strong>Save Preferences</strong> 來保存你的設置。</p>
+<ul>
+<li><strong>英文界面</strong>：<strong>Save Preferences</strong>。</li>
+</ul>
+</li>
+</ol>
+<h3>2. <strong>推薦插件：如 Node Wrangler、AutoRig 等</strong></h3>
+<h4><strong>Node Wrangler</strong></h4>
+<ul>
+<li><strong>安裝與啟用</strong>：
+<ol>
+<li>打開 <strong>Preferences</strong> &gt; <strong>Add-ons</strong>。</li>
+<li>搜尋 <strong>Node Wrangler</strong> 並勾選啟用。
+<ul>
+<li><strong>英文界面</strong>：<strong>Preferences</strong> &gt; <strong>Add-ons</strong> &gt; <strong>Node Wrangler</strong>（勾選啟用）。</li>
+</ul>
+</li>
+</ol>
+</li>
+<li><strong>主要功能</strong>：
+<ul>
+<li><strong>Ctrl + Shift + 左鍵單擊</strong>：快速查看節點輸出。</li>
+<li><strong>Ctrl + T</strong>：快速添加 <strong>Mapping</strong> 和 <strong>Texture Coordinate</strong> 節點。</li>
+<li><strong>Ctrl + Shift + D</strong>：複製並自動連接節點。</li>
+</ul>
+</li>
+</ul>
+<h4><strong>AutoRig Pro</strong></h4>
+<ul>
+<li><strong>安裝與啟用</strong>：
+<ol>
+<li>下載並安裝 AutoRig Pro 插件（通常是 <code>.zip</code> 檔案格式）。</li>
+<li>在 <strong>Preferences</strong> &gt; <strong>Add-ons</strong> 中安裝並啟用。
+<ul>
+<li><strong>英文界面</strong>：<strong>Preferences</strong> &gt; <strong>Add-ons</strong> &gt; <strong>AutoRig Pro</strong>（勾選啟用）。</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<h4><strong>其他推薦插件</strong>：</h4>
+<ul>
+<li><strong>Hard Ops / BoxCutter</strong>：提供強大的硬邊建模工具，提升建模效率。</li>
+<li><strong>BlenderKit</strong>：提供免費和付費的 3D 模型、材質、貼圖等資源，安裝後可以直接在 Blender 裡使用。</li>
+</ul>
+<h3>3. <strong>定制快捷鍵：如何根據個人習慣調整快捷鍵設置</strong></h3>
+<h4>進入快捷鍵設置：</h4>
+<ol>
+<li>打開 <strong>Preferences</strong> &gt; <strong>Keymap</strong>。
+<ul>
+<li><strong>英文界面</strong>：<strong>Preferences</strong> &gt; <strong>Keymap</strong>。</li>
+</ul>
+</li>
+</ol>
+<h4>設定快捷鍵：</h4>
+<ol>
+<li>
+<p>在 <strong>Keymap</strong> 視窗中，可以根據不同的操作模式選擇設置快捷鍵。</p>
+<ul>
+<li>例如：<strong>3D View</strong> &gt; <strong>Object Mode</strong>。</li>
+<li><strong>英文界面</strong>：<strong>3D View</strong> &gt; <strong>Object Mode</strong>。</li>
+</ul>
+</li>
+<li>
+<p>點擊命令旁邊的快捷鍵欄位，按下你想設定的新快捷鍵。</p>
+<ul>
+<li>例如：將 <strong>Grab/Move</strong> 的快捷鍵 <strong>G</strong> 改為 <strong>M</strong>。</li>
+<li><strong>英文界面</strong>：<strong>Grab/Move</strong>（點擊並設置快捷鍵）。</li>
+</ul>
+</li>
+<li>
+<p>完成後，點選 <strong>Save Preferences</strong> 保存設置。</p>
+<ul>
+<li><strong>英文界面</strong>：<strong>Save Preferences</strong>。</li>
+</ul>
+</li>
+</ol>
+<h4>搜索功能：</h4>
+<ul>
+<li>在 <strong>Keymap</strong> 視窗的上方有一個 <strong>Search</strong> 框，你可以輸入關鍵字（例如：<strong>select</strong>、<strong>move</strong>），快速找到並修改相關快捷鍵。
+<ul>
+<li><strong>英文界面</strong>：<strong>Search</strong> 框。</li>
+</ul>
+</li>
+</ul>
+<h4>重置快捷鍵：</h4>
+<ul>
+<li>如果你想恢復預設的快捷鍵配置，點選 <strong>Restore</strong> 按鈕。
+<ul>
+<li><strong>英文界面</strong>：<strong>Restore</strong> 按鈕。</li>
+</ul>
+</li>
+</ul>
+<h3>小結：</h3>
+<ul>
+<li><strong>Preferences</strong>（偏好設置）是管理所有插件與快捷鍵設置的地方。
+<ul>
+<li>在 <strong>macOS</strong> 系統中，開啟 <strong>Blender</strong>，從菜單欄選擇 <strong>Blender</strong> &gt; <strong>Preferences</strong> 進入設置頁面。</li>
+<li>插件安裝後可以在 <strong>Add-ons</strong> 標籤下啟用，快捷鍵設置則在 <strong>Keymap</strong> 標籤下調整。</li>
+</ul>
+</li>
+</ul>
+            ]]>
+        </content>
     </entry>
     <entry>
         <title>BlenderCH15渲染</title>
